@@ -1,0 +1,29 @@
+{
+  "user_042": {
+    "preferred_name": "TS",
+    "timezone": "Asia/Kolkata",
+    "language_preference": "en",
+    "response_style": "concise",
+    "recurring_reminders": [
+      {"task": "attend the club meeting", "day": "Monday", "time": "5 pm"}
+    ],
+    "study_subjects_of_interest": ["machine learning", "deep learning", "GATE CS"],
+    "recent_mood_log": [
+      {"mood": "motivated", "polarity": "positive", "date": "2026-09-18"},
+      {"mood": "stressed", "polarity": "negative", "date": "2026-09-21"}
+    ],
+    "last_active_session": "sess_0003"
+  },
+  "user_017": {
+    "preferred_name": "Anaya",
+    "timezone": "Asia/Kolkata",
+    "language_preference": "en",
+    "response_style": "detailed",
+    "recurring_reminders": [],
+    "study_subjects_of_interest": ["machine learning"],
+    "recent_mood_log": [
+      {"mood": "stressed", "polarity": "negative", "date": "2026-09-21"}
+    ],
+    "last_active_session": "sess_0002"
+  }
+}

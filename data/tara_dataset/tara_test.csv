@@ -1,0 +1,1260 @@
+id,intent,utterance,response,entities
+tara_003135,ABOUT_TARA,"Um, are you chatgpt?","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_000276,GREETING,"Well good afternoon, how are you",Hey! Good to see you. What's on your mind?,{}
+tara_001407,THANKS,"Just so you know, ty.",No problem at all!,{}
+tara_012087,UNKNOWN,"So, can you pay my rent?","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_002395,HELP,"Quick thing, how can you help me tara","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_005178,DATE,"Honestly, do you know the date today tara",I'm not connected to a real-time calendar at the moment.,{}
+tara_008283,KNOWLEDGE,"I keep hearing about evolution, what is it",Evolution is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""evolution""}"
+tara_009168,STUDY,What topics are important in discrete mathematics,Sure! Let's break discrete mathematics down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""discrete mathematics""}"
+tara_008405,KNOWLEDGE,Explain the solar system to me,The solar system is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the solar system""}"
+tara_010543,AFFIRMATION,"Just so you know, yes tara","Okay, noted!",{}
+tara_009886,JOKE,Tell me your best joke about robots?,How does a penguin build its house? Igloos it together.,{}
+tara_005448,DATE,"Listen, is today a weekday or weekend?","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_007764,GENERAL_QUERY,"I was wondering, what is the currency of Japan?",The currency of Japan is the yen.,{}
+tara_011496,MOOD,I woke up feeling happy,That's wonderful — feeling happy is a great place to be. Keep it up!,"{""mood"": ""happy"", ""polarity"": ""positive""}"
+tara_007435,TASK,"Okay so, any tasks due today right now?",You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_004433,TIME,"Listen, could you tell me what time it is tara",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_006577,REMINDER,Could you set a reminder to revise DBMS notes at 8 pm,"Sure, I've noted a reminder to revise DBMS notes.","{""task"": ""revise DBMS notes"", ""time"": ""8 pm""}"
+tara_005742,WEATHER,How's the weather in Goa,"I'm not connected to a live weather feed, so I can't confirm conditions in Goa right now.","{""city"": ""Goa""}"
+tara_004161,SMALL_TALK,"By the way, do you dream right now?",Doing well! Anything fun happening in your day?,{}
+tara_000683,GOODBYE,"Quick thing, cya!",Take care! Come back anytime.,{}
+tara_001518,THANKS,"Um, thanks for the help!",Glad I could help!,{}
+tara_009386,STUDY,Recommend resources to learn algorithms,"Got it — studying algorithms. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""algorithms""}"
+tara_003923,SMALL_TALK,"By the way, do you get tired?","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_011307,MOOD,I can't shake this irritated feeling,"I'm sorry to hear that you're feeling irritated. Want to talk about what's going on, or would a distraction help?","{""mood"": ""irritated"", ""polarity"": ""negative""}"
+tara_002147,HELP,"Okay so, i'm confused, help tara?","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_006833,REMINDER,Notify me to test the API endpoint on Tuesday,Got it! I'll remind you to test the API endpoint at 7 o'clock.,"{""task"": ""test the API endpoint"", ""date"": ""on Tuesday""}"
+tara_004279,SMALL_TALK,"Hey tara, do you get tired",Doing well! Anything fun happening in your day?,{}
+tara_006462,REMINDER,I need a reminder to return the library books at half past three,Reminder set — I'll nudge you to return the library books tonight.,"{""task"": ""return the library books"", ""time"": ""half past three""}"
+tara_001663,THANKS,"Honestly, thanks for the quick reply!",You're welcome! That's what I'm here for.,{}
+tara_002863,ABOUT_TARA,"Okay so, how were you built?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_008573,KNOWLEDGE,What's the deal with inflation,Inflation is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""inflation""}"
+tara_009478,JOKE,Lighten the mood about exams?,Why do Python programmers wear glasses? Because they can't C.,{}
+tara_010158,AFFIRMATION,"Honestly, that's right","Got it, thanks for confirming.",{}
+tara_011684,MOOD,I've been sad lately,"I'm sorry to hear that you're feeling sad. Want to talk about what's going on, or would a distraction help?","{""mood"": ""sad"", ""polarity"": ""negative""}"
+tara_000060,GREETING,Well hi.,Hi there! Let me know what you need.,{}
+tara_003198,ABOUT_TARA,"Okay so, what kind of assistant are you tara","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_007475,TASK,Put charge my phone on my to-do list,Task added: charge my phone.,"{""task"": ""charge my phone"", ""action"": ""add""}"
+tara_010350,AFFIRMATION,"Okay so, that's right!","Okay, noted!",{}
+tara_004912,DATE,"By the way, what date is it right now",I'm not connected to a real-time calendar at the moment.,{}
+tara_001270,GOODBYE,"Listen, see ya.",See you later! Take care.,{}
+tara_003944,SMALL_TALK,"Um, do you get tired tara",All good on my end! What's going on with you?,{}
+tara_001199,GOODBYE,"By the way, logging off for now",See you later! Take care.,{}
+tara_004254,SMALL_TALK,"Listen, do you get tired?","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_001697,THANKS,"Hey, that was really helpful, thanks ok",You're welcome! Happy to help.,{}
+tara_001373,THANKS,"Listen, appreciate the help",You're welcome! Happy to help.,{}
+tara_007749,GENERAL_QUERY,"Tell me, what is the boiling point of water?",Water boils at 100 degrees Celsius at sea level.,{}
+tara_002086,HELP,"Um, what are your features tara?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_000565,GOODBYE,"Quick thing, logging off tara.",Goodbye! Talk soon.,{}
+tara_007520,TASK,Check off test the API endpoint,Nice work! I've marked 'test the API endpoint' as done.,"{""task"": ""test the API endpoint"", ""action"": ""complete""}"
+tara_000351,GREETING,Heya,Hi there! Let me know what you need.,{}
+tara_010021,AFFIRMATION,"Okay so, sure thing ok","Alright, sounds good!",{}
+tara_010769,NEGATION,"Honestly, no, cancel that tara.","Understood, no problem.",{}
+tara_005043,DATE,"Just so you know, what's the date this coming friday","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_003570,SMALL_TALK,"Okay so, can we just talk for a bit tara",Pretty good! What's on your mind today?,{}
+tara_005402,DATE,"Um, what day was it yesterday tara",I'm not connected to a real-time calendar at the moment.,{}
+tara_010109,AFFIRMATION,"Hey, yes that's correct for now","Great, got it!",{}
+tara_010677,NEGATION,"So, i don't think so.","Okay, no worries!",{}
+tara_011721,MOOD,I feel fantastic,That's wonderful — feeling fantastic is a great place to be. Keep it up!,"{""mood"": ""fantastic"", ""polarity"": ""positive""}"
+tara_008446,KNOWLEDGE,Explain the French Revolution,The French Revolution is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the French Revolution""}"
+tara_011353,MOOD,I've been feeling burnt out all week,"I'm sorry to hear that you're feeling burnt out. Want to talk about what's going on, or would a distraction help?","{""mood"": ""burnt out"", ""polarity"": ""negative""}"
+tara_007076,TASK,"Just so you know, what's left on my list","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_007325,TASK,"Well, what do i still need to do right now?","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_009389,STUDY,Explain the basics of operating systems,Happy to help with operating systems. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""operating systems""}"
+tara_003487,ABOUT_TARA,"Um, are you alexa right now","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_008587,KNOWLEDGE,Can you explain the water cycle,The water cycle is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the water cycle""}"
+tara_001039,GOODBYE,"Okay so, see you tara",Take care! Come back anytime.,{}
+tara_002491,HELP,"Quick thing, help tara?","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_003163,ABOUT_TARA,"Hey, what makes you different?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_000457,GREETING,"Oh good evening, tara",Hi there! Let me know what you need.,{}
+tara_005605,WEATHER,How's the weather looking in Singapore today,I can't pull real-time weather for Singapore at the moment — a weather app will have the latest forecast.,"{""city"": ""Singapore"", ""date"": ""today""}"
+tara_004407,TIME,"By the way, give me the time","I can't check a live clock from here, but your device should show the current time.",{}
+tara_010137,AFFIRMATION,"Just so you know, yep!","Great, got it!",{}
+tara_011683,MOOD,This whole week i've been exhausted,Thanks for sharing that. Being exhausted isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""exhausted"", ""polarity"": ""negative""}"
+tara_004718,TIME,"Um, i need to know the time?","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_011079,NEGATION,"Um, nevermind tara","Understood, no problem.",{}
+tara_000004,GREETING,"Oh hey, tara","Hi! I'm TARA, ready when you are.",{}
+tara_008494,KNOWLEDGE,What do you know about the stock market,The stock market is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the stock market""}"
+tara_009843,JOKE,Got a pun for me about programmers,Why was the math book sad? It had too many problems.,{}
+tara_010665,NEGATION,"Listen, no that's not what i meant tara","Got it, I'll skip that.",{}
+tara_008726,KNOWLEDGE,Give me a simple explanation of photosynthesis,Photosynthesis is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""photosynthesis""}"
+tara_006537,REMINDER,Notify me to finish the lab report on Friday,"Okay, I'll remind you to finish the lab report on Friday at 4:30 pm.","{""task"": ""finish the lab report"", ""date"": ""on Friday""}"
+tara_005853,WEATHER,How's the weather in Sydney,"I don't have live weather data right now, but I'd recommend checking a weather app for Sydney.","{""city"": ""Sydney""}"
+tara_000907,GOODBYE,"Listen, peace out",Take care! Come back anytime.,{}
+tara_011826,UNKNOWN,"Hey tara, can you place an order for pizza right now","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_007842,GENERAL_QUERY,What's 12 times 12,Let me work that out for you based on standard conversions.,{}
+tara_007360,TASK,"Well, what's on my to-do list right now",Let me pull up your to-do list for you.,"{""action"": ""list""}"
+tara_004351,TIME,What's the current time in Bangalore right now,I don't have a live feed for Bangalore's time zone at the moment.,"{""city"": ""Bangalore""}"
+tara_008964,STUDY,Give me practice questions on object-oriented programming,"Let's tackle object-oriented programming together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""object-oriented programming""}"
+tara_003320,ABOUT_TARA,"Quick thing, are you human tara?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_001258,GOODBYE,"Listen, farewell tara",Goodnight! Sleep well.,{}
+tara_007409,TASK,"So, show me what's on my plate today right now?","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_010854,NEGATION,"Listen, not at all.","Okay, noted — won't do that.",{}
+tara_008426,KNOWLEDGE,What should i know about the solar system,The solar system is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the solar system""}"
+tara_004352,TIME,"Well, could you tell me what time it is?","I can't check a live clock from here, but your device should show the current time.",{}
+tara_011387,MOOD,I woke up feeling tired,That sounds tough. Feeling tired is hard — I'm here if you want to talk or need a break.,"{""mood"": ""tired"", ""polarity"": ""negative""}"
+tara_008301,KNOWLEDGE,Help me understand GDP,GDP is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""GDP""}"
+tara_003782,SMALL_TALK,What have you been doing?,Doing well! Anything fun happening in your day?,{}
+tara_000511,GREETING,Oh good evening :),Hey! Good to see you. What's on your mind?,{}
+tara_011186,NEGATION,"Hey tara, no, cancel that ok","Okay, noted — won't do that.",{}
+tara_006041,WEATHER,Will it be windy in Toronto,"I'm not connected to a live weather feed, so I can't confirm conditions in Toronto right now.","{""city"": ""Toronto""}"
+tara_002434,HELP,"Um, i need help?","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_006107,WEATHER,How hot is it in Kochi today,"I'm not connected to a live weather feed, so I can't confirm conditions in Kochi right now.","{""city"": ""Kochi""}"
+tara_009615,JOKE,Hit me with a joke about engineers tara,Why do Python programmers wear glasses? Because they can't C.,{}
+tara_000977,GOODBYE,"Hey tara, signing off!",Goodnight! Sleep well.,{}
+tara_008478,KNOWLEDGE,Define vaccines,Vaccines is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""vaccines""}"
+tara_007871,GENERAL_QUERY,How many weeks are there in a week,That depends on the exact units — let me know if you'd like the standard conversion for weeks in a week.,{}
+tara_001471,THANKS,"So, you're a lifesaver tara",Anytime! Let me know if you need anything else.,{}
+tara_000370,GREETING,Well what's up,Hey! Good to see you. What's on your mind?,{}
+tara_006643,REMINDER,Remind me to reply to the recruiter on Monday,"Okay, I'll remind you to reply to the recruiter on Monday at 6:30 am.","{""task"": ""reply to the recruiter"", ""date"": ""on Monday""}"
+tara_010301,AFFIRMATION,"Listen, i agree tara.","Perfect, moving forward with that.",{}
+tara_010261,AFFIRMATION,"Hey tara, for sure tara","Perfect, moving forward with that.",{}
+tara_011202,NEGATION,"Quick thing, never","Got it, I'll skip that.",{}
+tara_003153,ABOUT_TARA,"Just so you know, what technology do you use tara","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_007333,TASK,Remove finish the lab report from my list,Done — 'finish the lab report' is no longer on your list.,"{""task"": ""finish the lab report"", ""action"": ""delete""}"
+tara_011776,MOOD,I'm so sad today,"I'm sorry to hear that you're feeling sad. Want to talk about what's going on, or would a distraction help?","{""mood"": ""sad"", ""polarity"": ""negative""}"
+tara_007917,GENERAL_QUERY,"Quick fact check, what is the tallest mountain in the world?",Mount Everest is the tallest mountain above sea level.,{}
+tara_008162,GENERAL_QUERY,"I was wondering, what is the speed of light?","The speed of light is about 299,792 kilometers per second.",{}
+tara_010887,NEGATION,"Quick thing, that's not correct ok","Alright, cancelled.",{}
+tara_000418,GREETING,Hi tara it's me again,"Hi! I'm TARA, ready when you are.",{}
+tara_006550,REMINDER,Can you remind me to water the plants,Got it! I'll remind you to water the plants at noon.,"{""task"": ""water the plants""}"
+tara_010561,AFFIRMATION,"So, right ok","Alright, sounds good!",{}
+tara_003655,SMALL_TALK,"Just so you know, do you get tired tara","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_010538,AFFIRMATION,"Honestly, sure ok","Perfect, moving forward with that.",{}
+tara_003667,SMALL_TALK,"So, do you sleep?",Doing well! Anything fun happening in your day?,{}
+tara_009502,JOKE,Tell a joke?,Why do Python programmers wear glasses? Because they can't C.,{}
+tara_010576,AFFIRMATION,"Listen, exactly ok","Perfect, moving forward with that.",{}
+tara_001919,THANKS,Thanks that really helped me out,Of course! Reach out anytime.,{}
+tara_001187,GOODBYE,"Quick thing, good night tara",Take care! Come back anytime.,{}
+tara_011344,MOOD,I'm so awesome today,That's great to hear you're feeling awesome! What's been going well?,"{""mood"": ""awesome"", ""polarity"": ""positive""}"
+tara_002582,HELP,"Just so you know, how do i talk to you right now?","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_005058,DATE,"Hey tara, what day is it today tara?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_011486,MOOD,I'm so alright today,Thanks for sharing — I'm here if you want to talk more.,"{""mood"": ""alright"", ""polarity"": ""neutral""}"
+tara_010818,NEGATION,"Just so you know, nah!","Okay, noted — won't do that.",{}
+tara_004751,TIME,"Well, can you tell me the time","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_009359,STUDY,Give me a summary of Python,Sure! Let's break Python down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""Python""}"
+tara_005037,DATE,"Well, current date please?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_003414,ABOUT_TARA,"So, describe yourself tara?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_010234,AFFIRMATION,"Um, definitely for now","Alright, sounds good!",{}
+tara_011045,NEGATION,"Um, not really.","Got it, I'll skip that.",{}
+tara_005073,DATE,"Just so you know, what day is it today tara?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_008326,KNOWLEDGE,Give me an overview of evolution,Evolution is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""evolution""}"
+tara_004322,TIME,"Listen, what time is it now","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_000803,GOODBYE,"Well, farewell tara",Goodbye! Talk soon.,{}
+tara_008372,KNOWLEDGE,What do you know about vaccines,Vaccines is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""vaccines""}"
+tara_005347,DATE,"By the way, what's the date this coming friday tara","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_008392,KNOWLEDGE,Help me understand vaccines,Vaccines is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""vaccines""}"
+tara_005112,DATE,"Honestly, date check right now?","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_012306,UNKNOWN,"So, asdlkfj what is this even","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_005937,WEATHER,Is it humid in Dubai right now,I can't pull real-time weather for Dubai at the moment — a weather app will have the latest forecast.,"{""city"": ""Dubai""}"
+tara_001395,THANKS,Thank you.,You're welcome! Happy to help.,{}
+tara_002173,HELP,Help?,"Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_012550,UNKNOWN,mmmmmm nnnnnn oooooo?,I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_009080,STUDY,Give me a summary of DBMS,Happy to help with DBMS. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""DBMS""}"
+tara_000966,GOODBYE,"Okay so, goodbye for now","Alright, signing off. Talk soon!",{}
+tara_006805,REMINDER,Please remind me to revise DBMS notes tonight,Reminder set — I'll nudge you to revise DBMS notes tonight.,"{""task"": ""revise DBMS notes"", ""date"": ""tonight""}"
+tara_004617,TIME,"Hey, do you know the time right now","I can't check a live clock from here, but your device should show the current time.",{}
+tara_009562,JOKE,Say something funny about Mondays?,How does a penguin build its house? Igloos it together.,{}
+tara_000198,GREETING,"Well good afternoon, tara",Hey! Good to see you. What's on your mind?,{}
+tara_009412,JOKE,Make me laugh about AI,Why did the coffee file a police report? It got mugged.,{}
+tara_006852,REMINDER,Don't let me forget to read chapter 5,"Okay, I'll remind you to read chapter 5 on Friday at noon.","{""task"": ""read chapter 5""}"
+tara_000523,GREETING,Well greetings.,"Hey, welcome back! What are we working on today?",{}
+tara_009097,STUDY,What's the best way to learn deep learning,"Got it — studying deep learning. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""deep learning""}"
+tara_012512,UNKNOWN,"um, squiggly wiggly jiggly?","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_002968,ABOUT_TARA,"Well, do you have a name right now?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_002120,HELP,"Hey tara, list your commands tara?","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_001534,THANKS,"Listen, thanks so much!",No problem at all!,{}
+tara_011832,UNKNOWN,"So, tell me next week's winning lottery numbers","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_002358,HELP,"Honestly, what are you capable of right now","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_010393,AFFIRMATION,"Just so you know, sounds great tara","Okay, noted!",{}
+tara_003811,SMALL_TALK,"So, how do you feel","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_009333,STUDY,Quiz me on software engineering,Happy to help with software engineering. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""software engineering""}"
+tara_007507,TASK,Add renew my gym membership to my task list,Added 'renew my gym membership' to your task list.,"{""task"": ""renew my gym membership"", ""action"": ""add""}"
+tara_002364,HELP,"Hey tara, help me out right now?","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_008194,GENERAL_QUERY,How many hours are there in a week,That depends on the exact units — let me know if you'd like the standard conversion for hours in a week.,{}
+tara_000943,GOODBYE,"Okay so, i'm leaving now tara",See you later! Take care.,{}
+tara_004233,SMALL_TALK,"Honestly, do you sleep right now?",Pretty good! What's on your mind today?,{}
+tara_011901,UNKNOWN,"Hey tara, read my mind?","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_001855,THANKS,Thanks for the help.,You're welcome! That's what I'm here for.,{}
+tara_009078,STUDY,I have a doubt in compiler design,Sure! Let's break compiler design down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""compiler design""}"
+tara_012485,UNKNOWN,"Hey tara, unlock my phone?",That's outside what I can help with right now — could you clarify?,{}
+tara_001785,THANKS,"Um, thanks for that tara.",Anytime! Let me know if you need anything else.,{}
+tara_011920,UNKNOWN,What am i thinking right now,"Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_010142,AFFIRMATION,"By the way, okay do that!","Perfect, moving forward with that.",{}
+tara_006438,REMINDER,Remind me on Tuesday to submit the assignment,"Sure, I've noted a reminder to submit the assignment.","{""task"": ""submit the assignment"", ""date"": ""on Tuesday""}"
+tara_001200,GOODBYE,"By the way, later tara.",Goodbye! Talk soon.,{}
+tara_008463,KNOWLEDGE,What's the deal with the internet,The internet is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the internet""}"
+tara_011947,UNKNOWN,"Hey tara, can you control my thermostat?",That's outside what I can help with right now — could you clarify?,{}
+tara_000615,GOODBYE,"Hey, take care tara.",Catch you later! Have a great day.,{}
+tara_005141,DATE,"Hey, do you know the date today tara","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_002013,THANKS,"Hey tara, appreciate the help.",No problem at all!,{}
+tara_005219,DATE,"So, tell me today's date tara",I'm not connected to a real-time calendar at the moment.,{}
+tara_006154,REMINDER,Could you set a reminder to pack for the trip at quarter to nine,Got it! I'll remind you to pack for the trip at quarter to nine.,"{""task"": ""pack for the trip"", ""time"": ""quarter to nine""}"
+tara_006845,REMINDER,Remind me this afternoon to pay the hostel fee,"Sure, I've noted a reminder to pay the hostel fee.","{""task"": ""pay the hostel fee"", ""date"": ""this afternoon""}"
+tara_011715,MOOD,I've been discouraged lately,That sounds tough. Feeling discouraged is hard — I'm here if you want to talk or need a break.,"{""mood"": ""discouraged"", ""polarity"": ""negative""}"
+tara_006899,TASK,"Just so you know, what's left on my list tara?",Let me pull up your to-do list for you.,"{""action"": ""list""}"
+tara_003762,SMALL_TALK,"Just so you know, having a good day tara","I'm just here, ready to chat whenever you are.",{}
+tara_000969,GOODBYE,"Um, bye for now",Catch you later! Have a great day.,{}
+tara_006967,TASK,Add task pack for the trip,"Got it, 'pack for the trip' is now on your list.","{""task"": ""pack for the trip"", ""action"": ""add""}"
+tara_009349,STUDY,What are common interview questions on SQL,"Let's tackle SQL together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""SQL""}"
+tara_010473,AFFIRMATION,"Okay so, yes i'm sure ok","Perfect, moving forward with that.",{}
+tara_007856,GENERAL_QUERY,"I forget, how many days are there in a leap year?",A leap year has 366 days.,{}
+tara_011347,MOOD,I'm a bit down,"I'm sorry to hear that you're feeling down. Want to talk about what's going on, or would a distraction help?","{""mood"": ""down"", ""polarity"": ""negative""}"
+tara_007386,TASK,I finished send the email to my professor,"Great, 'send the email to my professor' is now complete.","{""task"": ""send the email to my professor"", ""action"": ""complete""}"
+tara_011750,MOOD,I'm so excited today,That's great to hear you're feeling excited! What's been going well?,"{""mood"": ""excited"", ""polarity"": ""positive""}"
+tara_009264,STUDY,What's the best way to learn probability and statistics,Sure! Let's break probability and statistics down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""probability and statistics""}"
+tara_000791,GOODBYE,"Quick thing, good night.","Alright, signing off. Talk soon!",{}
+tara_005975,WEATHER,What's the forecast like in Nagpur today,"I'm not connected to a live weather feed, so I can't confirm conditions in Nagpur right now.","{""city"": ""Nagpur"", ""date"": ""today""}"
+tara_000708,GOODBYE,"Quick thing, goodbye tara for now",Take care! Come back anytime.,{}
+tara_001409,THANKS,"Honestly, i appreciate it tara.",You're welcome! Happy to help.,{}
+tara_005359,DATE,"Um, what's today's date right now",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_011114,NEGATION,"Hey, forget it!","Understood, no problem.",{}
+tara_002492,HELP,"Hey tara, explain how to use tara","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_003518,ABOUT_TARA,"So, tell me about tara right now?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_005538,WEATHER,Do i need a jacket in Toronto,I can't pull real-time weather for Toronto at the moment — a weather app will have the latest forecast.,"{""city"": ""Toronto""}"
+tara_005844,WEATHER,Any chance of thunderstorms in Bangalore,"I'm not connected to a live weather feed, so I can't confirm conditions in Bangalore right now.","{""city"": ""Bangalore""}"
+tara_009931,JOKE,Make me laugh about programmers tara,"I told my computer I needed a break, and now it won't stop sending me KitKats.",{}
+tara_001492,THANKS,Appreciate it!,You're welcome! That's what I'm here for.,{}
+tara_010802,NEGATION,"Well, forget it tara.","Got it, I'll skip that.",{}
+tara_001787,THANKS,"By the way, thx",Glad I could help!,{}
+tara_009121,STUDY,I'm struggling with neural networks,Sure! Let's break neural networks down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""neural networks""}"
+tara_004581,TIME,"So, what time is it?","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_002633,HELP,"Listen, help tara?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_010731,NEGATION,No need tara,"Okay, noted — won't do that.",{}
+tara_006989,TASK,"Quick thing, what tasks are pending right now?","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_008365,KNOWLEDGE,Give me the basics of cryptography,Cryptography is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""cryptography""}"
+tara_001597,THANKS,"Hey, thanks a lot",Anytime! Let me know if you need anything else.,{}
+tara_005843,WEATHER,How hot is it in Bhopal today,"I'm not connected to a live weather feed, so I can't confirm conditions in Bhopal right now.","{""city"": ""Bhopal""}"
+tara_000193,GREETING,Namaste tara,"Hey, welcome back! What are we working on today?",{}
+tara_007054,TASK,Check off charge my phone,Nice work! I've marked 'charge my phone' as done.,"{""task"": ""charge my phone"", ""action"": ""complete""}"
+tara_007387,TASK,Delete the task fix the bug in my project,"Okay, 'fix the bug in my project' has been deleted.","{""task"": ""fix the bug in my project"", ""action"": ""delete""}"
+tara_006171,REMINDER,Create a reminder to submit the internship application on on Monday,Got it! I'll remind you to submit the internship application at 8 pm.,"{""task"": ""submit the internship application"", ""date"": ""on Monday""}"
+tara_003441,ABOUT_TARA,"So, are you an ai",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_001674,THANKS,"Well, appreciate it for now",You're welcome! Happy to help.,{}
+tara_008202,KNOWLEDGE,I want to learn about interest rates,Interest rates is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""interest rates""}"
+tara_004402,TIME,"Well, can you tell me the time right now?","I can't check a live clock from here, but your device should show the current time.",{}
+tara_008111,GENERAL_QUERY,"Remind me, what is the chemical symbol for gold?",The chemical symbol for gold is Au.,{}
+tara_001758,THANKS,"Um, thanks tara tara.",You're welcome! Happy to help.,{}
+tara_001717,THANKS,"Quick thing, thanks for the quick reply tara",No problem at all!,{}
+tara_001942,THANKS,"Um, i appreciate it ok",Glad I could help!,{}
+tara_010010,AFFIRMATION,"Um, affirmative tara.","Got it, thanks for confirming.",{}
+tara_004802,TIME,Time please tara?,I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_006764,REMINDER,Remind me next week to check the exam timetable,Got it! I'll remind you to check the exam timetable at 11 am.,"{""task"": ""check the exam timetable"", ""date"": ""next week""}"
+tara_011535,MOOD,Feeling pretty proud today,That's wonderful — feeling proud is a great place to be. Keep it up!,"{""mood"": ""proud"", ""polarity"": ""positive""}"
+tara_007629,GENERAL_QUERY,What is the minutes of year,That depends on the exact units — let me know if you'd like the standard conversion for minutes in a year.,{}
+tara_000032,GREETING,"Hiya tara, tara",Hello! How can I assist you right now?,{}
+tara_001390,THANKS,"Quick thing, thx for now",No problem at all!,{}
+tara_005967,WEATHER,Will it rain this afternoon in Berlin,I can't pull real-time weather for Berlin at the moment — a weather app will have the latest forecast.,"{""city"": ""Berlin"", ""date"": ""this afternoon""}"
+tara_000444,GREETING,Yo tara!,"Hey, welcome back! What are we working on today?",{}
+tara_001422,THANKS,"So, many thanks tara",Glad I could help!,{}
+tara_006681,REMINDER,Set a reminder for practice for the interview,"Okay, I'll remind you to practice for the interview on Thursday at 1 pm.","{""task"": ""practice for the interview""}"
+tara_011162,NEGATION,"By the way, that's not correct ok","Understood, no problem.",{}
+tara_002057,HELP,"Hey, can you walk me through your features tara?","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_008314,KNOWLEDGE,Tell me about space exploration,Space exploration is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""space exploration""}"
+tara_006546,REMINDER,Remind me at 4:30 pm to send the email to my professor,"Sure, I've noted a reminder to send the email to my professor.","{""task"": ""send the email to my professor"", ""time"": ""4:30 pm""}"
+tara_004338,TIME,"Hey tara, time please tara?","I can't check a live clock from here, but your device should show the current time.",{}
+tara_007548,TASK,Test the API endpoint is done now,Marked 'test the API endpoint' as finished. Good job!,"{""task"": ""test the API endpoint"", ""action"": ""complete""}"
+tara_003629,SMALL_TALK,"Hey, what are you up to","I'm just here, ready to chat whenever you are.",{}
+tara_008237,KNOWLEDGE,What do you know about the periodic table,The periodic table is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the periodic table""}"
+tara_000379,GREETING,Hello tara.,Hey! Good to see you. What's on your mind?,{}
+tara_009354,STUDY,Test my knowledge of linear algebra,Happy to help with linear algebra. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""linear algebra""}"
+tara_003941,SMALL_TALK,"By the way, let's chat right now?","I'm just here, ready to chat whenever you are.",{}
+tara_009470,JOKE,Got a pun for me about exams tara,Why did the computer go to the doctor? It had a virus!,{}
+tara_009654,JOKE,Lighten the mood about exams,I asked my dog what's two minus two. He said nothing.,{}
+tara_003246,ABOUT_TARA,"Um, are you human right now?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_011733,MOOD,This whole week i've been frustrated,Thanks for sharing that. Being frustrated isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""frustrated"", ""polarity"": ""negative""}"
+tara_010445,AFFIRMATION,"So, yes go ahead tara.","Great, got it!",{}
+tara_003363,ABOUT_TARA,"By the way, what's your name right now?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_011276,MOOD,I'm feeling relaxed,That's great to hear you're feeling relaxed! What's been going well?,"{""mood"": ""relaxed"", ""polarity"": ""positive""}"
+tara_001967,THANKS,"Hey, ty ok",No problem at all!,{}
+tara_003105,ABOUT_TARA,"So, what is your purpose right now?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_000003,GREETING,Yo.,Hello! How can I assist you right now?,{}
+tara_009558,JOKE,Lighten the mood about engineers?,How does a penguin build its house? Igloos it together.,{}
+tara_007058,TASK,Create a task: check the exam timetable,Task added: check the exam timetable.,"{""task"": ""check the exam timetable"", ""action"": ""add""}"
+tara_008582,KNOWLEDGE,Explain evolution,Evolution is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""evolution""}"
+tara_005961,WEATHER,What's the weather like in Vellore,"I'm not connected to a live weather feed, so I can't confirm conditions in Vellore right now.","{""city"": ""Vellore""}"
+tara_006526,REMINDER,Please remind me to prepare slides for the presentation this morning,Reminder set — I'll nudge you to prepare slides for the presentation this morning.,"{""task"": ""prepare slides for the presentation"", ""date"": ""this morning""}"
+tara_008393,KNOWLEDGE,What's the deal with interest rates,Interest rates is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""interest rates""}"
+tara_007543,TASK,"By the way, show me what's on my plate today",You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_008285,KNOWLEDGE,Give me a simple explanation of the human brain,The human brain is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the human brain""}"
+tara_005686,WEATHER,Is it raining in Kolkata,I can't pull real-time weather for Kolkata at the moment — a weather app will have the latest forecast.,"{""city"": ""Kolkata""}"
+tara_004562,TIME,"Well, time please right now","I can't check a live clock from here, but your device should show the current time.",{}
+tara_010177,AFFIRMATION,"Just so you know, please do!","Alright, sounds good!",{}
+tara_000330,GREETING,"Well hey tara, how are you",Hey! Good to see you. What's on your mind?,{}
+tara_010279,AFFIRMATION,"Listen, yes definitely","Perfect, moving forward with that.",{}
+tara_005968,WEATHER,What's the temperature in London,I can't pull real-time weather for London at the moment — a weather app will have the latest forecast.,"{""city"": ""London""}"
+tara_009467,JOKE,Tell me a joke about Mondays,Why did the AI go to therapy? It had too many unresolved dependencies.,{}
+tara_003717,SMALL_TALK,"Quick thing, is everything alright with you right now",Doing well! Anything fun happening in your day?,{}
+tara_007634,GENERAL_QUERY,"Any idea, what is the freezing point of water in Fahrenheit?",Water freezes at 32 degrees Fahrenheit.,{}
+tara_011731,MOOD,I'm really excited right now,That's great to hear you're feeling excited! What's been going well?,"{""mood"": ""excited"", ""polarity"": ""positive""}"
+tara_008873,STUDY,Quiz me on machine learning,Happy to help with machine learning. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""machine learning""}"
+tara_008012,GENERAL_QUERY,"Random question, what is the tallest mountain in the world?",Mount Everest is the tallest mountain above sea level.,{}
+tara_000998,GOODBYE,"So, i have to go now.",Take care! Come back anytime.,{}
+tara_002888,ABOUT_TARA,"Hey tara, tell me about yourself right now?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_001104,GOODBYE,"So, see you",Bye! I'll be here whenever you need me.,{}
+tara_012412,UNKNOWN,"Hey tara, compute the meaning of purple",I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_000891,GOODBYE,"Just so you know, peace out.",See you later! Take care.,{}
+tara_007849,GENERAL_QUERY,"Random question, who painted the Mona Lisa?",Leonardo da Vinci painted the Mona Lisa.,{}
+tara_001329,THANKS,"So, much appreciated ok",Glad I could help!,{}
+tara_000068,GREETING,Hi!,Hey! How can I help you today?,{}
+tara_012077,UNKNOWN,zap zonk fizzle pop,That's outside what I can help with right now — could you clarify?,{}
+tara_012106,UNKNOWN,"um, xkcd xkcd xkcd","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_004766,TIME,"Just so you know, could you tell me what time it is tara","I can't check a live clock from here, but your device should show the current time.",{}
+tara_005692,WEATHER,Is it raining in Chicago,I can't pull real-time weather for Chicago at the moment — a weather app will have the latest forecast.,"{""city"": ""Chicago""}"
+tara_002143,HELP,"So, what can you do","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_009036,STUDY,Test my knowledge of graph theory,"Let's tackle graph theory together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""graph theory""}"
+tara_003598,SMALL_TALK,"Honestly, do you dream tara","I'm doing great, thanks for asking! How about you?",{}
+tara_002544,HELP,"Okay so, what commands do you support tara","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_005055,DATE,"So, hey what day is it, i lost track",I'm not connected to a real-time calendar at the moment.,{}
+tara_004573,TIME,"So, give me the time right now?",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_009746,JOKE,Make me smile about Mondays tara,"I would tell you a joke about UDP, but you might not get it.",{}
+tara_007769,GENERAL_QUERY,"Quick question, convert 100 fahrenheit to celsius",Let me work that out for you based on standard conversions.,{}
+tara_003192,ABOUT_TARA,"Honestly, what is your purpose?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_007425,TASK,Pack for the trip is done now,Nice work! I've marked 'pack for the trip' as done.,"{""task"": ""pack for the trip"", ""action"": ""complete""}"
+tara_005929,WEATHER,How's the weather looking in Nagpur on Tuesday,"I don't have live weather data right now, but I'd recommend checking a weather app for Nagpur.","{""city"": ""Nagpur"", ""date"": ""on Tuesday""}"
+tara_002737,HELP,Help me out tara,"I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_010265,AFFIRMATION,"Hey, of course.","Got it, thanks for confirming.",{}
+tara_004428,TIME,"Listen, what's the time right now tara","I can't check a live clock from here, but your device should show the current time.",{}
+tara_008923,STUDY,I have an exam on Python tomorrow,"Got it — studying Python. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""Python""}"
+tara_007758,GENERAL_QUERY,What's 250 divided by 5,Let me work that out for you based on standard conversions.,{}
+tara_003658,SMALL_TALK,What's your favorite color tara,Doing well! Anything fun happening in your day?,{}
+tara_008769,KNOWLEDGE,Give me an overview of space exploration,Space exploration is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""space exploration""}"
+tara_009653,JOKE,One more joke please about Mondays tara,"I told my computer I needed a break, and now it won't stop sending me KitKats.",{}
+tara_004585,TIME,"Um, time check right now?","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_007641,GENERAL_QUERY,What's 250 divided by 5?,Let me work that out for you based on standard conversions.,{}
+tara_005891,WEATHER,Check the weather for Chicago,I can't pull real-time weather for Chicago at the moment — a weather app will have the latest forecast.,"{""city"": ""Chicago""}"
+tara_002621,HELP,"Well, need some help here?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_007482,TASK,Add a task to prepare slides for the presentation,"Got it, 'prepare slides for the presentation' is now on your list.","{""task"": ""prepare slides for the presentation"", ""action"": ""add""}"
+tara_003306,ABOUT_TARA,"By the way, are you human","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_000048,GREETING,Howdy.,Hey! Good to see you. What's on your mind?,{}
+tara_011615,MOOD,I'm kind of irritated,"I'm sorry to hear that you're feeling irritated. Want to talk about what's going on, or would a distraction help?","{""mood"": ""irritated"", ""polarity"": ""negative""}"
+tara_003208,ABOUT_TARA,"So, can i trust you with my data tara","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_002607,HELP,"Listen, i need some guidance right now?","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_006617,REMINDER,Please remind me to pick up the laundry on Tuesday,"Okay, I'll remind you to pick up the laundry on Tuesday at 5 pm.","{""task"": ""pick up the laundry"", ""date"": ""on Tuesday""}"
+tara_010075,AFFIRMATION,"Just so you know, right!","Perfect, moving forward with that.",{}
+tara_007702,GENERAL_QUERY,"Quick fact check, what is the smallest prime number?",The smallest prime number is 2.,{}
+tara_001466,THANKS,"Listen, thanks for the help",No problem at all!,{}
+tara_008649,KNOWLEDGE,Explain machine learning to me,Machine learning is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""machine learning""}"
+tara_004578,TIME,Give me the time?,I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_003485,ABOUT_TARA,"Hey, are you a real person","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_001252,GOODBYE,"Honestly, cya",See you later! Take care.,{}
+tara_002282,HELP,"Honestly, i need help tara","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_004132,SMALL_TALK,Do you get tired tara,All good on my end! What's going on with you?,{}
+tara_004620,TIME,"Honestly, give me the time tara","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_009767,JOKE,Cheer me up with a joke about Mondays,"I told my computer I needed a break, and now it won't stop sending me KitKats.",{}
+tara_006382,REMINDER,I need a reminder to pick up the laundry at 1 pm,"Okay, I'll remind you to pick up the laundry on Saturday at 1 pm.","{""task"": ""pick up the laundry"", ""time"": ""1 pm""}"
+tara_000234,GREETING,Oh hey there,Hi there! Let me know what you need.,{}
+tara_009763,JOKE,Make me laugh about engineers,I asked my dog what's two minus two. He said nothing.,{}
+tara_008134,GENERAL_QUERY,"Here's one for you, what is the freezing point of water in Fahrenheit?",Water freezes at 32 degrees Fahrenheit.,{}
+tara_000892,GOODBYE,"Well, i have to go now!","Alright, signing off. Talk soon!",{}
+tara_004565,TIME,Can you tell me the time right now?,I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_008919,STUDY,I have a doubt in object-oriented programming,"Let's tackle object-oriented programming together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""object-oriented programming""}"
+tara_006333,REMINDER,Ping me at 4:30 pm to schedule the dentist appointment,Got it! I'll remind you to schedule the dentist appointment at 4:30 pm.,"{""task"": ""schedule the dentist appointment"", ""time"": ""4:30 pm""}"
+tara_008467,KNOWLEDGE,Explain artificial intelligence,Artificial intelligence is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""artificial intelligence""}"
+tara_002988,ABOUT_TARA,"Okay so, why are you called tara?","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_009247,STUDY,Make a study plan for TCP/IP,"Let's tackle TCP/IP together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""TCP/IP""}"
+tara_001689,THANKS,"Quick thing, much appreciated tara",Of course! Reach out anytime.,{}
+tara_001017,GOODBYE,"Hey, see you.",Bye! I'll be here whenever you need me.,{}
+tara_000055,GREETING,Oh evening!,"Hi! I'm TARA, ready when you are.",{}
+tara_009018,STUDY,Explain the basics of data structures,"Let's tackle data structures together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""data structures""}"
+tara_007965,GENERAL_QUERY,What's the square root of 144,Let me work that out for you based on standard conversions.,{}
+tara_006066,WEATHER,Is it sunny in Vellore today,I can't pull real-time weather for Vellore at the moment — a weather app will have the latest forecast.,"{""city"": ""Vellore""}"
+tara_008633,KNOWLEDGE,Can you explain the immune system,The immune system is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the immune system""}"
+tara_009151,STUDY,Help me study machine learning,"Got it — studying machine learning. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""machine learning""}"
+tara_004006,SMALL_TALK,"Okay so, what's up right now","I'm just here, ready to chat whenever you are.",{}
+tara_002488,HELP,"Um, help me right now","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_006798,REMINDER,Set a reminder to reply to the recruiter at 1 pm today,Reminder set — I'll nudge you to reply to the recruiter today.,"{""task"": ""reply to the recruiter"", ""time"": ""1 pm"", ""date"": ""today""}"
+tara_000667,GOODBYE,"Quick thing, cya ok",Goodbye! Talk soon.,{}
+tara_007755,GENERAL_QUERY,"Hey tara, how many players are on a football team?",A standard football (soccer) team has 11 players on the field.,{}
+tara_009054,STUDY,Give me practice questions on discrete mathematics,"Got it — studying discrete mathematics. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""discrete mathematics""}"
+tara_006631,REMINDER,I need a reminder to buy groceries at 4:30 pm,Reminder set — I'll nudge you to buy groceries on Sunday.,"{""task"": ""buy groceries"", ""time"": ""4:30 pm""}"
+tara_005232,DATE,"Just so you know, is today a public holiday tara?","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_007890,GENERAL_QUERY,What is the chemical symbol for gold?,The chemical symbol for gold is Au.,{}
+tara_007018,TASK,Cancel the task pay the electricity bill,"Okay, 'pay the electricity bill' has been deleted.","{""task"": ""pay the electricity bill"", ""action"": ""delete""}"
+tara_009599,JOKE,Tell me something funny about cats,"I told my computer I needed a break, and now it won't stop sending me KitKats.",{}
+tara_005072,DATE,"Listen, which day is it?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_010532,AFFIRMATION,"Okay so, yes go ahead ok","Okay, noted!",{}
+tara_004921,DATE,"Hey tara, what's today's day and date?","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_010036,AFFIRMATION,"Hey tara, ok.","Perfect, moving forward with that.",{}
+tara_008481,KNOWLEDGE,What do you know about plate tectonics,Plate tectonics is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""plate tectonics""}"
+tara_010560,AFFIRMATION,Why not.,"Perfect, moving forward with that.",{}
+tara_001719,THANKS,"Um, thanks so much ok",Glad I could help!,{}
+tara_001253,GOODBYE,I'm off!,"Alright, signing off. Talk soon!",{}
+tara_012285,UNKNOWN,"hey tara, the the the the?",I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_010534,AFFIRMATION,"Okay so, yeah sure.","Great, got it!",{}
+tara_000986,GOODBYE,"Okay so, later tara.","Alright, signing off. Talk soon!",{}
+tara_003106,ABOUT_TARA,"Hey tara, describe yourself tara","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_004961,DATE,"Hey, what's today's day and date right now",I'm not connected to a real-time calendar at the moment.,{}
+tara_000388,GREETING,Well hey!,"Hi! I'm TARA, ready when you are.",{}
+tara_000649,GOODBYE,Later tara.,See you later! Take care.,{}
+tara_000287,GREETING,"Oh morning, how are you","Hi! I'm TARA, ready when you are.",{}
+tara_011421,MOOD,"Not gonna lie, i'm on top of the world",That's great to hear you're feeling on top of the world! What's been going well?,"{""mood"": ""on top of the world"", ""polarity"": ""positive""}"
+tara_011626,MOOD,I've been okay lately,"Got it, thanks for letting me know how you're feeling.","{""mood"": ""okay"", ""polarity"": ""neutral""}"
+tara_009739,JOKE,Tell a joke about college life tara,Why was the math book sad? It had too many problems.,{}
+tara_002946,ABOUT_TARA,"By the way, describe yourself","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_006455,REMINDER,Add a reminder: reply to the recruiter at 8 pm,Reminder set — I'll nudge you to reply to the recruiter on Tuesday.,"{""task"": ""reply to the recruiter"", ""time"": ""8 pm""}"
+tara_010757,NEGATION,"Hey, no thanks!","Alright, cancelled.",{}
+tara_005362,DATE,"Well, what's the date today",I'm not connected to a real-time calendar at the moment.,{}
+tara_007738,GENERAL_QUERY,"Hey tara, what's 12 times 12",Let me work that out for you based on standard conversions.,{}
+tara_004431,TIME,"By the way, what's the current time right now","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_006522,REMINDER,Notify me to review the pull request tonight,Reminder set — I'll nudge you to review the pull request tonight.,"{""task"": ""review the pull request"", ""date"": ""tonight""}"
+tara_008990,STUDY,What should i focus on in neural networks,"Let's tackle neural networks together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""neural networks""}"
+tara_001223,GOODBYE,"Hey tara, see ya tara.","Alright, signing off. Talk soon!",{}
+tara_011691,MOOD,I'm feeling hopeless,That sounds tough. Feeling hopeless is hard — I'm here if you want to talk or need a break.,"{""mood"": ""hopeless"", ""polarity"": ""negative""}"
+tara_006009,WEATHER,Give me the weather update for New York,I can't pull real-time weather for New York at the moment — a weather app will have the latest forecast.,"{""city"": ""New York""}"
+tara_006866,REMINDER,Remind me to pay the hostel fee at 7 o'clock,Got it! I'll remind you to pay the hostel fee at 7 o'clock.,"{""task"": ""pay the hostel fee"", ""time"": ""7 o'clock""}"
+tara_009971,AFFIRMATION,"Listen, right!","Great, got it!",{}
+tara_004745,TIME,"Okay so, time right now tara?",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_007305,TASK,"Hey tara, give me my pending to-dos tara?","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_006102,WEATHER,Weather forecast for Chicago,"I'm not connected to a live weather feed, so I can't confirm conditions in Chicago right now.","{""city"": ""Chicago""}"
+tara_009826,JOKE,Tell a joke,Why don't scientists trust atoms? Because they make up everything!,{}
+tara_007908,GENERAL_QUERY,How many hours are there in a year,That depends on the exact units — let me know if you'd like the standard conversion for hours in a year.,{}
+tara_009680,JOKE,One more joke please,Why was the math book sad? It had too many problems.,{}
+tara_007904,GENERAL_QUERY,"Can you tell me, what is the chemical symbol for gold?",The chemical symbol for gold is Au.,{}
+tara_002742,HELP,"Hey tara, i need some guidance right now?","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_002915,ABOUT_TARA,What's your name?,"I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_005113,DATE,"Okay so, is today a public holiday?","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_006882,TASK,Cancel the task charge my phone,Removed 'charge my phone' from your list.,"{""task"": ""charge my phone"", ""action"": ""delete""}"
+tara_000459,GREETING,Well hey there :),"Hi! I'm TARA, ready when you are.",{}
+tara_002306,HELP,"Um, can you walk me through your features tara","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_003125,ABOUT_TARA,"Hey tara, what technology do you use","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_011168,NEGATION,"Quick thing, no way!","Understood, no problem.",{}
+tara_011865,UNKNOWN,"Hey tara, unlock someone else's phone for me?",I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_004067,SMALL_TALK,"Hey tara, what's up tara?",Pretty good! What's on your mind today?,{}
+tara_002402,HELP,How do i talk to you right now,"Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_006339,REMINDER,Ping me at 8 pm to charge my phone,Got it! I'll remind you to charge my phone at 8 pm.,"{""task"": ""charge my phone"", ""time"": ""8 pm""}"
+tara_007589,TASK,Add a task to walk the dog,Added 'walk the dog' to your task list.,"{""task"": ""walk the dog"", ""action"": ""add""}"
+tara_010247,AFFIRMATION,"So, definitely tara","Great, got it!",{}
+tara_006117,WEATHER,Do i need a jacket in Goa,"I'm not connected to a live weather feed, so I can't confirm conditions in Goa right now.","{""city"": ""Goa""}"
+tara_009037,STUDY,What are common interview questions on Python,Happy to help with Python. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""Python""}"
+tara_000826,GOODBYE,"Um, bye tara",Catch you later! Have a great day.,{}
+tara_006301,REMINDER,Set a reminder to return the library books at 9 am tonight,"Sure, I've noted a reminder to return the library books.","{""task"": ""return the library books"", ""time"": ""9 am"", ""date"": ""tonight""}"
+tara_011980,UNKNOWN,kjshdfkjshdf?,I'm not able to make sense of that input. Mind rewording it?,{}
+tara_005925,WEATHER,Is it cold in Berlin right now,"I'm not connected to a live weather feed, so I can't confirm conditions in Berlin right now.","{""city"": ""Berlin""}"
+tara_004929,DATE,"Quick thing, what's the date this coming friday tara","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_008336,KNOWLEDGE,What should i know about renewable energy,Renewable energy is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""renewable energy""}"
+tara_000480,GREETING,"Hello tara, tara","Hey, welcome back! What are we working on today?",{}
+tara_006782,REMINDER,Remind me at noon to send the email to my professor,Reminder set — I'll nudge you to send the email to my professor on Sunday.,"{""task"": ""send the email to my professor"", ""time"": ""noon""}"
+tara_008628,KNOWLEDGE,Tell me about plate tectonics,Plate tectonics is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""plate tectonics""}"
+tara_005984,WEATHER,What's the forecast like in Berlin on Friday,"I don't have live weather data right now, but I'd recommend checking a weather app for Berlin.","{""city"": ""Berlin"", ""date"": ""on Friday""}"
+tara_008712,KNOWLEDGE,What is vaccines,Vaccines is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""vaccines""}"
+tara_003715,SMALL_TALK,"Just so you know, how do you feel tara?",Doing well! Anything fun happening in your day?,{}
+tara_002975,ABOUT_TARA,"Okay so, are you alexa tara","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_001489,THANKS,"Hey tara, many thanks",Of course! Reach out anytime.,{}
+tara_000686,GOODBYE,"Well, farewell tara!",See you later! Take care.,{}
+tara_009761,JOKE,Got any jokes about robots,How does a penguin build its house? Igloos it together.,{}
+tara_007493,TASK,Add practice for the interview to my task list,Added 'practice for the interview' to your task list.,"{""task"": ""practice for the interview"", ""action"": ""add""}"
+tara_010186,AFFIRMATION,"Just so you know, yup.","Alright, sounds good!",{}
+tara_010959,NEGATION,"Hey tara, no i don't want that tara.","Alright, cancelled.",{}
+tara_002387,HELP,"Hey tara, give me a list of things you can help with?","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_007006,TASK,"Okay so, show me my tasks right now?",Let me pull up your to-do list for you.,"{""action"": ""list""}"
+tara_011407,MOOD,I've been feeling good all week,Love that energy! Glad you're feeling good today.,"{""mood"": ""good"", ""polarity"": ""positive""}"
+tara_008874,STUDY,Give me practice questions on Python,"Let's tackle Python together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""Python""}"
+tara_007354,TASK,Mark reply to the recruiter as done,"Great, 'reply to the recruiter' is now complete.","{""task"": ""reply to the recruiter"", ""action"": ""complete""}"
+tara_003733,SMALL_TALK,"Well, are you okay",Doing well! Anything fun happening in your day?,{}
+tara_009978,AFFIRMATION,"Quick thing, yes go ahead ok","Alright, sounds good!",{}
+tara_004048,SMALL_TALK,"So, keep me company right now","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_011401,MOOD,This whole week i've been pretty good,That's wonderful — feeling pretty good is a great place to be. Keep it up!,"{""mood"": ""pretty good"", ""polarity"": ""positive""}"
+tara_005429,DATE,"Quick thing, do you know the date today tara","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_000606,GOODBYE,"Okay so, i'm leaving now for now",Goodbye! Talk soon.,{}
+tara_001847,THANKS,You're a lifesaver!,Glad I could help!,{}
+tara_003438,ABOUT_TARA,"Hey tara, are you google assistant","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_001739,THANKS,"So, thank you for helping tara.",No problem at all!,{}
+tara_011349,MOOD,I'm really burnt out right now,Thanks for sharing that. Being burnt out isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""burnt out"", ""polarity"": ""negative""}"
+tara_009862,JOKE,Tell me a dad joke about coffee tara,Why do programmers prefer dark mode? Because light attracts bugs!,{}
+tara_010388,AFFIRMATION,"So, definitely for now","Okay, noted!",{}
+tara_008302,KNOWLEDGE,Can you break down the immune system for me,The immune system is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the immune system""}"
+tara_003539,SMALL_TALK,"Honestly, what do you think about life",Pretty good! What's on your mind today?,{}
+tara_006910,TASK,I completed submit the internship application,"Great, 'submit the internship application' is now complete.","{""task"": ""submit the internship application"", ""action"": ""complete""}"
+tara_007220,TASK,"Hey tara, show me what's on my plate today?","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_012523,UNKNOWN,Hack into my neighbor's wifi,That's outside what I can help with right now — could you clarify?,{}
+tara_006415,REMINDER,Remind me at 5 pm to finish the lab report,"Okay, I'll remind you to finish the lab report on Friday at 5 pm.","{""task"": ""finish the lab report"", ""time"": ""5 pm""}"
+tara_009303,STUDY,Can you explain GATE CS with an example,"Let's tackle GATE CS together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""GATE CS""}"
+tara_002005,THANKS,"Honestly, i appreciate it for now",You're welcome! That's what I'm here for.,{}
+tara_003266,ABOUT_TARA,"Listen, what's your name right now?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_008238,KNOWLEDGE,Give me the basics of the human brain,The human brain is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the human brain""}"
+tara_004329,TIME,"Um, what's the current time tara?",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_010223,AFFIRMATION,"Hey tara, yup ok","Okay, noted!",{}
+tara_009288,STUDY,Help me study TCP/IP,Sure! Let's break TCP/IP down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""TCP/IP""}"
+tara_001272,GOODBYE,"Okay so, cya later for now",Catch you later! Have a great day.,{}
+tara_010248,AFFIRMATION,"Well, exactly","Great, got it!",{}
+tara_010428,AFFIRMATION,"Just so you know, yep ok","Got it, thanks for confirming.",{}
+tara_010749,NEGATION,"No, don't!","Okay, noted — won't do that.",{}
+tara_006229,REMINDER,Remind me to charge my phone at 10:15 pm,Got it! I'll remind you to charge my phone at 10:15 pm.,"{""task"": ""charge my phone"", ""time"": ""10:15 pm""}"
+tara_006458,REMINDER,Remind me this weekend to update my resume,"Sure, I've noted a reminder to update my resume.","{""task"": ""update my resume"", ""date"": ""this weekend""}"
+tara_007772,GENERAL_QUERY,"Do you know, what is the longest river in the world?",The Nile is generally considered the longest river in the world.,{}
+tara_005738,WEATHER,Is it raining in Goa,"I'm not connected to a live weather feed, so I can't confirm conditions in Goa right now.","{""city"": ""Goa""}"
+tara_003576,SMALL_TALK,"Okay so, talk to me right now",Doing well! Anything fun happening in your day?,{}
+tara_005390,DATE,"Hey tara, what's the date this coming friday tara","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_004389,TIME,"Um, time check tara?","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_001972,THANKS,"Hey, thanks a million!",Glad I could help!,{}
+tara_001543,THANKS,"Um, many thanks tara.",Anytime! Let me know if you need anything else.,{}
+tara_010675,NEGATION,"Um, not really for now","Got it, I'll skip that.",{}
+tara_006099,WEATHER,What's the forecast like in Pune this morning,"I don't have live weather data right now, but I'd recommend checking a weather app for Pune.","{""city"": ""Pune"", ""date"": ""this morning""}"
+tara_004354,TIME,"By the way, what time do you have right now?","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_011658,MOOD,This whole week i've been inspired,Love that energy! Glad you're feeling inspired today.,"{""mood"": ""inspired"", ""polarity"": ""positive""}"
+tara_003666,SMALL_TALK,"So, let's chat tara","I'm doing great, thanks for asking! How about you?",{}
+tara_006632,REMINDER,Remind me at 10:15 pm to schedule the dentist appointment,Reminder set — I'll nudge you to schedule the dentist appointment on Wednesday.,"{""task"": ""schedule the dentist appointment"", ""time"": ""10:15 pm""}"
+tara_008248,KNOWLEDGE,Give me a simple explanation of the internet,The internet is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the internet""}"
+tara_005539,WEATHER,How's the weather looking in Hyderabad this afternoon,"I'm not connected to a live weather feed, so I can't confirm conditions in Hyderabad right now.","{""city"": ""Hyderabad"", ""date"": ""this afternoon""}"
+tara_003141,ABOUT_TARA,"Honestly, who is tara?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_011360,MOOD,I'm a bit sad,Thanks for sharing that. Being sad isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""sad"", ""polarity"": ""negative""}"
+tara_007148,TASK,"So, what tasks are pending tara?",Let me pull up your to-do list for you.,"{""action"": ""list""}"
+tara_003111,ABOUT_TARA,"Hey tara, tell me about tara right now","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_009839,JOKE,One more joke please about exams?,How does a penguin build its house? Igloos it together.,{}
+tara_000264,GREETING,Heya :),Hello there! What can I do for you?,{}
+tara_001849,THANKS,"Okay so, thank you kindly!",No problem at all!,{}
+tara_011952,UNKNOWN,"So, why is the sky green on tuesdays?",That's outside what I can help with right now — could you clarify?,{}
+tara_010652,NEGATION,"So, no way!","Alright, cancelled.",{}
+tara_003659,SMALL_TALK,"Okay so, make conversation?",Doing well! Anything fun happening in your day?,{}
+tara_009014,STUDY,Create flashcards for graph theory,"Got it — studying graph theory. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""graph theory""}"
+tara_001065,GOODBYE,"By the way, im done for now ok",Catch you later! Have a great day.,{}
+tara_000018,GREETING,Well hiya.,"Hey, welcome back! What are we working on today?",{}
+tara_007528,TASK,"Honestly, list my tasks?",Let me pull up your to-do list for you.,"{""action"": ""list""}"
+tara_008290,KNOWLEDGE,What should i know about the water cycle,The water cycle is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the water cycle""}"
+tara_010882,NEGATION,"Just so you know, nah i'm good ok","Okay, noted — won't do that.",{}
+tara_011579,MOOD,Today has been confident,That's great to hear you're feeling confident! What's been going well?,"{""mood"": ""confident"", ""polarity"": ""positive""}"
+tara_011151,NEGATION,"Just so you know, i disagree for now","Understood, no problem.",{}
+tara_002326,HELP,"Hey, what should i say to you tara?","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_009823,JOKE,Can you be funny about exams tara,Why do Python programmers wear glasses? Because they can't C.,{}
+tara_001301,THANKS,"Well, i appreciate it for now",No problem at all!,{}
+tara_004343,TIME,"Just so you know, may i know the time","I can't check a live clock from here, but your device should show the current time.",{}
+tara_004509,TIME,What's the current time in Paris right now,I don't have a live feed for Paris's time zone at the moment.,"{""city"": ""Paris""}"
+tara_009062,STUDY,I'm struggling with operating systems,"Let's tackle operating systems together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""operating systems""}"
+tara_004456,TIME,"So, time right now?","I can't check a live clock from here, but your device should show the current time.",{}
+tara_007302,TASK,"Hey, what's on my to-do list tara",Let me pull up your to-do list for you.,"{""action"": ""list""}"
+tara_006732,REMINDER,Notify me to read chapter 5 this evening,Got it! I'll remind you to read chapter 5 at quarter to nine.,"{""task"": ""read chapter 5"", ""date"": ""this evening""}"
+tara_001408,THANKS,"Just so you know, cool thanks ok",No problem at all!,{}
+tara_004879,DATE,What's the date tara,"I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_007263,TASK,I completed return the library books,"Great, 'return the library books' is now complete.","{""task"": ""return the library books"", ""action"": ""complete""}"
+tara_002247,HELP,"By the way, list your commands right now?","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_003567,SMALL_TALK,"Hey, what's your favorite color tara?",Doing well! Anything fun happening in your day?,{}
+tara_008241,KNOWLEDGE,Give me a simple explanation of climate change,Climate change is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""climate change""}"
+tara_001786,THANKS,Thanks ok,No problem at all!,{}
+tara_004404,TIME,"By the way, what time do you have?",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_009282,STUDY,Give me a summary of computer architecture,Sure! Let's break computer architecture down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""computer architecture""}"
+tara_012121,UNKNOWN,qwerty12345!,I'm not able to make sense of that input. Mind rewording it?,{}
+tara_010280,AFFIRMATION,Yes go ahead ok,"Got it, thanks for confirming.",{}
+tara_010699,NEGATION,"Listen, no, cancel that tara","Okay, no worries!",{}
+tara_000452,GREETING,Hey tara you up,Hello! How can I assist you right now?,{}
+tara_003004,ABOUT_TARA,"Honestly, what technology do you use right now","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_008900,STUDY,What should i focus on in linear algebra,"Got it — studying linear algebra. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""linear algebra""}"
+tara_002181,HELP,"Quick thing, what are you capable of right now?","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_006806,REMINDER,Could you set a reminder to test the API endpoint at quarter to nine,Reminder set — I'll nudge you to test the API endpoint on Friday.,"{""task"": ""test the API endpoint"", ""time"": ""quarter to nine""}"
+tara_003079,ABOUT_TARA,"Okay so, describe yourself tara?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_002288,HELP,"Hey, i need some guidance right now","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_009652,JOKE,Give me a joke about engineers,"I would tell you a joke about UDP, but you might not get it.",{}
+tara_002290,HELP,"Well, what kind of things can i ask you","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_001189,GOODBYE,"So, catch you later","Alright, signing off. Talk soon!",{}
+tara_003017,ABOUT_TARA,"Well, what's the meaning of your name right now",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_009768,JOKE,Can you be funny about cats,"I told my computer I needed a break, and now it won't stop sending me KitKats.",{}
+tara_001602,THANKS,"Hey tara, perfect, thank you for now",Glad I could help!,{}
+tara_003268,ABOUT_TARA,"Quick thing, what kind of assistant are you tara?","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_011521,MOOD,I can't shake this overwhelmed feeling,That sounds tough. Feeling overwhelmed is hard — I'm here if you want to talk or need a break.,"{""mood"": ""overwhelmed"", ""polarity"": ""negative""}"
+tara_009546,JOKE,I'm bored tell me a joke about robots,Why don't scientists trust atoms? Because they make up everything!,{}
+tara_005108,DATE,"By the way, what's the date this coming friday right now",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_000862,GOODBYE,"Honestly, i'm leaving now ok",Catch you later! Have a great day.,{}
+tara_005454,DATE,"Hey tara, hey what day is it, i lost track right now",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_004841,DATE,"Hey tara, what's the day today tara?",I'm not connected to a real-time calendar at the moment.,{}
+tara_000307,GREETING,Well hiya,Hi there! Let me know what you need.,{}
+tara_010644,NEGATION,"Just so you know, no thanks","Understood, no problem.",{}
+tara_006000,WEATHER,Is it cold in Paris right now,"I'm not connected to a live weather feed, so I can't confirm conditions in Paris right now.","{""city"": ""Paris""}"
+tara_010900,NEGATION,"So, nevermind!","Okay, noted — won't do that.",{}
+tara_012429,UNKNOWN,"hey tara, gorble morble snorp?","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_012080,UNKNOWN,"um, kjshdfkjshdf","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_004708,TIME,"Quick thing, time please","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_008145,GENERAL_QUERY,"Random question, what is the boiling point of water?",Water boils at 100 degrees Celsius at sea level.,{}
+tara_004149,SMALL_TALK,"Hey, how's your day?","I'm doing great, thanks for asking! How about you?",{}
+tara_012502,UNKNOWN,"um, the the the the!","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_008702,KNOWLEDGE,Can you explain gravity,Gravity is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""gravity""}"
+tara_006830,REMINDER,Create a reminder to book the train ticket on on Monday,"Okay, I'll remind you to book the train ticket on Monday at quarter to nine.","{""task"": ""book the train ticket"", ""date"": ""on Monday""}"
+tara_010175,AFFIRMATION,"Well, why not!","Perfect, moving forward with that.",{}
+tara_006111,WEATHER,Is it sunny in Kochi today,"I'm not connected to a live weather feed, so I can't confirm conditions in Kochi right now.","{""city"": ""Kochi""}"
+tara_011248,NEGATION,"Well, not really for now","Alright, cancelled.",{}
+tara_006520,REMINDER,Don't let me forget to update my resume,"Sure, I've noted a reminder to update my resume.","{""task"": ""update my resume""}"
+tara_006865,REMINDER,Could you set a reminder to test the API endpoint at 5 pm,Reminder set — I'll nudge you to test the API endpoint on Wednesday.,"{""task"": ""test the API endpoint"", ""time"": ""5 pm""}"
+tara_007768,GENERAL_QUERY,"Hey tara, what's the cube root of 27?",Let me work that out for you based on standard conversions.,{}
+tara_007928,GENERAL_QUERY,"Would you happen to know, how many bones are in the human body?",An adult human body has 206 bones.,{}
+tara_010218,AFFIRMATION,"Hey, sure thing tara","Great, got it!",{}
+tara_001020,GOODBYE,"Well, im heading out for now",Goodbye! Talk soon.,{}
+tara_008093,GENERAL_QUERY,"Trivia time, what is the capital of India?",New Delhi is the capital of India.,{}
+tara_004072,SMALL_TALK,"By the way, having a good day right now?","I'm just here, ready to chat whenever you are.",{}
+tara_005759,WEATHER,Check the weather for Chennai,I can't pull real-time weather for Chennai at the moment — a weather app will have the latest forecast.,"{""city"": ""Chennai""}"
+tara_009132,STUDY,Make a study plan for object-oriented programming,Happy to help with object-oriented programming. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""object-oriented programming""}"
+tara_011453,MOOD,I can't shake this fantastic feeling,Love that energy! Glad you're feeling fantastic today.,"{""mood"": ""fantastic"", ""polarity"": ""positive""}"
+tara_002416,HELP,"By the way, what can you do right now?","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_006268,REMINDER,Can you remind me to charge my phone,"Sure, I've noted a reminder to charge my phone.","{""task"": ""charge my phone""}"
+tara_002754,HELP,"Quick thing, help tara","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_003745,SMALL_TALK,"Okay so, tell me something interesting right now?",Doing well! Anything fun happening in your day?,{}
+tara_000764,GOODBYE,"Honestly, i'm off!",Take care! Come back anytime.,{}
+tara_001962,THANKS,"Cool, appreciate the quick help",No problem at all!,{}
+tara_011456,MOOD,I'm kind of exhausted,That sounds tough. Feeling exhausted is hard — I'm here if you want to talk or need a break.,"{""mood"": ""exhausted"", ""polarity"": ""negative""}"
+tara_005557,WEATHER,Is it raining in Bangalore,I can't pull real-time weather for Bangalore at the moment — a weather app will have the latest forecast.,"{""city"": ""Bangalore""}"
+tara_002343,HELP,"Listen, can you assist me","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_010418,AFFIRMATION,"By the way, definitely tara.","Perfect, moving forward with that.",{}
+tara_010696,NEGATION,"By the way, stop tara.","Alright, cancelled.",{}
+tara_004085,SMALL_TALK,"So, do you dream","I'm doing great, thanks for asking! How about you?",{}
+tara_008388,KNOWLEDGE,Give me an overview of the French Revolution,The French Revolution is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the French Revolution""}"
+tara_008997,STUDY,How do i improve in operating systems,"Let's tackle operating systems together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""operating systems""}"
+tara_001838,THANKS,"Hey tara, appreciate it tara",Of course! Reach out anytime.,{}
+tara_002824,ABOUT_TARA,"Okay so, describe yourself","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_001675,THANKS,"So, thanks for that tara",Anytime! Let me know if you need anything else.,{}
+tara_000572,GOODBYE,"Hey, goodnight",Take care! Come back anytime.,{}
+tara_007906,GENERAL_QUERY,"Can i ask, what is the capital of India?",New Delhi is the capital of India.,{}
+tara_009811,JOKE,Tell a joke about cats tara,Why did the student eat his homework? Because the teacher said it was a piece of cake.,{}
+tara_010439,AFFIRMATION,"Okay so, yeah sure ok","Perfect, moving forward with that.",{}
+tara_010886,NEGATION,"By the way, not exactly!","Understood, no problem.",{}
+tara_005927,WEATHER,Should i carry an umbrella in San Francisco,I can't pull real-time weather for San Francisco at the moment — a weather app will have the latest forecast.,"{""city"": ""San Francisco""}"
+tara_009595,JOKE,Tell me your best joke about Mondays tara,Why did the computer go to the doctor? It had a virus!,{}
+tara_006868,TASK,Cancel the task pick up the laundry,Removed 'pick up the laundry' from your list.,"{""task"": ""pick up the laundry"", ""action"": ""delete""}"
+tara_006969,TASK,Delete the task reply to the recruiter,Done — 'reply to the recruiter' is no longer on your list.,"{""task"": ""reply to the recruiter"", ""action"": ""delete""}"
+tara_011653,MOOD,I'm kind of fantastic,Love that energy! Glad you're feeling fantastic today.,"{""mood"": ""fantastic"", ""polarity"": ""positive""}"
+tara_005107,DATE,"Listen, what's the day today right now",I'm not connected to a real-time calendar at the moment.,{}
+tara_004978,DATE,"So, can you tell me the date?",I'm not connected to a real-time calendar at the moment.,{}
+tara_006885,TASK,Check off review the pull request,"Great, 'review the pull request' is now complete.","{""task"": ""review the pull request"", ""action"": ""complete""}"
+tara_008122,GENERAL_QUERY,"Remind me, who is known as the father of computers?",Charles Babbage is often called the father of computers.,{}
+tara_012130,UNKNOWN,"So, read my mind?","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_002399,HELP,"Honestly, list your commands right now","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_012342,UNKNOWN,"um, the printer dreams in binary!",That's outside what I can help with right now — could you clarify?,{}
+tara_007014,TASK,Check off fix the bug in my project,Marked 'fix the bug in my project' as finished. Good job!,"{""task"": ""fix the bug in my project"", ""action"": ""complete""}"
+tara_009881,JOKE,Tell me a joke about coffee tara,Why did the coffee file a police report? It got mugged.,{}
+tara_009848,JOKE,Make me laugh about college life,Why did the student eat his homework? Because the teacher said it was a piece of cake.,{}
+tara_011071,NEGATION,"By the way, i disagree!","Okay, no worries!",{}
+tara_004800,TIME,"Well, time right now right now","I can't check a live clock from here, but your device should show the current time.",{}
+tara_008780,KNOWLEDGE,What is renewable energy,Renewable energy is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""renewable energy""}"
+tara_002059,HELP,"So, give me a list of things you can help with tara","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_003181,ABOUT_TARA,"Well, do you have a name tara?","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_010997,NEGATION,"Hey, stop tara","Got it, I'll skip that.",{}
+tara_009698,JOKE,Tell me a joke about coffee,Why was the cat afraid of the tree? Because of its bark!,{}
+tara_009915,JOKE,Make me laugh about coffee tara,Why did the student eat his homework? Because the teacher said it was a piece of cake.,{}
+tara_009992,AFFIRMATION,"Hey tara, indeed tara","Perfect, moving forward with that.",{}
+tara_005335,DATE,"Okay so, what day is it today right now?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_001324,THANKS,Thx tara,You're welcome! That's what I'm here for.,{}
+tara_003334,ABOUT_TARA,"So, can i trust you with my data?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_008605,KNOWLEDGE,Tell me about the internet,The internet is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the internet""}"
+tara_005542,WEATHER,Give me the weather update for Berlin,"I don't have live weather data right now, but I'd recommend checking a weather app for Berlin.","{""city"": ""Berlin""}"
+tara_009956,JOKE,Tell me a joke about engineers?,Why did the student eat his homework? Because the teacher said it was a piece of cake.,{}
+tara_000205,GREETING,"What's up, tara",Hi there! Let me know what you need.,{}
+tara_001342,THANKS,"Hey tara, thanks tara, that helped for now",Anytime! Let me know if you need anything else.,{}
+tara_009015,STUDY,I need to study object-oriented programming for gate,Sure! Let's break object-oriented programming down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""object-oriented programming""}"
+tara_009456,JOKE,Do you know any jokes about college life,Why do programmers prefer dark mode? Because light attracts bugs!,{}
+tara_006406,REMINDER,Notify me to renew my gym membership tomorrow,"Sure, I've noted a reminder to renew my gym membership.","{""task"": ""renew my gym membership"", ""date"": ""tomorrow""}"
+tara_000995,GOODBYE,"Quick thing, that's all for now",See you later! Take care.,{}
+tara_010048,AFFIRMATION,"Um, that's true!","Alright, sounds good!",{}
+tara_003044,ABOUT_TARA,"Okay so, who made you","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_006253,REMINDER,Could you set a reminder to return the library books at 8 pm,"Sure, I've noted a reminder to return the library books.","{""task"": ""return the library books"", ""time"": ""8 pm""}"
+tara_012552,UNKNOWN,the moon owes me five dollars!,I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_011299,MOOD,Lately i just feel great,That's wonderful — feeling great is a great place to be. Keep it up!,"{""mood"": ""great"", ""polarity"": ""positive""}"
+tara_006234,REMINDER,Create a reminder to buy groceries on on Thursday,"Sure, I've noted a reminder to buy groceries.","{""task"": ""buy groceries"", ""date"": ""on Thursday""}"
+tara_009996,AFFIRMATION,"Well, yeah sure ok","Got it, thanks for confirming.",{}
+tara_000019,GREETING,Namaste!,Hello! How can I assist you right now?,{}
+tara_010425,AFFIRMATION,Affirmative,"Perfect, moving forward with that.",{}
+tara_007373,TASK,"Um, give me my pending to-dos","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_004000,SMALL_TALK,"By the way, keep me company","I'm doing great, thanks for asking! How about you?",{}
+tara_003399,ABOUT_TARA,"Honestly, how were you built right now?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_002372,HELP,What can you do right now?,"Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_012557,UNKNOWN,"hey tara, wooooooosh bam pow?","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_008655,KNOWLEDGE,What exactly is renewable energy,Renewable energy is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""renewable energy""}"
+tara_008493,KNOWLEDGE,Explain the immune system to me,The immune system is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the immune system""}"
+tara_001794,THANKS,"Honestly, you're a lifesaver ok",Anytime! Let me know if you need anything else.,{}
+tara_003037,ABOUT_TARA,"Hey, are you alexa?","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_007081,TASK,Buy groceries is done now,Marked 'buy groceries' as finished. Good job!,"{""task"": ""buy groceries"", ""action"": ""complete""}"
+tara_001149,GOODBYE,"Quick thing, bye!",Goodbye! Talk soon.,{}
+tara_002530,HELP,"So, what are your features right now?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_004553,TIME,"Okay so, give me the time right now","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_011882,UNKNOWN,snorlax quibble frog?,I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_004290,TIME,What's the current time in Vellore right now,I don't have a live feed for Vellore's time zone at the moment.,"{""city"": ""Vellore""}"
+tara_009775,JOKE,Give me a joke?,How does a penguin build its house? Igloos it together.,{}
+tara_005301,DATE,"So, what's today's date right now?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_004408,TIME,What time is it in Delhi,"I can't fetch live time zones right now, but I can help if you tell me Delhi's UTC offset.","{""city"": ""Delhi""}"
+tara_009108,STUDY,Help me understand operating systems concepts,"Got it — studying operating systems. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""operating systems""}"
+tara_007788,GENERAL_QUERY,"Pop quiz, how many days are there in a leap year?",A leap year has 366 days.,{}
+tara_001282,GOODBYE,"Honestly, later ok",Goodbye! Talk soon.,{}
+tara_001667,THANKS,"Um, thx ok",You're welcome! Happy to help.,{}
+tara_005489,WEATHER,Should i carry an umbrella in Kolkata,"I'm not connected to a live weather feed, so I can't confirm conditions in Kolkata right now.","{""city"": ""Kolkata""}"
+tara_004211,SMALL_TALK,"Um, let's chat tara?",Pretty good! What's on your mind today?,{}
+tara_010539,AFFIRMATION,"Listen, absolutely tara","Alright, sounds good!",{}
+tara_000766,GOODBYE,"Um, see you later!",Take care! Come back anytime.,{}
+tara_010368,AFFIRMATION,"By the way, that's true.","Perfect, moving forward with that.",{}
+tara_003069,ABOUT_TARA,"Okay so, are you an ai tara?","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_004656,TIME,"Hey tara, time please right now?","I can't check a live clock from here, but your device should show the current time.",{}
+tara_002362,HELP,"Hey, how does this work?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_004538,TIME,"Hey tara, what time is it right now?","I can't check a live clock from here, but your device should show the current time.",{}
+tara_001159,GOODBYE,"Um, im heading out tara",Goodnight! Sleep well.,{}
+tara_003233,ABOUT_TARA,Are you siri?,TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_007833,GENERAL_QUERY,What's the exchange rate between usd and inr,Let me work that out for you based on standard conversions.,{}
+tara_001105,GOODBYE,"Listen, good night.",Take care! Come back anytime.,{}
+tara_004441,TIME,"Hey tara, tell me the time tara?","I can't check a live clock from here, but your device should show the current time.",{}
+tara_008026,GENERAL_QUERY,"I was wondering, how many players are on a football team?",A standard football (soccer) team has 11 players on the field.,{}
+tara_001392,THANKS,"So, ty for now",No problem at all!,{}
+tara_003644,SMALL_TALK,"Hey tara, make conversation right now?","I'm doing great, thanks for asking! How about you?",{}
+tara_005628,WEATHER,What's the weather like in Sydney,"I'm not connected to a live weather feed, so I can't confirm conditions in Sydney right now.","{""city"": ""Sydney""}"
+tara_012162,UNKNOWN,qwerty12345?,"Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_009204,STUDY,Break software engineering into simple steps for me,"Let's tackle software engineering together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""software engineering""}"
+tara_003249,ABOUT_TARA,"Listen, what's your name?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_000062,GREETING,Hello,Hey! How can I help you today?,{}
+tara_009999,AFFIRMATION,Affirmative ok,"Great, got it!",{}
+tara_012004,UNKNOWN,Predict the exact stock price tomorrow,"Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_006500,REMINDER,I need a reminder to charge my phone at 9 am,"Sure, I've noted a reminder to charge my phone.","{""task"": ""charge my phone"", ""time"": ""9 am""}"
+tara_002726,HELP,"Just so you know, what should i say to you","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_009101,STUDY,What's the best way to learn data structures,"Let's tackle data structures together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""data structures""}"
+tara_004941,DATE,"Hey tara, how many days until friday tara?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_003284,ABOUT_TARA,"Listen, who are you right now","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_002668,HELP,"Honestly, can you help me right now?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_006731,REMINDER,Ping me at 4:30 pm to update my resume,Got it! I'll remind you to update my resume at 4:30 pm.,"{""task"": ""update my resume"", ""time"": ""4:30 pm""}"
+tara_007777,GENERAL_QUERY,How many grams in a kilogram,Let me work that out for you based on standard conversions.,{}
+tara_011237,NEGATION,"Quick thing, never.","Okay, noted — won't do that.",{}
+tara_010404,AFFIRMATION,"Well, that's true.","Perfect, moving forward with that.",{}
+tara_012538,UNKNOWN,the the the the?,I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_000846,GOODBYE,"Just so you know, good night!",Catch you later! Have a great day.,{}
+tara_011153,NEGATION,"Quick thing, not at all","Alright, cancelled.",{}
+tara_000358,GREETING,Oh hey tara.,Hey! Good to see you. What's on your mind?,{}
+tara_009551,JOKE,Lighten the mood about college life,Why was the cat afraid of the tree? Because of its bark!,{}
+tara_008270,KNOWLEDGE,Define DNA replication,DNA replication is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""DNA replication""}"
+tara_008653,KNOWLEDGE,Tell me about climate change,Climate change is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""climate change""}"
+tara_005395,DATE,"Honestly, what day of the week is it tara?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_001742,THANKS,"Um, thanks tara, that helped for now",Of course! Reach out anytime.,{}
+tara_009013,STUDY,I'm struggling with computer architecture,"Let's tackle computer architecture together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""computer architecture""}"
+tara_003207,ABOUT_TARA,"Hey, describe yourself?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_010061,AFFIRMATION,Definitely for now,"Great, got it!",{}
+tara_012180,UNKNOWN,"hey tara, ..........",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_012307,UNKNOWN,"Hey tara, predict tomorrow's lottery numbers?","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_009460,JOKE,Got a pun for me about programmers?,Why did the student eat his homework? Because the teacher said it was a piece of cake.,{}
+tara_007364,TASK,"Just so you know, show incomplete tasks tara?",You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_006490,REMINDER,Set a reminder to water the plants at 11 am on Sunday,"Sure, I've noted a reminder to water the plants.","{""task"": ""water the plants"", ""time"": ""11 am"", ""date"": ""on Sunday""}"
+tara_002118,HELP,"By the way, i'm confused, help tara","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_007328,TASK,Put walk the dog on my to-do list,"Got it, 'walk the dog' is now on your list.","{""task"": ""walk the dog"", ""action"": ""add""}"
+tara_008089,GENERAL_QUERY,"Would you happen to know, what is the capital of Japan?",Tokyo is the capital of Japan.,{}
+tara_007324,TASK,Cancel the task practice for the interview,Done — 'practice for the interview' is no longer on your list.,"{""task"": ""practice for the interview"", ""action"": ""delete""}"
+tara_011742,MOOD,I'm really happy right now,Love that energy! Glad you're feeling happy today.,"{""mood"": ""happy"", ""polarity"": ""positive""}"
+tara_011314,MOOD,I'm kind of energetic,That's wonderful — feeling energetic is a great place to be. Keep it up!,"{""mood"": ""energetic"", ""polarity"": ""positive""}"
+tara_003823,SMALL_TALK,"Quick thing, how's life",All good on my end! What's going on with you?,{}
+tara_007356,TASK,New task: backup my laptop,Task added: backup my laptop.,"{""task"": ""backup my laptop"", ""action"": ""add""}"
+tara_011942,UNKNOWN,"hey tara, flarn gibbet zonk",That's outside what I can help with right now — could you clarify?,{}
+tara_010144,AFFIRMATION,"By the way, right tara.","Alright, sounds good!",{}
+tara_011610,MOOD,I've been feeling happy all week,That's wonderful — feeling happy is a great place to be. Keep it up!,"{""mood"": ""happy"", ""polarity"": ""positive""}"
+tara_006366,REMINDER,Set a reminder to test the API endpoint at midnight next week,Got it! I'll remind you to test the API endpoint at midnight.,"{""task"": ""test the API endpoint"", ""time"": ""midnight"", ""date"": ""next week""}"
+tara_010748,NEGATION,"Um, no tara","Okay, no worries!",{}
+tara_002603,HELP,"Just so you know, need some help here right now","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_007367,TASK,Cancel the task review the pull request,Removed 'review the pull request' from your list.,"{""task"": ""review the pull request"", ""action"": ""delete""}"
+tara_002448,HELP,Need some help here tara?,"I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_007009,TASK,List my tasks right now,You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_007956,GENERAL_QUERY,"Do you happen to know, what is the smallest prime number?",The smallest prime number is 2.,{}
+tara_011883,UNKNOWN,"So, predict tomorrow's lottery numbers?",I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_008074,GENERAL_QUERY,"Would you happen to know, how many continents are there?",There are seven continents on Earth.,{}
+tara_005910,WEATHER,Is it sunny in Patna today,"I don't have live weather data right now, but I'd recommend checking a weather app for Patna.","{""city"": ""Patna""}"
+tara_009118,STUDY,Test my knowledge of computer networks,"Let's tackle computer networks together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""computer networks""}"
+tara_005572,WEATHER,Is it sunny in Tokyo today,"I don't have live weather data right now, but I'd recommend checking a weather app for Tokyo.","{""city"": ""Tokyo""}"
+tara_000692,GOODBYE,"Hey tara, im heading out ok",See you later! Take care.,{}
+tara_007167,TASK,"Honestly, what's on my to-do list right now?","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_007105,TASK,What tasks do i have today,"Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_004269,SMALL_TALK,"By the way, say something fun","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_002027,THANKS,"Honestly, thanks tara tara.",Of course! Reach out anytime.,{}
+tara_008807,STUDY,Give me a summary of computer networks,"Let's tackle computer networks together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""computer networks""}"
+tara_007086,TASK,Delete the task pay the hostel fee,Done — 'pay the hostel fee' is no longer on your list.,"{""task"": ""pay the hostel fee"", ""action"": ""delete""}"
+tara_002555,HELP,"Okay so, what are your features","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_004423,TIME,"Well, could you tell me what time it is right now","I can't check a live clock from here, but your device should show the current time.",{}
+tara_004333,TIME,"So, what's the current time right now",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_002182,HELP,"Um, how do i get started right now","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_003349,ABOUT_TARA,Are you always listening?,"I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_009279,STUDY,Help me understand data structures concepts,Sure! Let's break data structures down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""data structures""}"
+tara_006819,REMINDER,Create a reminder to clean my room on on Saturday,Got it! I'll remind you to clean my room at 9 am.,"{""task"": ""clean my room"", ""date"": ""on Saturday""}"
+tara_012298,UNKNOWN,"Hey tara, can you see through my camera",That's outside what I can help with right now — could you clarify?,{}
+tara_000190,GREETING,Good evening tara!,"Hi! I'm TARA, ready when you are.",{}
+tara_012393,UNKNOWN,"um, mnbvcxz mnbvcxz!",That's outside what I can help with right now — could you clarify?,{}
+tara_004988,DATE,"Hey, current date please?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_011825,MOOD,This whole week i've been burnt out,Thanks for sharing that. Being burnt out isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""burnt out"", ""polarity"": ""negative""}"
+tara_002063,HELP,"Hey, what are you capable of tara","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_000742,GOODBYE,"Just so you know, see ya!","Alright, signing off. Talk soon!",{}
+tara_002531,HELP,"Listen, how do i get started tara","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_003489,ABOUT_TARA,"Um, what are you","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_008158,GENERAL_QUERY,"Hey tara, how many bones are in the human body?",An adult human body has 206 bones.,{}
+tara_003453,ABOUT_TARA,"Okay so, what are you tara",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_007664,GENERAL_QUERY,Quick question - what is the largest planet in the solar system?,Jupiter is the largest planet in our solar system.,{}
+tara_011189,NEGATION,"By the way, no i don't want that","Okay, noted — won't do that.",{}
+tara_004071,SMALL_TALK,"Well, how's your day tara?",Pretty good! What's on your mind today?,{}
+tara_005879,WEATHER,Is it sunny in Toronto today,I can't pull real-time weather for Toronto at the moment — a weather app will have the latest forecast.,"{""city"": ""Toronto""}"
+tara_010790,NEGATION,"Well, that's not correct","Understood, no problem.",{}
+tara_004188,SMALL_TALK,"Listen, how have you been tara?","I'm just here, ready to chat whenever you are.",{}
+tara_010468,AFFIRMATION,"Well, sounds good.","Great, got it!",{}
+tara_000059,GREETING,Oh hiya!,"Hey, welcome back! What are we working on today?",{}
+tara_002187,HELP,"Honestly, how do i use you?","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_010395,AFFIRMATION,"So, for sure ok","Got it, thanks for confirming.",{}
+tara_005615,WEATHER,How's the weather in Chicago,"I don't have live weather data right now, but I'd recommend checking a weather app for Chicago.","{""city"": ""Chicago""}"
+tara_009164,STUDY,I have a doubt in computer networks,"Got it — studying computer networks. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""computer networks""}"
+tara_007779,GENERAL_QUERY,"Hey tara, convert 5 miles to kilometers?",Let me work that out for you based on standard conversions.,{}
+tara_000303,GREETING,"Well morning, how are you","Hey, welcome back! What are we working on today?",{}
+tara_003801,SMALL_TALK,"Listen, how's life",All good on my end! What's going on with you?,{}
+tara_001232,GOODBYE,"Quick thing, i'll talk to you later.",Catch you later! Have a great day.,{}
+tara_012537,UNKNOWN,"So, delete all the files on my computer",I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_006163,REMINDER,Ping me at 6 am to water the plants,Reminder set — I'll nudge you to water the plants this weekend.,"{""task"": ""water the plants"", ""time"": ""6 am""}"
+tara_005637,WEATHER,Do i need a jacket in San Francisco,I can't pull real-time weather for San Francisco at the moment — a weather app will have the latest forecast.,"{""city"": ""San Francisco""}"
+tara_006165,REMINDER,Remind me tonight to schedule the dentist appointment,"Okay, I'll remind you to schedule the dentist appointment tonight at 4:30 pm.","{""task"": ""schedule the dentist appointment"", ""date"": ""tonight""}"
+tara_007217,TASK,Display all my tasks tara,You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_002480,HELP,"Hey, can you walk me through your features tara","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_011932,UNKNOWN,grumpy toaster explains taxes,I'm not able to make sense of that input. Mind rewording it?,{}
+tara_002175,HELP,Guide me tara?,"I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_005901,WEATHER,Will it be windy in Kolkata,I can't pull real-time weather for Kolkata at the moment — a weather app will have the latest forecast.,"{""city"": ""Kolkata""}"
+tara_005171,DATE,"Hey tara, what's the day today?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_007604,TASK,Delete the task pick up the laundry,Done — 'pick up the laundry' is no longer on your list.,"{""task"": ""pick up the laundry"", ""action"": ""delete""}"
+tara_003651,SMALL_TALK,"Hey, how are you doing?","I'm doing great, thanks for asking! How about you?",{}
+tara_004970,DATE,"Well, what's today's day and date",I'm not connected to a real-time calendar at the moment.,{}
+tara_001014,GOODBYE,"Okay so, see you tara!",Take care! Come back anytime.,{}
+tara_011868,UNKNOWN,"um, does purple sound like tuesday!","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_001321,THANKS,"Hey, thanks for that!",You're welcome! Happy to help.,{}
+tara_005184,DATE,"Well, what's today's date tara","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_012098,UNKNOWN,"So, diagnose why my car won't start",I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_010705,NEGATION,"Well, not at all for now","Okay, noted — won't do that.",{}
+tara_008056,GENERAL_QUERY,What is the hours of month,That depends on the exact units — let me know if you'd like the standard conversion for hours in a month.,{}
+tara_004884,DATE,"Hey tara, how many days until friday?",I'm not connected to a real-time calendar at the moment.,{}
+tara_004833,DATE,"Okay so, what's today's date right now",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_000475,GREETING,"Yo, tara",Hey! How can I help you today?,{}
+tara_004250,SMALL_TALK,"By the way, what have you been doing tara",Doing well! Anything fun happening in your day?,{}
+tara_005824,WEATHER,How's the weather in Hyderabad,I can't pull real-time weather for Hyderabad at the moment — a weather app will have the latest forecast.,"{""city"": ""Hyderabad""}"
+tara_001452,THANKS,"Um, thanks for the help.",You're welcome! Happy to help.,{}
+tara_000529,GREETING,"Oh morning, tara","Hey, welcome back! What are we working on today?",{}
+tara_006956,TASK,Check off send the email to my professor,Marked 'send the email to my professor' as finished. Good job!,"{""task"": ""send the email to my professor"", ""action"": ""complete""}"
+tara_002473,HELP,"Okay so, i don't know what to do","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_004313,TIME,"So, what time is it right now","I can't check a live clock from here, but your device should show the current time.",{}
+tara_000029,GREETING,Hiya!,Hello! How can I assist you right now?,{}
+tara_007946,GENERAL_QUERY,"Remind me, what is the capital of India?",New Delhi is the capital of India.,{}
+tara_007984,GENERAL_QUERY,"Quick question, how many seconds in an hour?",Let me work that out for you based on standard conversions.,{}
+tara_002283,HELP,"By the way, help me tara","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_006447,REMINDER,I need a reminder to call mom at noon,"Okay, I'll remind you to call mom on Wednesday at noon.","{""task"": ""call mom"", ""time"": ""noon""}"
+tara_009556,JOKE,Got a pun for me about Mondays,Why do programmers prefer dark mode? Because light attracts bugs!,{}
+tara_008212,KNOWLEDGE,Give me an overview of black holes,Black holes is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""black holes""}"
+tara_005179,DATE,"Just so you know, tell me today's date right now?",I'm not connected to a real-time calendar at the moment.,{}
+tara_009821,JOKE,Lighten the mood about robots tara,How does a penguin build its house? Igloos it together.,{}
+tara_004462,TIME,"Quick thing, what time is it tara","I can't check a live clock from here, but your device should show the current time.",{}
+tara_005603,WEATHER,Any chance of thunderstorms in Delhi,"I'm not connected to a live weather feed, so I can't confirm conditions in Delhi right now.","{""city"": ""Delhi""}"
+tara_000648,GOODBYE,"Um, i have to go now ok",Catch you later! Have a great day.,{}
+tara_008738,KNOWLEDGE,Tell me about cryptography,Cryptography is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""cryptography""}"
+tara_005727,WEATHER,How's the weather looking in Coimbatore on Tuesday,"I don't have live weather data right now, but I'd recommend checking a weather app for Coimbatore.","{""city"": ""Coimbatore"", ""date"": ""on Tuesday""}"
+tara_005432,DATE,"Listen, what's the date today right now?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_012384,UNKNOWN,"um, quixotic flumberjack noodle?",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_008138,GENERAL_QUERY,"Remind me, what is the capital of France?",Paris is the capital of France.,{}
+tara_011827,UNKNOWN,"hey tara, asdf;lkj asdf;lkj",That's outside what I can help with right now — could you clarify?,{}
+tara_008017,GENERAL_QUERY,"Tell me, what is the freezing point of water in Fahrenheit?",Water freezes at 32 degrees Fahrenheit.,{}
+tara_003408,ABOUT_TARA,"Honestly, what's the meaning of your name right now","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_003293,ABOUT_TARA,"So, are you an ai right now","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_002798,ABOUT_TARA,"Listen, are you a robot tara","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_006561,REMINDER,Remind me on Friday to submit the internship application,"Okay, I'll remind you to submit the internship application on Friday at 9 am.","{""task"": ""submit the internship application"", ""date"": ""on Friday""}"
+tara_012134,UNKNOWN,Can you book me a flight to mars,"Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_004985,DATE,"Hey tara, what date is it right now?",I'm not connected to a real-time calendar at the moment.,{}
+tara_005436,DATE,"Okay so, hey what day is it, i lost track right now","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_011494,MOOD,Lately i just feel excited,Love that energy! Glad you're feeling excited today.,"{""mood"": ""excited"", ""polarity"": ""positive""}"
+tara_009570,JOKE,Make me smile about engineers?,Why do Python programmers wear glasses? Because they can't C.,{}
+tara_011076,NEGATION,"Hey tara, i'd rather not.","Got it, I'll skip that.",{}
+tara_003223,ABOUT_TARA,"Okay so, are you siri right now?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_005730,WEATHER,Weather in Goa this morning,"I don't have live weather data right now, but I'd recommend checking a weather app for Goa.","{""city"": ""Goa"", ""date"": ""this morning""}"
+tara_009214,STUDY,Explain deep learning for my exam,Happy to help with deep learning. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""deep learning""}"
+tara_010949,NEGATION,"Well, i don't think so tara.","Okay, no worries!",{}
+tara_010603,AFFIRMATION,"Listen, yep ok","Great, got it!",{}
+tara_003085,ABOUT_TARA,"So, who are you right now?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_003832,SMALL_TALK,"Listen, talk to me right now?","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_000559,GOODBYE,"By the way, farewell tara.",Goodbye! Talk soon.,{}
+tara_006092,WEATHER,What's the weather on Thursday,"I don't have live weather data right now, but I'd recommend checking a weather app for Berlin.","{""city"": ""Berlin"", ""date"": ""on Thursday""}"
+tara_007396,TASK,Mark the task practice for the interview as complete,Nice work! I've marked 'practice for the interview' as done.,"{""task"": ""practice for the interview"", ""action"": ""complete""}"
+tara_012337,UNKNOWN,"So, can you fix my broken phone screen?","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_001487,THANKS,"Well, perfect, thank you for now",You're welcome! Happy to help.,{}
+tara_003040,ABOUT_TARA,"So, are you chatgpt tara","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_004710,TIME,What time is it in New York,"I can't fetch live time zones right now, but I can help if you tell me New York's UTC offset.","{""city"": ""New York""}"
+tara_009265,STUDY,Give me a summary of algorithms,"Got it — studying algorithms. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""algorithms""}"
+tara_007671,GENERAL_QUERY,"Hey tara, how many milliliters in a liter?",Let me work that out for you based on standard conversions.,{}
+tara_011051,NEGATION,"Hey tara, that's not right tara.","Understood, no problem.",{}
+tara_006953,TASK,Add a task to revise DBMS notes,Task added: revise DBMS notes.,"{""task"": ""revise DBMS notes"", ""action"": ""add""}"
+tara_005148,DATE,"Well, what day of the week is it right now",I'm not connected to a real-time calendar at the moment.,{}
+tara_005318,DATE,"Hey, what day was it yesterday?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_008945,STUDY,Help me study probability and statistics,"Got it — studying probability and statistics. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""probability and statistics""}"
+tara_007033,TASK,"Hey tara, list my tasks tara?",You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_007625,GENERAL_QUERY,"Quick question, what's the square root of 144",Let me work that out for you based on standard conversions.,{}
+tara_005636,WEATHER,Weather in Bangalore next week,"I'm not connected to a live weather feed, so I can't confirm conditions in Bangalore right now.","{""city"": ""Bangalore"", ""date"": ""next week""}"
+tara_002123,HELP,"Honestly, what can you do tara","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_003373,ABOUT_TARA,"Listen, describe yourself right now?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_002962,ABOUT_TARA,"Hey, what makes you different tara","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_006701,REMINDER,Remind me on Wednesday to review the pull request,"Sure, I've noted a reminder to review the pull request.","{""task"": ""review the pull request"", ""date"": ""on Wednesday""}"
+tara_005495,WEATHER,Do i need a jacket in Pune,"I don't have live weather data right now, but I'd recommend checking a weather app for Pune.","{""city"": ""Pune""}"
+tara_000065,GREETING,Oh hi tara,Hello there! What can I do for you?,{}
+tara_010880,NEGATION,Nevermind,"Okay, noted — won't do that.",{}
+tara_012237,UNKNOWN,flarn gibbet zonk!,I'm not able to make sense of that input. Mind rewording it?,{}
+tara_009029,STUDY,I'm struggling with Python,Sure! Let's break Python down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""Python""}"
+tara_000407,GREETING,"Namaste tara, tara","Hey, welcome back! What are we working on today?",{}
+tara_010607,AFFIRMATION,"So, definitely.","Great, got it!",{}
+tara_001054,GOODBYE,"Um, goodbye tara",Take care! Come back anytime.,{}
+tara_006241,REMINDER,Remind me to check the exam timetable at quarter to nine,"Sure, I've noted a reminder to check the exam timetable.","{""task"": ""check the exam timetable"", ""time"": ""quarter to nine""}"
+tara_005947,WEATHER,Is it going to snow in Surat,I can't pull real-time weather for Surat at the moment — a weather app will have the latest forecast.,"{""city"": ""Surat""}"
+tara_004680,TIME,"So, what's the current time tara","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_002244,HELP,"Um, i'm stuck?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_001153,GOODBYE,"Um, signing off ok",Goodbye! Talk soon.,{}
+tara_005996,WEATHER,What's the forecast like in Chicago this afternoon,"I'm not connected to a live weather feed, so I can't confirm conditions in Chicago right now.","{""city"": ""Chicago"", ""date"": ""this afternoon""}"
+tara_010164,AFFIRMATION,"Hey, yep!","Okay, noted!",{}
+tara_004263,SMALL_TALK,"Well, what have you been doing right now",Pretty good! What's on your mind today?,{}
+tara_009923,JOKE,Give me a joke,Why did the coffee file a police report? It got mugged.,{}
+tara_006359,REMINDER,Remind me to test the API endpoint on Tuesday,"Sure, I've noted a reminder to test the API endpoint.","{""task"": ""test the API endpoint"", ""date"": ""on Tuesday""}"
+tara_003969,SMALL_TALK,"Well, do you get tired tara?","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_007422,TASK,Clean my room is done now,Marked 'clean my room' as finished. Good job!,"{""task"": ""clean my room"", ""action"": ""complete""}"
+tara_006429,REMINDER,Ping me at midnight to finish the lab report,Got it! I'll remind you to finish the lab report at midnight.,"{""task"": ""finish the lab report"", ""time"": ""midnight""}"
+tara_006891,TASK,"Hey tara, what's left on my list tara?",You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_005614,WEATHER,Weather forecast for Delhi,"I don't have live weather data right now, but I'd recommend checking a weather app for Delhi.","{""city"": ""Delhi""}"
+tara_002998,ABOUT_TARA,"So, what makes you different","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_006581,REMINDER,Ping me at 4:30 pm to walk the dog,"Okay, I'll remind you to walk the dog this afternoon at 4:30 pm.","{""task"": ""walk the dog"", ""time"": ""4:30 pm""}"
+tara_008165,GENERAL_QUERY,"Any idea, what is the speed of light?","The speed of light is about 299,792 kilometers per second.",{}
+tara_002477,HELP,"Quick thing, i need some guidance tara?","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_003623,SMALL_TALK,"Quick thing, how are you doing?",Pretty good! What's on your mind today?,{}
+tara_004058,SMALL_TALK,"Listen, say something fun?",Pretty good! What's on your mind today?,{}
+tara_008671,KNOWLEDGE,How does machine learning work,Machine learning is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""machine learning""}"
+tara_001127,GOODBYE,"Honestly, goodnight.",Catch you later! Have a great day.,{}
+tara_012328,UNKNOWN,"So, unlock my phone",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_006050,WEATHER,What's the forecast like in Dubai on Sunday,"I'm not connected to a live weather feed, so I can't confirm conditions in Dubai right now.","{""city"": ""Dubai"", ""date"": ""on Sunday""}"
+tara_003312,ABOUT_TARA,"Honestly, who created you tara","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_007003,TASK,"Hey tara, list my tasks tara","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_005695,WEATHER,Should i carry an umbrella in Coimbatore,"I don't have live weather data right now, but I'd recommend checking a weather app for Coimbatore.","{""city"": ""Coimbatore""}"
+tara_001493,THANKS,"By the way, cheers for that ok",Of course! Reach out anytime.,{}
+tara_002675,HELP,"Well, help me out tara","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_004570,TIME,Do you know the time,I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_012526,UNKNOWN,asdf1234 qwer5678,That's outside what I can help with right now — could you clarify?,{}
+tara_002925,ABOUT_TARA,Are you chatgpt tara?,"I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_008097,GENERAL_QUERY,"Trivia time, what is the currency of Japan?",The currency of Japan is the yen.,{}
+tara_008320,KNOWLEDGE,I want to learn about GDP,GDP is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""GDP""}"
+tara_008220,KNOWLEDGE,Give me an overview of interest rates,Interest rates is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""interest rates""}"
+tara_007249,TASK,"I need to buy groceries, add it to my list","Got it, 'buy groceries' is now on your list.","{""task"": ""buy groceries"", ""action"": ""add""}"
+tara_008824,STUDY,Test my knowledge of computer architecture,"Let's tackle computer architecture together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""computer architecture""}"
+tara_005306,DATE,"Well, what day is it today?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_011574,MOOD,I'm feeling stressed,Thanks for sharing that. Being stressed isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""stressed"", ""polarity"": ""negative""}"
+tara_005109,DATE,"Hey tara, give me today's date",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_006418,REMINDER,Ping me at midnight to submit the assignment,"Okay, I'll remind you to submit the assignment this morning at midnight.","{""task"": ""submit the assignment"", ""time"": ""midnight""}"
+tara_008112,GENERAL_QUERY,How many millimeters in a centimeter?,Let me work that out for you based on standard conversions.,{}
+tara_005298,DATE,"Hey, what's the date next monday tara",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_004998,DATE,"Listen, what's today's date?","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_011148,NEGATION,"By the way, not interested for now","Okay, noted — won't do that.",{}
+tara_012525,UNKNOWN,"So, predict tomorrow's lottery numbers",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_000252,GREETING,"Oh yo, tara","Hey, welcome back! What are we working on today?",{}
+tara_000718,GOODBYE,"Honestly, goodnight for now",Catch you later! Have a great day.,{}
+tara_011573,MOOD,Lately i just feel down,Thanks for sharing that. Being down isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""down"", ""polarity"": ""negative""}"
+tara_010786,NEGATION,"Honestly, nevermind.","Alright, cancelled.",{}
+tara_008319,KNOWLEDGE,Define the solar system,The solar system is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the solar system""}"
+tara_000925,GOODBYE,"Quick thing, good night ok",Take care! Come back anytime.,{}
+tara_009965,JOKE,Got a pun for me about cats tara,I asked my dog what's two minus two. He said nothing.,{}
+tara_008104,GENERAL_QUERY,"Random question, what is the freezing point of water in Fahrenheit?",Water freezes at 32 degrees Fahrenheit.,{}
+tara_000643,GOODBYE,"Well, see you later!",Goodnight! Sleep well.,{}
+tara_003001,ABOUT_TARA,"Um, what's your name right now","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_011524,MOOD,I'm feeling good,That's wonderful — feeling good is a great place to be. Keep it up!,"{""mood"": ""good"", ""polarity"": ""positive""}"
+tara_000297,GREETING,Morning tara,Hey! How can I help you today?,{}
+tara_002838,ABOUT_TARA,"Hey, why are you called tara","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_006565,REMINDER,Add a reminder: submit the internship application at 11 am,Reminder set — I'll nudge you to submit the internship application on Thursday.,"{""task"": ""submit the internship application"", ""time"": ""11 am""}"
+tara_009744,JOKE,Lighten the mood about cats,Why was the math book sad? It had too many problems.,{}
+tara_000309,GREETING,"Well sup, how are you","Hi! I'm TARA, ready when you are.",{}
+tara_009504,JOKE,I'm bored tell me a joke about exams tara,How does a penguin build its house? Igloos it together.,{}
+tara_008696,KNOWLEDGE,Define the human brain,The human brain is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the human brain""}"
+tara_006486,REMINDER,Set a reminder to schedule the dentist appointment at 1 pm this afternoon,Reminder set — I'll nudge you to schedule the dentist appointment this afternoon.,"{""task"": ""schedule the dentist appointment"", ""time"": ""1 pm"", ""date"": ""this afternoon""}"
+tara_009292,STUDY,What's the best way to learn computer architecture,Sure! Let's break computer architecture down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""computer architecture""}"
+tara_011184,NEGATION,"Honestly, cancel tara.","Alright, cancelled.",{}
+tara_000792,GOODBYE,Bye,Goodnight! Sleep well.,{}
+tara_004547,TIME,"So, give me the time right now",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_010643,NEGATION,"Honestly, not at all ok","Okay, no worries!",{}
+tara_006903,TASK,"Hey, display all my tasks right now",You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_009621,JOKE,Got any jokes about AI tara,Why did the coffee file a police report? It got mugged.,{}
+tara_007614,TASK,"Listen, give me my pending to-dos tara?",You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_004147,SMALL_TALK,"Um, having a good day tara",All good on my end! What's going on with you?,{}
+tara_003421,ABOUT_TARA,"Okay so, who is tara tara","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_001393,THANKS,"Honestly, thanks so much",Of course! Reach out anytime.,{}
+tara_010956,NEGATION,"By the way, no, cancel that.","Got it, I'll skip that.",{}
+tara_005186,DATE,"Quick thing, what's the date today tara?",I'm not connected to a real-time calendar at the moment.,{}
+tara_005147,DATE,"Honestly, could you tell me what day it is tara?","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_008975,STUDY,I have a doubt in DBMS,Happy to help with DBMS. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""DBMS""}"
+tara_002703,HELP,"So, explain how to use tara tara?","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_011339,MOOD,Feeling pretty happy today,Love that energy! Glad you're feeling happy today.,"{""mood"": ""happy"", ""polarity"": ""positive""}"
+tara_002271,HELP,"Well, help me","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_003971,SMALL_TALK,"Quick thing, do you sleep tara",Pretty good! What's on your mind today?,{}
+tara_007303,TASK,Cancel the task submit the internship application,"Okay, 'submit the internship application' has been deleted.","{""task"": ""submit the internship application"", ""action"": ""delete""}"
+tara_004749,TIME,"Well, can you tell me the time right now","I can't check a live clock from here, but your device should show the current time.",{}
+tara_003768,SMALL_TALK,"Listen, do you dream?",All good on my end! What's going on with you?,{}
+tara_004104,SMALL_TALK,"Um, is everything alright with you right now?",All good on my end! What's going on with you?,{}
+tara_011879,UNKNOWN,"Hey tara, predict the exact stock price tomorrow",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_010691,NEGATION,"So, no thank you for now","Alright, cancelled.",{}
+tara_011756,MOOD,I feel relaxed,Love that energy! Glad you're feeling relaxed today.,"{""mood"": ""relaxed"", ""polarity"": ""positive""}"
+tara_011669,MOOD,This whole week i've been cheerful,That's wonderful — feeling cheerful is a great place to be. Keep it up!,"{""mood"": ""cheerful"", ""polarity"": ""positive""}"
+tara_011853,UNKNOWN,"hey tara, mmmmmm nnnnnn oooooo","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_006656,REMINDER,Don't let me forget to return the library books,Got it! I'll remind you to return the library books at 5 pm.,"{""task"": ""return the library books""}"
+tara_004057,SMALL_TALK,"Hey tara, do you dream tara?","I'm doing great, thanks for asking! How about you?",{}
+tara_004679,TIME,"Just so you know, can you tell me the time",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
+tara_004127,SMALL_TALK,"Quick thing, do you have feelings?","I'm doing great, thanks for asking! How about you?",{}
+tara_003613,SMALL_TALK,"Well, what have you been doing tara?","I'm doing great, thanks for asking! How about you?",{}
+tara_010892,NEGATION,"So, false tara.","Okay, no worries!",{}
+tara_002249,HELP,"Um, guide me?","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_001511,THANKS,"Well, that was really helpful, thanks tara",Of course! Reach out anytime.,{}
+tara_012279,UNKNOWN,flibbertigibbet nonsense text?,I'm not able to make sense of that input. Mind rewording it?,{}
+tara_004598,TIME,May i know the time?,"I can't check a live clock from here, but your device should show the current time.",{}
+tara_008077,GENERAL_QUERY,"I forget, what is the largest planet in the solar system?",Jupiter is the largest planet in our solar system.,{}
+tara_007487,TASK,Add a task to schedule the dentist appointment,Task added: schedule the dentist appointment.,"{""task"": ""schedule the dentist appointment"", ""action"": ""add""}"
+tara_010987,NEGATION,"Hey tara, not exactly tara","Got it, I'll skip that.",{}
+tara_005571,WEATHER,Will it rain on Friday in Lucknow,"I'm not connected to a live weather feed, so I can't confirm conditions in Lucknow right now.","{""city"": ""Lucknow"", ""date"": ""on Friday""}"
+tara_008618,KNOWLEDGE,What's the deal with the water cycle,The water cycle is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the water cycle""}"
+tara_000951,GOODBYE,"By the way, farewell tara for now",Catch you later! Have a great day.,{}
+tara_005641,WEATHER,How hot is it in Vellore today,"I'm not connected to a live weather feed, so I can't confirm conditions in Vellore right now.","{""city"": ""Vellore""}"
+tara_011174,NEGATION,"Quick thing, i disagree","Understood, no problem.",{}
+tara_003406,ABOUT_TARA,"Hey tara, are you siri right now?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_012085,UNKNOWN,"Hey tara, write my entire thesis for me by tonight?",I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_007212,TASK,Put pack for the trip on my to-do list,"Got it, 'pack for the trip' is now on your list.","{""task"": ""pack for the trip"", ""action"": ""add""}"
+tara_004191,SMALL_TALK,What have you been doing,"I'm just here, ready to chat whenever you are.",{}
+tara_012310,UNKNOWN,"So, can you feel emotions like humans do",That's outside what I can help with right now — could you clarify?,{}
+tara_010934,NEGATION,"So, never tara","Alright, cancelled.",{}
+tara_006748,REMINDER,Notify me to prepare slides for the presentation on Monday,"Sure, I've noted a reminder to prepare slides for the presentation.","{""task"": ""prepare slides for the presentation"", ""date"": ""on Monday""}"
+tara_002774,HELP,"Okay so, how do i get started right now?","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_004920,DATE,"Well, how many days until friday",I'm not connected to a real-time calendar at the moment.,{}
+tara_004238,SMALL_TALK,"Hey tara, how's it going tara?",Doing well! Anything fun happening in your day?,{}
+tara_005110,DATE,"Hey tara, what's the date this coming friday?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_012055,UNKNOWN,"um, kablooey splat wonk?",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_011892,UNKNOWN,flibber jabber wobber,"Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_002646,HELP,List your commands,"Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_001631,THANKS,"Listen, cheers for that for now",Anytime! Let me know if you need anything else.,{}
+tara_000908,GOODBYE,"Listen, see ya",Bye! I'll be here whenever you need me.,{}
+tara_012078,UNKNOWN,"hey tara, mnbvcxz mnbvcxz?",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_005797,WEATHER,How warm is it in Kochi,"I'm not connected to a live weather feed, so I can't confirm conditions in Kochi right now.","{""city"": ""Kochi""}"
+tara_004133,SMALL_TALK,Talk to me?,"I'm just here, ready to chat whenever you are.",{}
+tara_005958,WEATHER,Is it raining in Nagpur,"I don't have live weather data right now, but I'd recommend checking a weather app for Nagpur.","{""city"": ""Nagpur""}"
+tara_011011,NEGATION,"Hey, incorrect tara.","Understood, no problem.",{}
+tara_011252,NEGATION,"By the way, nah","Got it, I'll skip that.",{}
+tara_008588,KNOWLEDGE,Give me an overview of photosynthesis,Photosynthesis is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""photosynthesis""}"
+tara_009527,JOKE,I'm bored tell me a joke about college life tara,Why was the cat afraid of the tree? Because of its bark!,{}
+tara_005344,DATE,"Hey tara, what's the date going to be tomorrow","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_010225,AFFIRMATION,"Listen, yeah go for it.","Got it, thanks for confirming.",{}
+tara_006273,REMINDER,Remind me at 11 am to prepare slides for the presentation,Got it! I'll remind you to prepare slides for the presentation at 11 am.,"{""task"": ""prepare slides for the presentation"", ""time"": ""11 am""}"
+tara_011977,UNKNOWN,"um, kablooey splat wonk",That's outside what I can help with right now — could you clarify?,{}
+tara_008999,STUDY,I have a doubt in probability and statistics,"Got it — studying probability and statistics. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""probability and statistics""}"
+tara_009549,JOKE,Say something funny,Why did the computer go to the doctor? It had a virus!,{}
+tara_010316,AFFIRMATION,"Listen, please do","Perfect, moving forward with that.",{}
+tara_008135,GENERAL_QUERY,What is the minutes of day,That depends on the exact units — let me know if you'd like the standard conversion for minutes in a day.,{}
+tara_012332,UNKNOWN,1 + 1 = fish!,I'm not able to make sense of that input. Mind rewording it?,{}
+tara_009287,STUDY,Make a study plan for data structures,Happy to help with data structures. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""data structures""}"
+tara_006035,WEATHER,How hot is it in Tokyo today,"I don't have live weather data right now, but I'd recommend checking a weather app for Tokyo.","{""city"": ""Tokyo""}"
+tara_005543,WEATHER,Is it sunny in Kolkata today,I can't pull real-time weather for Kolkata at the moment — a weather app will have the latest forecast.,"{""city"": ""Kolkata""}"
+tara_000813,GOODBYE,"Um, im heading out",Catch you later! Have a great day.,{}
+tara_010119,AFFIRMATION,"So, yep.","Alright, sounds good!",{}
+tara_002479,HELP,"Quick thing, tara i need help with something right now","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_008859,STUDY,Make a study plan for system design,Sure! Let's break system design down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""system design""}"
+tara_003458,ABOUT_TARA,"Well, what is your purpose right now","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_011013,NEGATION,"Um, forget it tara","Alright, cancelled.",{}
+tara_003815,SMALL_TALK,"Um, how are you right now?","I'm just here, ready to chat whenever you are.",{}
+tara_009144,STUDY,I'm struggling with DBMS,"Let's tackle DBMS together. I can quiz you, summarize key topics, or explain specific concepts — what works best?","{""subject"": ""DBMS""}"
+tara_008980,STUDY,Help me understand SQL concepts,"Got it — studying SQL. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""SQL""}"
+tara_001965,THANKS,"By the way, thanks a ton for now",No problem at all!,{}
+tara_004064,SMALL_TALK,"Just so you know, how have you been tara?","I'm doing great, thanks for asking! How about you?",{}
+tara_003264,ABOUT_TARA,"By the way, why are you called tara","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_010056,AFFIRMATION,"By the way, right","Okay, noted!",{}
+tara_003781,SMALL_TALK,"Just so you know, are you okay tara?","I'm just here, ready to chat whenever you are.",{}
+tara_001438,THANKS,"Just so you know, i appreciate it tara",Anytime! Let me know if you need anything else.,{}
+tara_011458,MOOD,I'm feeling sad,That sounds tough. Feeling sad is hard — I'm here if you want to talk or need a break.,"{""mood"": ""sad"", ""polarity"": ""negative""}"
+tara_004275,SMALL_TALK,"Honestly, do you sleep tara",All good on my end! What's going on with you?,{}
+tara_009194,STUDY,Quiz me on compiler design,Sure! Let's break compiler design down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""compiler design""}"
+tara_003194,ABOUT_TARA,"Hey tara, who created you right now?","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_007045,TASK,Mark the task test the API endpoint as complete,Marked 'test the API endpoint' as finished. Good job!,"{""task"": ""test the API endpoint"", ""action"": ""complete""}"
+tara_011848,UNKNOWN,"So, what's the meaning of life, the universe and everything?","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_011814,MOOD,Today has been inspired,Love that energy! Glad you're feeling inspired today.,"{""mood"": ""inspired"", ""polarity"": ""positive""}"
+tara_006321,REMINDER,Please remind me to pay the electricity bill on Friday,Reminder set — I'll nudge you to pay the electricity bill on Friday.,"{""task"": ""pay the electricity bill"", ""date"": ""on Friday""}"
+tara_001220,GOODBYE,Signing off tara.,See you later! Take care.,{}
+tara_001802,THANKS,"Okay so, thanks a million",Of course! Reach out anytime.,{}
+tara_001378,THANKS,"Listen, thanks for the help.",Anytime! Let me know if you need anything else.,{}
+tara_009003,STUDY,Explain algorithms for my exam,Sure! Let's break algorithms down — want me to start with the fundamentals or go straight to the tricky parts?,"{""subject"": ""algorithms""}"
+tara_003182,ABOUT_TARA,"Okay so, who created you?",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_000458,GREETING,Well namaste tara,Hello! How can I assist you right now?,{}
+tara_001083,GOODBYE,"Listen, ttyl.",Bye! I'll be here whenever you need me.,{}
+tara_003173,ABOUT_TARA,"Listen, what are you tara","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003265,ABOUT_TARA,"So, are you an ai?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_007960,GENERAL_QUERY,"Trivia time, how many continents are there?",There are seven continents on Earth.,{}
+tara_003664,SMALL_TALK,"So, do you dream right now?","I'm doing great, thanks for asking! How about you?",{}
+tara_000476,GREETING,Oh hi.,Hello! How can I assist you right now?,{}
+tara_003526,ABOUT_TARA,"Well, are you always listening right now?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003943,SMALL_TALK,How's your day going so far?,"I'm just here, ready to chat whenever you are.",{}
+tara_003847,SMALL_TALK,"So, make conversation?",All good on my end! What's going on with you?,{}
+tara_011487,MOOD,I'm so irritated today,"I'm sorry to hear that you're feeling irritated. Want to talk about what's going on, or would a distraction help?","{""mood"": ""irritated"", ""polarity"": ""negative""}"
+tara_008264,KNOWLEDGE,What should i know about artificial intelligence,Artificial intelligence is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""artificial intelligence""}"
+tara_001981,THANKS,"Quick thing, thx",You're welcome! Happy to help.,{}
+tara_012440,UNKNOWN,"um, flibbertigibbet nonsense text!","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_009410,JOKE,Tell me something funny about robots?,How does a penguin build its house? Igloos it together.,{}
+tara_005338,DATE,"Just so you know, remind me what today's date is tara",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_000172,GREETING,Oh hiya :),Hey! Good to see you. What's on your mind?,{}
+tara_002097,HELP,"Well, give me a list of things you can help with tara","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_001890,THANKS,"Well, thanks",No problem at all!,{}
+tara_001092,GOODBYE,"Listen, i'll talk to you later",Goodnight! Sleep well.,{}
+tara_006919,TASK,Delete the task renew my gym membership,"Okay, 'renew my gym membership' has been deleted.","{""task"": ""renew my gym membership"", ""action"": ""delete""}"
+tara_000357,GREETING,Hiya tara :),Hello! How can I assist you right now?,{}
+tara_009180,STUDY,Quiz me on GATE CS,"Got it — studying GATE CS. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""GATE CS""}"
+tara_004215,SMALL_TALK,"Listen, tell me something interesting tara?",Pretty good! What's on your mind today?,{}
+tara_006175,REMINDER,Don't let me forget to pay the electricity bill,"Okay, I'll remind you to pay the electricity bill this morning at half past three.","{""task"": ""pay the electricity bill""}"
+tara_006204,REMINDER,Notify me to read chapter 5 tonight,Got it! I'll remind you to read chapter 5 at 6 am.,"{""task"": ""read chapter 5"", ""date"": ""tonight""}"
+tara_004247,SMALL_TALK,"Okay so, what are you up to right now",All good on my end! What's going on with you?,{}
+tara_007244,TASK,"Um, what do i still need to do tara?","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
+tara_011340,MOOD,I've been feeling anxious all week,That sounds tough. Feeling anxious is hard — I'm here if you want to talk or need a break.,"{""mood"": ""anxious"", ""polarity"": ""negative""}"
+tara_011392,MOOD,I'm so meh today,Thanks for sharing — I'm here if you want to talk more.,"{""mood"": ""meh"", ""polarity"": ""neutral""}"
+tara_000298,GREETING,Oh hello!,Hello there! What can I do for you?,{}
+tara_009758,JOKE,Got a pun for me about robots,Why did the computer go to the doctor? It had a virus!,{}
+tara_002714,HELP,"By the way, help tara?","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_010317,AFFIRMATION,"Hey, affirmative tara","Got it, thanks for confirming.",{}
+tara_012519,UNKNOWN,"um, spork spork spork spork!",I'm not quite sure I understood that. Could you rephrase it?,{}
+tara_000082,GREETING,"Oh namaste tara, how are you",Hello there! What can I do for you?,{}
+tara_011668,MOOD,I'm feeling anxious,Thanks for sharing that. Being anxious isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""anxious"", ""polarity"": ""negative""}"
+tara_007071,TASK,I finished renew my gym membership,Marked 'renew my gym membership' as finished. Good job!,"{""task"": ""renew my gym membership"", ""action"": ""complete""}"
+tara_010649,NEGATION,That's not correct tara,"Okay, no worries!",{}
+tara_003375,ABOUT_TARA,"Um, why are you called tara","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
+tara_008448,KNOWLEDGE,Why does vaccines matter,Vaccines is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""vaccines""}"
+tara_007737,GENERAL_QUERY,"Here's one for you, how many continents are there?",There are seven continents on Earth.,{}
+tara_002127,HELP,How can you help me tara?,"I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_008792,KNOWLEDGE,Define the periodic table,The periodic table is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the periodic table""}"
+tara_010420,AFFIRMATION,"By the way, that's right tara","Perfect, moving forward with that.",{}
+tara_009609,JOKE,Got any jokes about engineers?,Why was the cat afraid of the tree? Because of its bark!,{}
+tara_011876,UNKNOWN,quixotic flumberjack noodle!,That's outside what I can help with right now — could you clarify?,{}
+tara_002085,HELP,"Listen, what can you do right now","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_000808,GOODBYE,"Well, im heading out ok",Goodbye! Talk soon.,{}
+tara_011180,NEGATION,"Um, i disagree.","Okay, no worries!",{}
+tara_006469,REMINDER,Remind me tomorrow to fix the bug in my project,Reminder set — I'll nudge you to fix the bug in my project tomorrow.,"{""task"": ""fix the bug in my project"", ""date"": ""tomorrow""}"
+tara_012482,UNKNOWN,"um, kjshdfkjshdf!","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_004007,SMALL_TALK,"Um, how's your day going so far right now","I'm doing great, thanks for asking! How about you?",{}
+tara_008759,KNOWLEDGE,Explain the human brain,The human brain is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the human brain""}"
+tara_000832,GOODBYE,"By the way, peace out tara.",See you later! Take care.,{}
+tara_002440,HELP,"By the way, how does this work?","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_011446,MOOD,Lately i just feel proud,That's great to hear you're feeling proud! What's been going well?,"{""mood"": ""proud"", ""polarity"": ""positive""}"
+tara_002082,HELP,"So, can you assist me tara","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_007108,TASK,"Well, what are my pending tasks",Let me pull up your to-do list for you.,"{""action"": ""list""}"
+tara_001320,THANKS,"Just so you know, cool thanks tara",Glad I could help!,{}
+tara_010333,AFFIRMATION,Right!,"Alright, sounds good!",{}
+tara_009475,JOKE,Make me laugh about engineers tara,Why don't robots ever panic in emergencies? They have great circuit-breakers.,{}
+tara_005341,DATE,"Listen, what's the date",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_010824,NEGATION,"Hey, i don't think so.","Okay, no worries!",{}
+tara_012123,UNKNOWN,"um, lorem ipsum dolor blah",That's outside what I can help with right now — could you clarify?,{}
+tara_006441,REMINDER,Create a reminder to pay the electricity bill on next week,Got it! I'll remind you to pay the electricity bill at half past three.,"{""task"": ""pay the electricity bill"", ""date"": ""next week""}"
+tara_004910,DATE,"Hey tara, can you tell me the date right now?","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_007635,GENERAL_QUERY,"Here's one for you, how many players are on a football team?",A standard football (soccer) team has 11 players on the field.,{}
+tara_002320,HELP,I need assistance?,"Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
+tara_009552,JOKE,Do you know any jokes about coffee?,Why did the student eat his homework? Because the teacher said it was a piece of cake.,{}
+tara_005556,WEATHER,Is it going to snow in Jaipur,"I don't have live weather data right now, but I'd recommend checking a weather app for Jaipur.","{""city"": ""Jaipur""}"
+tara_002323,HELP,"Well, guide me?","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_002455,HELP,"Hey tara, i need help tara","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_005342,DATE,"Hey tara, give me today's date?","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_007565,TASK,I finished book the train ticket,Nice work! I've marked 'book the train ticket' as done.,"{""task"": ""book the train ticket"", ""action"": ""complete""}"
+tara_000023,GREETING,Hola tara,"Hey, welcome back! What are we working on today?",{}
+tara_012205,UNKNOWN,"um, asdfghjkl!",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_001145,GOODBYE,"By the way, i'm leaving now!",Take care! Come back anytime.,{}
+tara_003255,ABOUT_TARA,"Hey, why are you called tara right now","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_003178,ABOUT_TARA,"Listen, are you an ai right now","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_010969,NEGATION,"By the way, negative for now","Understood, no problem.",{}
+tara_009314,STUDY,Create flashcards for GATE CS,"Got it — studying GATE CS. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""GATE CS""}"
+tara_004542,TIME,"Well, i need to know the time?","I can't check a live clock from here, but your device should show the current time.",{}
+tara_000111,GREETING,"Well hello, how are you",Hi there! Let me know what you need.,{}
+tara_008984,STUDY,What are common interview questions on graph theory,Happy to help with graph theory. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""graph theory""}"
+tara_005573,WEATHER,Check the weather for Singapore,I can't pull real-time weather for Singapore at the moment — a weather app will have the latest forecast.,"{""city"": ""Singapore""}"
+tara_008435,KNOWLEDGE,Give me the basics of supply and demand,Supply and demand is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""supply and demand""}"
+tara_006827,REMINDER,I need a reminder to water the plants at 10:15 pm,"Sure, I've noted a reminder to water the plants.","{""task"": ""water the plants"", ""time"": ""10:15 pm""}"
+tara_001993,THANKS,"Quick thing, that was really helpful, thanks ok",Anytime! Let me know if you need anything else.,{}
+tara_009950,JOKE,I need a laugh about college life tara,Why don't robots ever panic in emergencies? They have great circuit-breakers.,{}
+tara_007515,TASK,Create a task: update my resume,Added 'update my resume' to your task list.,"{""task"": ""update my resume"", ""action"": ""add""}"
+tara_000369,GREETING,Hey!,Hey! How can I help you today?,{}
+tara_011345,MOOD,I'm feeling overwhelmed,Thanks for sharing that. Being overwhelmed isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""overwhelmed"", ""polarity"": ""negative""}"
+tara_004690,TIME,"Um, what time is it now right now?","I can't check a live clock from here, but your device should show the current time.",{}
+tara_001385,THANKS,"Quick thing, thank you so much tara",You're welcome! Happy to help.,{}
+tara_006393,REMINDER,Add a reminder: attend the club meeting at 1 pm,Reminder set — I'll nudge you to attend the club meeting this afternoon.,"{""task"": ""attend the club meeting"", ""time"": ""1 pm""}"
+tara_009329,STUDY,Test my knowledge of TCP/IP,Happy to help with TCP/IP. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""TCP/IP""}"
+tara_000320,GREETING,Well evening :),Hey! How can I help you today?,{}
+tara_004291,TIME,"Well, may i know the time tara?","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_001678,THANKS,Thank you for helping,No problem at all!,{}
+tara_006494,REMINDER,Could you set a reminder to water the plants at 6:30 am,"Okay, I'll remind you to water the plants next week at 6:30 am.","{""task"": ""water the plants"", ""time"": ""6:30 am""}"
+tara_001630,THANKS,Thank you tara!,Of course! Reach out anytime.,{}
+tara_006892,TASK,Delete the task buy groceries,Removed 'buy groceries' from your list.,"{""task"": ""buy groceries"", ""action"": ""delete""}"
+tara_003918,SMALL_TALK,"Just so you know, how's your day going so far tara","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_005534,WEATHER,Is it going to snow in Vellore,I can't pull real-time weather for Vellore at the moment — a weather app will have the latest forecast.,"{""city"": ""Vellore""}"
+tara_001507,THANKS,"Okay so, thanks a million!",Glad I could help!,{}
+tara_001994,THANKS,"Hey, thank you for helping!",You're welcome! Happy to help.,{}
+tara_012442,UNKNOWN,vwxyz vwxyz!,I'm not able to make sense of that input. Mind rewording it?,{}
+tara_001360,THANKS,Thanks so much.,You're welcome! That's what I'm here for.,{}
+tara_006555,REMINDER,Add a reminder: clean my room at noon,"Okay, I'll remind you to clean my room tonight at noon.","{""task"": ""clean my room"", ""time"": ""noon""}"
+tara_008714,KNOWLEDGE,What is the periodic table,The periodic table is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the periodic table""}"
+tara_001684,THANKS,"Honestly, thank you!",Of course! Reach out anytime.,{}
+tara_007550,TASK,"Well, what tasks do i have today",You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
+tara_003716,SMALL_TALK,"Listen, how's your day tara",All good on my end! What's going on with you?,{}
+tara_005371,DATE,"So, what's today's date",I'm not connected to a real-time calendar at the moment.,{}
+tara_009529,JOKE,Can you be funny about exams,Why did the AI go to therapy? It had too many unresolved dependencies.,{}
+tara_009594,JOKE,Hit me with a joke about robots tara,Why was the cat afraid of the tree? Because of its bark!,{}
+tara_010846,NEGATION,"Listen, not exactly tara.","Okay, no worries!",{}
+tara_011476,MOOD,I woke up feeling irritated,Thanks for sharing that. Being irritated isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""irritated"", ""polarity"": ""negative""}"
+tara_003123,ABOUT_TARA,"Hey tara, are you a chatbot right now","I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.",{}
+tara_011808,MOOD,I've been feeling low all week,Thanks for sharing that. Being low isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""low"", ""polarity"": ""negative""}"
+tara_006298,REMINDER,Remind me to submit the internship application on Wednesday,"Okay, I'll remind you to submit the internship application on Wednesday at 1 pm.","{""task"": ""submit the internship application"", ""date"": ""on Wednesday""}"
+tara_012397,UNKNOWN,"um, the number seven is jealous!","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_005826,WEATHER,How hot is it in Patna today,"I don't have live weather data right now, but I'd recommend checking a weather app for Patna.","{""city"": ""Patna""}"
+tara_000885,GOODBYE,"Hey tara, see ya for now",See you later! Take care.,{}
+tara_008578,KNOWLEDGE,Give me an overview of supply and demand,Supply and demand is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""supply and demand""}"
+tara_004026,SMALL_TALK,"Um, what's new right now?","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
+tara_011350,MOOD,I'm a bit lonely,That sounds tough. Feeling lonely is hard — I'm here if you want to talk or need a break.,"{""mood"": ""lonely"", ""polarity"": ""negative""}"
+tara_008022,GENERAL_QUERY,"Trivia time, what is the speed of light?","The speed of light is about 299,792 kilometers per second.",{}
+tara_003605,SMALL_TALK,"Honestly, what's new tara","I'm just here, ready to chat whenever you are.",{}
+tara_000616,GOODBYE,"Um, that's all for now",See you later! Take care.,{}
+tara_002449,HELP,"Quick thing, help me right now?","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_000811,GOODBYE,"Hey tara, gotta go tara",Goodnight! Sleep well.,{}
+tara_005992,WEATHER,Is it sunny in Bhopal today,"I don't have live weather data right now, but I'd recommend checking a weather app for Bhopal.","{""city"": ""Bhopal""}"
+tara_001375,THANKS,"By the way, cool thanks.",Glad I could help!,{}
+tara_000850,GOODBYE,"Just so you know, cya for now",Take care! Come back anytime.,{}
+tara_002029,THANKS,"Um, awesome thanks tara",You're welcome! That's what I'm here for.,{}
+tara_008963,STUDY,Give me tips to study operating systems,Happy to help with operating systems. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""operating systems""}"
+tara_012270,UNKNOWN,"Hey tara, can you make me invisible?",That's outside what I can help with right now — could you clarify?,{}
+tara_010942,NEGATION,"Okay so, no, don't for now","Okay, noted — won't do that.",{}
+tara_012456,UNKNOWN,"Hey tara, do aliens exist for real, prove it right now","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_004305,TIME,"Um, can you tell me the time right now?","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_002472,HELP,"Hey, how do i use you","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
+tara_003907,SMALL_TALK,"Um, say something fun tara","I'm doing great, thanks for asking! How about you?",{}
+tara_010901,NEGATION,"Listen, no way","Understood, no problem.",{}
+tara_006652,REMINDER,Remind me at 4:30 pm to test the API endpoint,"Okay, I'll remind you to test the API endpoint today at 4:30 pm.","{""task"": ""test the API endpoint"", ""time"": ""4:30 pm""}"
+tara_002148,HELP,"Um, need some help here tara","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
+tara_005631,WEATHER,How's the weather in Ranchi,"I'm not connected to a live weather feed, so I can't confirm conditions in Ranchi right now.","{""city"": ""Ranchi""}"
+tara_009868,JOKE,Make me laugh about coffee,Why do Python programmers wear glasses? Because they can't C.,{}
+tara_011176,NEGATION,"Quick thing, forget it","Understood, no problem.",{}
+tara_010604,AFFIRMATION,"Listen, sounds good tara.","Okay, noted!",{}
+tara_010286,AFFIRMATION,"Hey tara, right tara.","Perfect, moving forward with that.",{}
+tara_001480,THANKS,"Okay so, you're a lifesaver tara",You're welcome! Happy to help.,{}
+tara_012405,UNKNOWN,"hey tara, moo cluck oink quack!","Sorry, I'm not sure what you mean. Could you try again?",{}
+tara_006851,REMINDER,Could you set a reminder to pay the electricity bill at 7 o'clock,"Sure, I've noted a reminder to pay the electricity bill.","{""task"": ""pay the electricity bill"", ""time"": ""7 o'clock""}"
+tara_002649,HELP,"Honestly, help tara?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_012090,UNKNOWN,"um, zibber zabber!",That's outside what I can help with right now — could you clarify?,{}
+tara_001935,THANKS,"Listen, thank you kindly tara",You're welcome! Happy to help.,{}
+tara_010645,NEGATION,"Well, i don't think so.","Alright, cancelled.",{}
+tara_004786,TIME,"By the way, do you know the time right now?","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_008460,KNOWLEDGE,What do you know about photosynthesis,Photosynthesis is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""photosynthesis""}"
+tara_005828,WEATHER,How hot is it in New York today,"I'm not connected to a live weather feed, so I can't confirm conditions in New York right now.","{""city"": ""New York""}"
+tara_005435,DATE,"Okay so, give me today's date tara?",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_012364,UNKNOWN,"hey tara, does the color seven taste loud?",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_004126,SMALL_TALK,"Well, what's your favorite color","I'm just here, ready to chat whenever you are.",{}
+tara_006457,REMINDER,Could you set a reminder to renew my gym membership at midnight,"Sure, I've noted a reminder to renew my gym membership.","{""task"": ""renew my gym membership"", ""time"": ""midnight""}"
+tara_003791,SMALL_TALK,"By the way, do you ever get bored right now","I'm just here, ready to chat whenever you are.",{}
+tara_003911,SMALL_TALK,"Just so you know, what's your favorite color tara?",Doing well! Anything fun happening in your day?,{}
+tara_006445,REMINDER,Remind me on Tuesday to clean my room,"Sure, I've noted a reminder to clean my room.","{""task"": ""clean my room"", ""date"": ""on Tuesday""}"
+tara_000994,GOODBYE,"Quick thing, i'm off for now",Goodbye! Talk soon.,{}
+tara_010497,AFFIRMATION,I agree ok,"Got it, thanks for confirming.",{}
+tara_012331,UNKNOWN,"Hey tara, can you turn off my alarm?","Hmm, I didn't quite catch that — can you say it differently?",{}
+tara_001012,GOODBYE,"Um, logging off",See you later! Take care.,{}
+tara_008708,KNOWLEDGE,Summarize DNA replication for me,DNA replication is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""DNA replication""}"
+tara_005221,DATE,"By the way, what day is it today right now",I can't check the live date from here — take a look at your phone or system calendar.,{}
+tara_007110,TASK,Check off backup my laptop,Nice work! I've marked 'backup my laptop' as done.,"{""task"": ""backup my laptop"", ""action"": ""complete""}"
+tara_002786,ABOUT_TARA,Who are you right now,TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
+tara_004873,DATE,What's today's day and date tara,I'm not connected to a real-time calendar at the moment.,{}
+tara_007997,GENERAL_QUERY,"Quick question, what's 12 times 12?",Let me work that out for you based on standard conversions.,{}
+tara_002660,HELP,"Listen, can you walk me through your features right now?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
+tara_003276,ABOUT_TARA,"Okay so, tell me about yourself right now","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_000931,GOODBYE,"By the way, logging off ok",Goodbye! Talk soon.,{}
+tara_010774,NEGATION,"So, not really.","Understood, no problem.",{}
+tara_000497,GREETING,"Hola tara, tara","Hey, welcome back! What are we working on today?",{}
+tara_010581,AFFIRMATION,"Um, affirmative","Perfect, moving forward with that.",{}
+tara_007412,TASK,"By the way, what tasks do i have today?",Let me pull up your to-do list for you.,"{""action"": ""list""}"
+tara_001930,THANKS,"Okay so, cool thanks!",Anytime! Let me know if you need anything else.,{}
+tara_001029,GOODBYE,"So, see you tara!",Goodbye! Talk soon.,{}
+tara_005116,DATE,"So, tell me today's date","I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_006126,REMINDER,I need a reminder to revise DBMS notes at 10:15 pm,"Sure, I've noted a reminder to revise DBMS notes.","{""task"": ""revise DBMS notes"", ""time"": ""10:15 pm""}"
+tara_010700,NEGATION,"By the way, never","Alright, cancelled.",{}
+tara_004948,DATE,"Okay so, current date please tara?",I'm not connected to a real-time calendar at the moment.,{}
+tara_011268,MOOD,"Not gonna lie, i'm proud",That's wonderful — feeling proud is a great place to be. Keep it up!,"{""mood"": ""proud"", ""polarity"": ""positive""}"
+tara_005236,DATE,Do you know the date today right now,"I don't have access to a live calendar right now, but your device should show today's date.",{}
+tara_007313,TASK,Put clean my room on my to-do list,Added 'clean my room' to your task list.,"{""task"": ""clean my room"", ""action"": ""add""}"
+tara_012283,UNKNOWN,"So, give me the answers to tomorrow's exam?",I'm not able to make sense of that input. Mind rewording it?,{}
+tara_011341,MOOD,I've been nervous lately,That sounds tough. Feeling nervous is hard — I'm here if you want to talk or need a break.,"{""mood"": ""nervous"", ""polarity"": ""negative""}"
+tara_010337,AFFIRMATION,"Well, yeah go for it for now","Alright, sounds good!",{}
+tara_004663,TIME,"Okay so, give me the time","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
+tara_010746,NEGATION,"Quick thing, no, cancel that.","Alright, cancelled.",{}

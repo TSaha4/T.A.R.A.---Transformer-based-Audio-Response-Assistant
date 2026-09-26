@@ -1,0 +1,16 @@
+{
+  "note": "Phrases inspired by typical campus English used by Indian students. Use these to manually test the Web Speech API with an Indian accent. They are not official Svarah transcripts.",
+  "lang": "en-IN",
+  "phrases": [
+    "What is the minimum attendance required for exams?",
+    "Can you tell me the library timings on Saturday?",
+    "How do I apply for hostel leave during the festival?",
+    "Where should I pay the semester fees online?",
+    "Is the placement cell conducting aptitude training this week?",
+    "I need the contact of the controller of examinations.",
+    "When will the end semester results be published?",
+    "How can I get an NOC for a summer internship?",
+    "Are first year students allotted hostel rooms by default?",
+    "Please show me the class timetable for computer science."
+  ]
+}

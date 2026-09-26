@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+backend/.venv/
+backend/venv/
+*.log
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.next/
+.next/
+npm-debug.log*
+
+# Env
+.env
+.env.local
+.env.production
+frontend/.env
+frontend/.env.local
+backend/.env
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model training caches
+backend/model/*.png
+.keras/
+~*
+
+# Database (auto-created by TARA)
+database/*.db
+
+# Large optional Svarah audio (keep docs/metadata)
+dataset/svarah/audio/
+dataset/svarah/clips/
+dataset/svarah/*.tar
+dataset/svarah/*.zip
+dataset/svarah/*.wav
+dataset/svarah/*.flac
+dataset/svarah/*.mp3

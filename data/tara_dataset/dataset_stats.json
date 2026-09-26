@@ -1,0 +1,24 @@
+{
+  "per_intent_counts": {
+    "GREETING": 534,
+    "GOODBYE": 750,
+    "THANKS": 750,
+    "HELP": 750,
+    "ABOUT_TARA": 750,
+    "SMALL_TALK": 750,
+    "TIME": 540,
+    "DATE": 650,
+    "WEATHER": 643,
+    "REMINDER": 750,
+    "TASK": 750,
+    "GENERAL_QUERY": 578,
+    "KNOWLEDGE": 600,
+    "STUDY": 600,
+    "JOKE": 570,
+    "AFFIRMATION": 650,
+    "NEGATION": 650,
+    "MOOD": 560,
+    "UNKNOWN": 732
+  },
+  "total": 12557
+}

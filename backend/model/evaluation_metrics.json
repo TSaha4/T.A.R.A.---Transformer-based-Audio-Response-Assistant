@@ -1,0 +1,33 @@
+{
+  "model": "TARA Transformer (Multi-Head Self-Attention Encoder)",
+  "dataset": "data/tara_dataset (19 intents, 12,557 utterances total)",
+  "test_split_file": "tara_test.jsonl",
+  "test_samples": 1259,
+  "test_accuracy": 0.9952,
+  "macro_precision": 0.9957,
+  "macro_recall": 0.9946,
+  "macro_f1": 0.995,
+  "weighted_f1": 0.9952,
+  "num_classes": 19,
+  "classes": [
+    "ABOUT_TARA",
+    "AFFIRMATION",
+    "DATE",
+    "GENERAL_QUERY",
+    "GOODBYE",
+    "GREETING",
+    "HELP",
+    "JOKE",
+    "KNOWLEDGE",
+    "MOOD",
+    "NEGATION",
+    "REMINDER",
+    "SMALL_TALK",
+    "STUDY",
+    "TASK",
+    "THANKS",
+    "TIME",
+    "UNKNOWN",
+    "WEATHER"
+  ]
+}

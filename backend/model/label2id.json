@@ -1,0 +1,21 @@
+{
+  "ABOUT_TARA": 0,
+  "AFFIRMATION": 1,
+  "DATE": 2,
+  "GENERAL_QUERY": 3,
+  "GOODBYE": 4,
+  "GREETING": 5,
+  "HELP": 6,
+  "JOKE": 7,
+  "KNOWLEDGE": 8,
+  "MOOD": 9,
+  "NEGATION": 10,
+  "REMINDER": 11,
+  "SMALL_TALK": 12,
+  "STUDY": 13,
+  "TASK": 14,
+  "THANKS": 15,
+  "TIME": 16,
+  "UNKNOWN": 17,
+  "WEATHER": 18
+}

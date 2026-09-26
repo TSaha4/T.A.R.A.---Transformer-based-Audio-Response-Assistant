@@ -1,0 +1,175 @@
+{
+  "GREETING": [
+    "Hey! How can I help you today?",
+    "Hi! I'm TARA, ready when you are.",
+    "Hello! How can I assist you right now?",
+    "Hello there! What can I do for you?",
+    "Hey! Good to see you. What's on your mind?",
+    "Hi there! Let me know what you need.",
+    "Hey, welcome back! What are we working on today?"
+  ],
+  "GOODBYE": [
+    "Goodnight! Sleep well.",
+    "Bye! I'll be here whenever you need me.",
+    "Alright, signing off. Talk soon!",
+    "Goodbye! Talk soon.",
+    "See you later! Take care.",
+    "Catch you later! Have a great day.",
+    "Take care! Come back anytime."
+  ],
+  "THANKS": [
+    "Anytime! Let me know if you need anything else.",
+    "You're welcome! Happy to help.",
+    "No problem at all!",
+    "You're welcome! That's what I'm here for.",
+    "Glad I could help!",
+    "Of course! Reach out anytime."
+  ],
+  "HELP": [
+    "I'm TARA, a voice-enabled AI companion powered by a Transformer model. I can understand your speech, explain AI, Machine Learning, and science concepts, answer general knowledge questions, tell jokes, and assist with academic queries. Try speaking to me using the mic!",
+    "I can chat with you, explain complex topics like backpropagation and neural networks, answer science and trivia questions, tell jokes, and recognize your voice in real time. Just ask whatever is on your mind!",
+    "My abilities include voice and text speech recognition, deep learning intent classification, explaining computer science and AI concepts, answering general knowledge queries, and friendly conversation.",
+    "Sure! I can help with quick facts, study support, AI/ML concepts, science questions, and friendly conversation. Try asking me a question or just say hello!"
+  ],
+  "ABOUT_TARA": [
+    "TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot for a Speech and Language Processing lab project.",
+    "I'm TARA \u2014 Transformer-based Audio & Response Assistant. I'm a voice-enabled chatbot that uses a Transformer-based intent classifier to understand what you say and respond helpfully.",
+    "I'm TARA, a deep learning chatbot. I use a Transformer model with multi-head self-attention to classify your intent from speech or text, and then respond accordingly.",
+    "I'm an AI assistant, not a human. My name is TARA, and I'm designed to chat, answer questions, and help with study topics using deep learning."
+  ],
+  "SMALL_TALK": [
+    "Doing well! Anything fun happening in your day?",
+    "I'm just here, ready to chat whenever you are.",
+    "Pretty good! What's on your mind today?",
+    "I don't have feelings the way you do, but I enjoy our chats! How are you?",
+    "I'm doing great, thanks for asking! How about you?",
+    "All good on my end! What's going on with you?"
+  ],
+  "TIME": [
+    "I don't have access to a live clock, but your device should show the current time!",
+    "I can't check the time right now \u2014 try glancing at your phone or system clock.",
+    "I'm not connected to a real-time clock, so I'd recommend checking your device for the exact time.",
+    "I don't have real-time data access, but your system clock should have the current time.",
+    "I can't tell the time myself, but your device's clock will have the exact time for you."
+  ],
+  "DATE": [
+    "I'm not connected to a real-time calendar at the moment.",
+    "I can't check the live date from here \u2014 take a look at your phone or system calendar.",
+    "I don't have access to a live calendar right now, but your device should show today's date."
+  ],
+  "WEATHER": [
+    "I don't have access to live weather data. I'd recommend checking a weather app or website for the latest forecast!",
+    "I'm not connected to a live weather service, so I can't give you current conditions. A weather app will have the latest info.",
+    "I can't pull real-time weather data right now \u2014 try checking a weather app for the most accurate forecast.",
+    "I don't have live weather access, but you can check your phone's weather app or search online for current conditions.",
+    "Sorry, I can't check the weather for you \u2014 I don't have access to live data. A quick search or weather app should help!"
+  ],
+  "REMINDER": [
+    "I hear you! That sounds like something worth remembering. I'd suggest setting a reminder on your phone or calendar app to make sure you don't forget.",
+    "Noted! I don't have the ability to set persistent reminders, but I'd recommend using your phone's reminder or alarm feature for that.",
+    "That's a good thing to keep track of! Unfortunately, I can't set real reminders \u2014 try your phone's built-in reminder app.",
+    "I understand you'd like a reminder for that. I can't set one that persists, but your device's calendar or alarm app would be perfect for this.",
+    "Good call on wanting to remember that! I'd suggest using your phone's reminder feature since I can't store reminders across sessions.",
+    "That sounds important! While I can't set a real reminder, I'd recommend using Google Calendar, Apple Reminders, or a similar app.",
+    "I've heard your reminder request! Since I can't persist data between sessions, I'd suggest setting this up in your phone's reminder app.",
+    "Great idea to set a reminder for that. I can't do it myself, but your device has built-in tools that can help \u2014 try your calendar or alarm app."
+  ],
+  "TASK": [
+    "I understand you're managing tasks! I don't have a persistent task list, but I'd recommend using a to-do app like Google Tasks or Microsoft To Do.",
+    "I hear you on the task management front. I can't maintain a task list across sessions, but apps like Todoist or Google Keep are great for that!",
+    "That sounds like a task worth tracking! I don't have built-in task storage, so I'd suggest using a dedicated to-do app.",
+    "I can understand task-related requests, but I can't actually store or manage a persistent task list. Your phone's notes or to-do app would be better for this.",
+    "I recognize you're talking about tasks! While I can't maintain a list for you, a to-do app on your device would be perfect for tracking these.",
+    "Good thinking on organizing your tasks! I can't store them myself, but apps like Google Tasks, Notion, or a simple notes app can help.",
+    "I understand the task request, but I don't have persistent storage for a to-do list. Try using your device's built-in notes or task app!",
+    "Task management is important! I can't track tasks for you across conversations, but a dedicated app like Google Keep or Todoist would work great."
+  ],
+  "GENERAL_QUERY": [
+    "India gained independence in 1947.",
+    "The Nile is generally considered the longest river in the world.",
+    "There are seven continents on Earth.",
+    "Mount Everest is the tallest mountain above sea level.",
+    "Paris is the capital of France.",
+    "The currency of Japan is the yen.",
+    "A leap year has 366 days.",
+    "Tokyo is the capital of Japan.",
+    "Water freezes at 32 degrees Fahrenheit.",
+    "A standard football (soccer) team has 11 players on the field.",
+    "The speed of light is about 299,792 kilometers per second.",
+    "Charles Babbage is often called the father of computers.",
+    "Leonardo da Vinci painted the Mona Lisa.",
+    "New Delhi is the capital of India.",
+    "An adult human body has 206 bones.",
+    "William Shakespeare wrote Romeo and Juliet.",
+    "Water boils at 100 degrees Celsius at sea level.",
+    "The smallest prime number is 2.",
+    "Jupiter is the largest planet in our solar system.",
+    "The chemical symbol for gold is Au."
+  ],
+  "KNOWLEDGE": [
+    "That's a broad topic! I have some built-in knowledge about common academic subjects. Try asking me something specific like 'What is machine learning?' or 'Explain backpropagation.'",
+    "Interesting topic! I can share what I know about common academic and science subjects. Feel free to ask a more specific question!",
+    "Great question! I have built-in knowledge about AI, ML, programming, and general science topics. Ask me something specific and I'll do my best to help.",
+    "That's a fascinating area! I can explain key concepts in machine learning, neural networks, programming, and more. What would you like to know?"
+  ],
+  "STUDY": [
+    "Let's tackle that subject together. I can help explain key concepts or discuss topics \u2014 what works best for you?",
+    "Happy to help with studying! Should we go topic by topic or focus on a specific concept you're stuck on?",
+    "Sure! Want me to start with the fundamentals or go straight to the tricky parts?",
+    "Got it \u2014 studying time! Want a quick overview of key concepts, or do you have a specific question?",
+    "I'm ready to help you study! Tell me the topic or concept you'd like to explore.",
+    "Let's break it down together. I can explain concepts, discuss topics, or help you think through problems \u2014 what do you need?"
+  ],
+  "JOKE": [
+    "Why was the math book sad? It had too many problems.",
+    "Why do Python programmers wear glasses? Because they can't C.",
+    "Why did the computer go to the doctor? It had a virus!",
+    "I told my computer I needed a break, and now it won't stop sending me KitKats.",
+    "Why did the student eat his homework? Because the teacher said it was a piece of cake.",
+    "Why don't robots ever panic in emergencies? They have great circuit-breakers.",
+    "Why do programmers prefer dark mode? Because light attracts bugs!",
+    "Why did the AI go to therapy? It had too many unresolved dependencies.",
+    "Why do Java developers wear glasses? Because they don't see sharp!",
+    "How does a penguin build its house? Igloos it together.",
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "Why did the coffee file a police report? It got mugged.",
+    "I asked my dog what's two minus two. He said nothing.",
+    "I would tell you a joke about UDP, but you might not get it.",
+    "Why was the cat afraid of the tree? Because of its bark!"
+  ],
+  "AFFIRMATION": [
+    "Got it, thanks for confirming.",
+    "Alright, sounds good!",
+    "Okay, noted!",
+    "Great, got it!",
+    "Perfect, moving forward with that."
+  ],
+  "NEGATION": [
+    "Okay, no worries!",
+    "Alright, cancelled.",
+    "Got it, I'll skip that.",
+    "Okay, noted \u2014 won't do that.",
+    "Understood, no problem."
+  ],
+  "MOOD": [
+    "Thanks for sharing that. Would it help to take a short break or talk it through?",
+    "That's wonderful \u2014 keep it up!",
+    "Love that energy! Glad you're feeling good today.",
+    "That's great to hear! What's been going well?",
+    "I'm sorry to hear that. Want to talk about what's going on, or would a distraction help?",
+    "Thanks for sharing \u2014 I'm here if you want to talk more.",
+    "That sounds tough \u2014 I'm here if you want to talk or need a break.",
+    "Okay, noted. Let me know if there's anything I can help with.",
+    "Got it, thanks for letting me know how you're feeling.",
+    "That's great to hear you're doing well! What's been going well?",
+    "I'm sorry to hear that. Want to talk about it?",
+    "Love that energy! Keep it going!"
+  ],
+  "UNKNOWN": [
+    "Sorry, I'm not sure what you mean. Could you try again?",
+    "That's outside what I can help with right now \u2014 could you clarify?",
+    "I'm not quite sure I understood that. Could you rephrase it?",
+    "Hmm, I didn't quite catch that \u2014 can you say it differently?",
+    "I'm not able to make sense of that input. Mind rewording it?"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "dataset": "AI4Bharat Svarah",
+  "citation": "Javed et al., Svarah: Evaluating English ASR Systems on Indian Accents, 2023.",
+  "url": "https://github.com/AI4Bharat/Svarah",
+  "purpose_in_project": "Document Indian-accented English evaluation. Do not claim the Web Speech API was trained on Svarah.",
+  "recommended_eval_protocol": [
+    "Download Svarah from the official AI4Bharat release.",
+    "Play or speak utterances similar to the transcripts in evaluation_phrases.json.",
+    "Capture Web Speech API hypotheses in Chrome/Edge with lang=en-IN.",
+    "Compute WER/CER offline if you have reference transcripts. This repo does not ship pre-computed WER."
+  ]
+}
