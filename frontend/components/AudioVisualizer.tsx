@@ -27,10 +27,11 @@ export function AudioVisualizer({
   const animFrameRef = useRef<number | null>(null)
   // Smoothed level values (kept outside React state for performance)
   const smoothedLevels = useRef<number[]>(Array(VISUALIZER_BARS).fill(0.04))
-  // Reusable typed arrays to avoid GC pressure in the animation loop
-  const timeDataRef = useRef<Uint8Array | null>(null)
-  const freqDataRef = useRef<Uint8Array | null>(null)
-  const floatDataRef = useRef<Float32Array | null>(null)
+  // NOTE: buffers are allocated fresh each frame (~1.5 KB total at
+  // fftSize 256 — negligible at 60fps). This is deliberate: letting
+  // `new Float32Array(n)` / `new Uint8Array(n)` infer their own types
+  // keeps them assignable to the analyser methods under every TS/lib.dom
+  // version (no ArrayBuffer vs ArrayBufferLike mismatch, no `!` needed).
   // Frame counter for throttling React state updates
   const frameCountRef = useRef(0)
 
@@ -54,20 +55,13 @@ export function AudioVisualizer({
     const fftBins = analyser.frequencyBinCount
     const timeLen = analyser.fftSize
 
-    // Reuse typed arrays across frames to avoid GC pressure.
+    // Fresh per-frame buffers (~256 + 256 + 128 entries — tiny).
     // NOTE: time-domain length = fftSize, frequency length = fftBins.
-    if (!floatDataRef.current || floatDataRef.current.length !== timeLen) {
-      floatDataRef.current = new Float32Array(timeLen)
-    }
-    if (!timeDataRef.current || timeDataRef.current.length !== timeLen) {
-      timeDataRef.current = new Uint8Array(timeLen)
-    }
-    if (!freqDataRef.current || freqDataRef.current.length !== fftBins) {
-      freqDataRef.current = new Uint8Array(fftBins)
-    }
-    const floatData = floatDataRef.current!
-    const timeData = timeDataRef.current!
-    const freqData = freqDataRef.current!
+    // Types are inferred from `new ...Array(n)` so they always match what
+    // the AnalyserNode methods expect (no ArrayBufferLike mismatch).
+    const floatData = new Float32Array(timeLen)
+    const timeData = new Uint8Array(timeLen)
+    const freqData = new Uint8Array(fftBins)
 
     // Prefer float time-domain data (most precise, no quantization),
     // fall back to byte data if unavailable.
