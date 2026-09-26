@@ -1,0 +1,1288 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  color-scheme: dark;
+  --bg-core: #060a14;
+  --bg-surface: rgba(12, 20, 36, 0.88);
+  --bg-card: rgba(16, 26, 46, 0.78);
+  --border-subtle: rgba(45, 90, 145, 0.28);
+  --border-focus: rgba(0, 229, 255, 0.65);
+  --accent-cyan: #00e5ff;
+  --accent-cyan-glow: rgba(0, 229, 255, 0.45);
+  --accent-blue: #2979ff;
+  --accent-violet: #7c4dff;
+  --accent-amber: #ff9f68;
+  --accent-amber-glow: rgba(255, 159, 104, 0.45);
+  --text-primary: #f0f6fc;
+  --text-secondary: #9bb2d1;
+  --text-muted: #5a7394;
+  --radius-xl: 20px;
+  --radius-lg: 14px;
+  --radius-md: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-core);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+button, input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* ==========================================================================
+   Master Desktop Application Shell & Ambience
+   ========================================================================== */
+
+.voxbuddy-desktop-shell {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px 16px;
+  background: radial-gradient(circle at 50% 12%, #0e1d38 0%, #081224 45%, #050a14 100%);
+  overflow-x: hidden;
+}
+
+.ambient-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.16;
+}
+
+.glow-cyan {
+  width: 460px;
+  height: 460px;
+  top: 5%;
+  left: 10%;
+  background: #0077b6;
+}
+
+.glow-amber {
+  width: 400px;
+  height: 400px;
+  bottom: 8%;
+  right: 10%;
+  background: #5438dc;
+}
+
+/* ==========================================================================
+   Top Header Bar
+   ========================================================================== */
+
+.app-topbar {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 22px;
+  background: rgba(14, 23, 29, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-icon {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00e5ff 0%, #1a56db 100%);
+  color: #041026;
+  box-shadow: 0 0 16px var(--accent-cyan-glow), inset 0 1px 2px #fff;
+}
+
+.brand-title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  display: block;
+}
+
+.brand-subtitle {
+  font-size: 11px;
+  color: var(--text-secondary);
+  display: block;
+  letter-spacing: 0.02em;
+}
+
+.status-chip {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.status-chip.status-online {
+  background: rgba(14, 45, 85, 0.5);
+  border-color: rgba(0, 229, 255, 0.35);
+  color: #70d6ff;
+}
+
+.status-chip.status-online .status-dot {
+  background: #00e5ff;
+  box-shadow: 0 0 8px #00e5ff;
+}
+
+.status-chip.status-offline {
+  background: rgba(74, 30, 25, 0.5);
+  border-color: rgba(255, 120, 100, 0.35);
+  color: #ff9f8f;
+}
+
+.status-chip.status-offline .status-dot {
+  background: #ff6854;
+}
+
+.status-chip.status-checking {
+  background: rgba(45, 55, 65, 0.5);
+  border-color: var(--border-subtle);
+  color: var(--text-secondary);
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+/* ==========================================================================
+   2-Column Master Workspace (Desktop Layout: Left ~70%, Right ~30%)
+   ========================================================================== */
+
+.workspace-container {
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: minmax(0, 2.2fr) minmax(280px, 1fr);
+  gap: 20px;
+  align-items: stretch;
+  margin-bottom: auto;
+}
+
+/* ==========================================================================
+   LEFT COLUMN: Primary Chatbot Interface (~70% Width)
+   ========================================================================== */
+
+.chatbot-primary-pane {
+  background: var(--bg-surface);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
+  height: 100%;
+  min-height: 540px;
+}
+
+.chat-viewport {
+  flex: 1;
+  min-height: 280px;
+  max-height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Conversation Panel Inside Left Column */
+.conversation-panel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgba(11, 20, 26, 0.7);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.conversation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: rgba(16, 28, 36, 0.9);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.conv-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+}
+
+.msg-counter {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(77, 240, 210, 0.15);
+  color: var(--accent-cyan);
+  border: 1px solid rgba(77, 240, 210, 0.25);
+}
+
+.sparkle-icon {
+  color: var(--accent-cyan);
+}
+
+.clear-conv-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+
+.clear-conv-btn:hover {
+  color: #ff9f8f;
+}
+
+.conversation-scroll {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #27434e transparent;
+}
+
+.conversation-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.conversation-scroll::-webkit-scrollbar-thumb {
+  background: #27434e;
+  border-radius: 99px;
+}
+
+/* Chat Welcome Empty State */
+.chat-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 28px 16px;
+  color: var(--text-secondary);
+}
+
+.empty-icon-ring {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: rgba(20, 36, 46, 0.8);
+  border: 1px solid var(--border-subtle);
+  color: var(--accent-cyan);
+  display: grid;
+  place-items: center;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.chat-empty-state h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.chat-empty-state p {
+  font-size: 12px;
+  max-width: 440px;
+  line-height: 1.45;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.starter-prompts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  max-width: 500px;
+}
+
+.starter-chip {
+  font-size: 11px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(22, 38, 48, 0.85);
+  border: 1px solid var(--border-subtle);
+  color: #c4d8db;
+  transition: all 0.2s ease;
+}
+
+.starter-chip:hover {
+  background: rgba(36, 62, 76, 0.95);
+  border-color: var(--accent-cyan);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* Chat Bubble Styling */
+.chat-bubble-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.chat-bubble-row.role-user {
+  flex-direction: row-reverse;
+}
+
+.bubble-avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.role-user .bubble-avatar {
+  background: #17325c;
+  color: #00e5ff;
+}
+
+.role-assistant .bubble-avatar {
+  background: #25244a;
+  color: #a78bfa;
+}
+
+.bubble-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 84%;
+}
+
+.bubble-text {
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.role-user .bubble-text {
+  background: linear-gradient(135deg, #163665 0%, #0d2242 100%);
+  color: #f0f6fc;
+  border-bottom-right-radius: 4px;
+  border: 1px solid rgba(77, 240, 210, 0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.role-assistant .bubble-text {
+  background: #182832;
+  color: #edf5f7;
+  border-bottom-left-radius: 4px;
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bubble-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.intent-tag {
+  background: rgba(30, 52, 64, 0.85);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #8ed8cc;
+  border: 1px solid rgba(77, 240, 210, 0.2);
+}
+
+.sentiment-tag {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.tag-positive {
+  background: rgba(32, 70, 50, 0.7);
+  color: #6de2a8;
+}
+
+.tag-negative {
+  background: rgba(80, 36, 32, 0.7);
+  color: #ff9a8a;
+}
+
+.tag-neutral {
+  background: rgba(40, 55, 65, 0.7);
+  color: #9eb8bf;
+}
+
+.low-conf-note {
+  color: #ffb178;
+  font-style: italic;
+}
+
+.replay-voice-btn {
+  color: var(--text-muted);
+  display: grid;
+  place-items: center;
+  padding: 2px;
+  border-radius: 4px;
+  transition: color 0.2s;
+}
+
+.replay-voice-btn:hover {
+  color: var(--accent-cyan);
+}
+
+/* Audio Visualizer Inside Left Column */
+.audio-visualizer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 0;
+}
+
+.audio-visualizer-bar {
+  width: 100%;
+  max-width: 440px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visualizer-track {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 100%;
+  padding: 0 12px;
+}
+
+.visualizer-pill {
+  width: 4px;
+  border-radius: 99px;
+  background: rgba(77, 240, 210, 0.22);
+  transition: height 0.08s linear, background 0.2s ease;
+}
+
+.visualizer-recording .visualizer-pill {
+  background: #00e5ff;
+  box-shadow: 0 0 8px rgba(0, 229, 255, 0.7);
+}
+
+.visualizer-speaking .visualizer-pill {
+  background: #ff9f68;
+  box-shadow: 0 0 8px rgba(255, 159, 104, 0.7);
+}
+
+/* Controls Hub */
+.controls-hub {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tactile-mic-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(145deg, #142a4a 0%, #0c1c32 100%);
+  border: 1px solid rgba(0, 229, 255, 0.35);
+  color: #ffffff;
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.2),
+    0 6px 20px rgba(0, 0, 0, 0.4),
+    0 0 16px rgba(0, 229, 255, 0.12);
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.tactile-mic-button:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-cyan);
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.3),
+    0 8px 24px rgba(0, 0, 0, 0.5),
+    0 0 22px rgba(0, 229, 255, 0.25);
+}
+
+.tactile-mic-button:active,
+.tactile-mic-button.mic-active {
+  transform: translateY(2px) scale(0.98);
+  background: linear-gradient(145deg, #0e356c 0%, #082142 100%);
+  border-color: #00e5ff;
+  box-shadow:
+    inset 0 3px 6px rgba(0, 0, 0, 0.6),
+    0 0 26px rgba(0, 229, 255, 0.5);
+}
+
+.mic-inner {
+  display: grid;
+  place-items: center;
+  color: var(--accent-cyan);
+}
+
+.tactile-icon-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 16px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease;
+}
+
+.tactile-icon-button:hover,
+.tactile-icon-button.active-toggle {
+  transform: translateY(-1px);
+  color: var(--text-primary);
+  border-color: rgba(77, 240, 210, 0.35);
+  background: rgba(30, 48, 60, 0.9);
+}
+
+/* Example Prompts Rack */
+.example-chips-rack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  background: rgba(14, 24, 30, 0.7);
+  border: 1px dashed var(--border-subtle);
+  border-radius: var(--radius-lg);
+}
+
+.chips-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.chips-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.query-chip {
+  font-size: 11px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(22, 38, 48, 0.85);
+  border: 1px solid var(--border-subtle);
+  color: #c4d8db;
+  transition: all 0.2s ease;
+}
+
+.query-chip:hover {
+  background: rgba(36, 62, 76, 0.95);
+  border-color: var(--accent-cyan);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* Text Composer */
+.tactile-composer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(12, 20, 26, 0.9);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 6px 8px 6px 14px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4), 0 4px 14px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.2s ease;
+}
+
+.tactile-composer:focus-within {
+  border-color: var(--border-focus);
+}
+
+.composer-input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.composer-input::placeholder {
+  color: var(--text-muted);
+}
+
+.composer-send-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #244652 0%, #152d36 100%);
+  border: 1px solid rgba(77, 240, 210, 0.3);
+  color: var(--accent-cyan);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+.composer-send-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #325e6e 0%, #1e414e 100%);
+  transform: scale(1.04);
+}
+
+.composer-send-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.voice-commands-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.v-cmd-title {
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.voice-commands-footer code {
+  background: rgba(25, 40, 50, 0.6);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--text-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ==========================================================================
+   RIGHT COLUMN: Robot Face Companion Pod (~30% Width)
+   ========================================================================== */
+
+.robot-companion-pane {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.companion-pod-card {
+  background: var(--bg-surface);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: 22px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
+  height: 100%;
+}
+
+/* Real-Time Acoustic Pebble Audio Visualizer Under Robot */
+.pebble-visualizer-dock {
+  width: 100%;
+  max-width: 260px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-lg);
+  background: rgba(11, 19, 25, 0.65);
+  border: 1px solid rgba(72, 115, 125, 0.2);
+  padding: 6px 14px;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease;
+}
+
+.pebble-visualizer-dock.dock-listening {
+  border-color: rgba(77, 240, 210, 0.45);
+  background: rgba(12, 26, 32, 0.85);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 16px rgba(77, 240, 210, 0.15);
+}
+
+.pebble-visualizer-dock.dock-speaking {
+  border-color: rgba(255, 159, 104, 0.45);
+  background: rgba(28, 22, 20, 0.85);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.4), 0 0 16px rgba(255, 159, 104, 0.15);
+}
+
+.pebbles-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.pebble-unit {
+  width: 6px;
+  min-height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #6bf5dc 0%, #1da594 100%);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  transition: opacity 0.15s ease, background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  will-change: height, opacity;
+}
+
+.dock-listening .pebble-unit {
+  background: linear-gradient(180deg, #7affeb 0%, #20bca8 100%);
+  box-shadow: 0 0 8px rgba(77, 240, 210, 0.65), 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.dock-speaking .pebble-unit {
+  background: linear-gradient(180deg, #ffb88c 0%, #d96f3e 100%);
+  box-shadow: 0 0 8px rgba(255, 159, 104, 0.65), 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.companion-state-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(20, 36, 44, 0.65);
+  border: 1px solid var(--border-subtle);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent-cyan);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  text-align: center;
+}
+
+.badge-thinking {
+  color: var(--accent-amber);
+  border-color: rgba(255, 159, 104, 0.35);
+}
+
+.badge-error {
+  color: #ff8f7d;
+  border-color: rgba(255, 120, 100, 0.35);
+}
+
+.robot-face-stage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0;
+}
+
+.robot-feedback-box {
+  width: 100%;
+  min-height: 48px;
+  border-radius: var(--radius-md);
+  background: rgba(12, 20, 26, 0.7);
+  border: 1px solid var(--border-subtle);
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.live-transcript {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.transcript-tag {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-cyan);
+  font-weight: 700;
+}
+
+.interim-text {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.companion-idle-hint {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.radio-pulse-icon {
+  color: var(--accent-cyan);
+}
+
+.status-error-text {
+  color: #ff9f8f;
+  font-size: 11px;
+}
+
+/* ==========================================================================
+   PURE FACE-ONLY ROBOT STYLING (Skeuomorphism 2.0 / Soft 3D)
+   ========================================================================== */
+
+.desk-robot-face-scene {
+  position: relative;
+  width: 220px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 600px;
+  transform: translateY(0);
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.4, 1);
+}
+
+.face-contact-shadow {
+  position: absolute;
+  bottom: 8px;
+  width: 160px;
+  height: 18px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 70%);
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.robot-face-pod {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateX(var(--face-rot-x, 0deg)) rotateY(var(--face-rot-y, 0deg));
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+/* Crown Sensor Notch */
+.face-crown-sensor {
+  position: absolute;
+  top: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.crown-stem {
+  width: 3px;
+  height: 12px;
+  background: linear-gradient(180deg, #99abb0 0%, #5a6e74 100%);
+  border-radius: 2px;
+}
+
+.crown-orb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff9f68;
+  box-shadow: 0 0 10px var(--accent-amber-glow), inset 1px 1px 2px #fff;
+  margin-bottom: -2px;
+}
+
+/* Side Audio Ear Sensors (Illumination reactive to microphone) */
+.face-ear {
+  position: absolute;
+  top: 52px;
+  width: 12px;
+  height: 48px;
+  background: linear-gradient(90deg, #182a32 0%, #294048 100%);
+  border-radius: 6px;
+  border: 2px solid #3f5963;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.face-ear.ear-left {
+  left: 10px;
+}
+
+.face-ear.ear-right {
+  right: 10px;
+}
+
+.ear-core {
+  width: 4px;
+  height: 26px;
+  border-radius: 99px;
+  background: #4df0d2;
+  box-shadow: 0 0 calc(8px * var(--ear-glow, 0.3)) var(--accent-cyan-glow);
+  opacity: var(--ear-glow, 0.3);
+  transition: opacity 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* 3D Ceramic/Matte Shell */
+.face-chassis {
+  position: relative;
+  width: 176px;
+  height: 136px;
+  border-radius: 46px;
+  background: linear-gradient(155deg, #f2f7f9 0%, #d8e4e7 55%, #b5c7cb 100%);
+  border: 3px solid #edf4f6;
+  box-shadow:
+    inset 4px 4px 8px #ffffff,
+    inset -5px -6px 10px #8fa3a8,
+    0 12px 28px rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+  overflow: hidden;
+}
+
+.face-glass-specular {
+  position: absolute;
+  top: 8px;
+  left: 30px;
+  width: 60px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  filter: blur(2px);
+  transform: rotate(-10deg);
+  pointer-events: none;
+}
+
+/* Visor Screen */
+.face-visor-screen {
+  position: relative;
+  width: 148px;
+  height: 100px;
+  border-radius: 36px;
+  background: #030712;
+  box-shadow:
+    inset 0 3px 12px #000000,
+    0 0 0 2px #14243b,
+    0 0 18px rgba(0, 229, 255, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Expressive OLED Digital Eyes */
+.face-eyes-group {
+  display: flex;
+  gap: 28px;
+  transform: translate(var(--eye-x, 0px), var(--eye-y, 0px));
+  transition: transform 0.12s ease-out;
+}
+
+.oled-eye {
+  position: relative;
+  width: 28px;
+  height: 36px;
+  border-radius: 50%;
+  background: #00f0ff;
+  box-shadow: 0 0 16px #00f0ff, 0 0 30px rgba(0, 229, 255, 0.55), inset 0 0 6px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+
+.eye-iris-ring {
+  position: relative;
+  width: 12px;
+  height: 16px;
+  border-radius: 50%;
+  background: #021a29;
+}
+
+.eye-pupil {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0 6px #ffffff, 0 0 10px #00f0ff;
+}
+
+.eye-specular-dot {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+/* Blinking */
+.blink-blink .oled-eye {
+  transform: scaleY(0.08);
+}
+
+/* Cheeks */
+.face-cheek {
+  position: absolute;
+  bottom: 12px;
+  width: 12px;
+  height: 5px;
+  border-radius: 50%;
+  background: #ff9f8b;
+  opacity: 0;
+  filter: blur(1px);
+  transition: opacity 0.3s ease;
+}
+
+.cheek-left { left: 20px; }
+.cheek-right { right: 20px; }
+
+/* Temporary Acoustic Waveform Mouth (Speaking only) */
+.speaker-waveform-mouth {
+  position: absolute;
+  bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 12px;
+}
+
+.wave-bar {
+  width: 3px;
+  background: #00f0ff;
+  border-radius: 99px;
+  box-shadow: 0 0 8px #00e5ff;
+  animation: talkWave 0.28s ease-in-out infinite alternate;
+}
+
+.wb-1 { height: 5px; animation-delay: 0.04s; }
+.wb-2 { height: 10px; animation-delay: 0.12s; }
+.wb-3 { height: 14px; animation-delay: 0.0s; }
+.wb-4 { height: 9px; animation-delay: 0.16s; }
+.wb-5 { height: 4px; animation-delay: 0.08s; }
+
+@keyframes talkWave {
+  from { transform: scaleY(0.4); }
+  to { transform: scaleY(1.2); }
+}
+
+.face-bottom-cushion {
+  position: absolute;
+  bottom: 14px;
+  width: 90px;
+  height: 6px;
+  border-radius: 99px;
+  background: #152238;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+/* ==========================================================================
+   State-Driven Face Expressions
+   ========================================================================== */
+
+/* 1. LISTENING */
+.state-listening .desk-robot-face-scene {
+  transform: translateY(-2px);
+}
+.state-listening .oled-eye {
+  height: 40px;
+  box-shadow: 0 0 24px #00f0ff, 0 0 40px rgba(0, 229, 255, 0.7);
+}
+.state-listening .face-ear {
+  border-color: #00e5ff;
+  box-shadow: 0 0 14px var(--accent-cyan-glow);
+}
+
+/* 2. THINKING */
+.state-thinking .desk-robot-face-scene {
+  transform: translateY(-1px);
+}
+.state-thinking .face-eyes-group {
+  transform: translate(4px, -3px) !important;
+}
+.state-thinking .crown-orb {
+  animation: pulseCrown 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes pulseCrown {
+  from { opacity: 0.5; }
+  to { opacity: 1; }
+}
+
+/* 3. SPEAKING */
+.state-speaking .oled-eye {
+  box-shadow: 0 0 22px #00f0ff, 0 0 32px rgba(0, 229, 255, 0.5);
+}
+.state-speaking .face-cheek {
+  opacity: 0.65;
+}
+
+/* 4. SUCCESS (Eye-Smile) */
+.state-success .oled-eye {
+  height: 22px;
+  border-radius: 0 0 28px 28px;
+  transform: translateY(2px) scaleY(0.72);
+  box-shadow: 0 4px 16px #00f0ff;
+}
+.state-success .face-cheek {
+  opacity: 0.8;
+}
+
+/* 5. ERROR */
+.state-error .oled-eye {
+  background: #ff9f68;
+  box-shadow: 0 0 16px #ff9f68;
+}
+.state-error .face-crown-sensor {
+  transform: rotate(-14deg);
+}
+.state-error .face-chassis {
+  transform: rotate(-2deg);
+}
+
+/* ==========================================================================
+   App Footer
+   ========================================================================== */
+
+.app-footer {
+  position: relative;
+  z-index: 10;
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 12px 0 4px;
+}
+
+/* ==========================================================================
+   RESPONSIVE BREAKPOINTS (Desktop >= 900px, Tablet/Mobile < 900px)
+   ========================================================================== */
+
+@media (max-width: 900px) {
+  .voxbuddy-desktop-shell {
+    padding: 16px 14px;
+  }
+
+  .workspace-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .robot-companion-pane {
+    order: -1;
+    position: static;
+  }
+
+  .companion-pod-card {
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .desk-robot-face-scene {
+    transform: scale(0.9);
+    margin: -10px 0;
+  }
+
+  .chat-viewport {
+    min-height: 260px;
+    max-height: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .app-topbar {
+    padding: 10px 14px;
+  }
+
+  .brand-subtitle {
+    display: none;
+  }
+
+  .controls-hub {
+    flex-wrap: wrap;
+  }
+
+  .tactile-mic-button {
+    width: 100%;
+  }
+
+  .desk-robot-face-scene {
+    transform: scale(0.82);
+    margin: -18px 0;
+  }
+}

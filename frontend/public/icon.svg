@@ -1,0 +1,62 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Outer Shell Gradient -->
+    <linearGradient id="taraBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1428"/>
+      <stop offset="100%" stop-color="#040812"/>
+    </linearGradient>
+
+    <!-- Outer Cyan Border Glow -->
+    <linearGradient id="taraBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#2979ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Inner OLED Visor Gradient -->
+    <linearGradient id="taraVisor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="100%" stop-color="#010308"/>
+    </linearGradient>
+
+    <!-- Cyan Eye Glow Filter -->
+    <filter id="eyeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 1. Deep Navy Rounded Squircle Background -->
+  <rect x="8" y="8" width="164" height="164" rx="38" fill="url(#taraBg)" stroke="url(#taraBorder)" stroke-width="4.5"/>
+
+  <!-- 2. Dark OLED Visor Screen Inset -->
+  <rect x="26" y="38" width="128" height="104" rx="28" fill="url(#taraVisor)" stroke="#1a2e4c" stroke-width="3"/>
+
+  <!-- Visor Top Glass Specular Arc -->
+  <path d="M 44 48 Q 90 42 136 48" stroke="rgba(255, 255, 255, 0.25)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- 3. Expressive OLED Digital Eyes -->
+  <g filter="url(#eyeGlow)">
+    <!-- Left Eye Body -->
+    <ellipse cx="58" cy="88" rx="14" ry="21" fill="#00f0ff"/>
+    <!-- Left Iris Core -->
+    <ellipse cx="58" cy="90" rx="8" ry="12" fill="#021a29"/>
+    <!-- Left Specular Sparkle -->
+    <circle cx="55" cy="83" r="3.5" fill="#ffffff"/>
+
+    <!-- Right Eye Body -->
+    <ellipse cx="122" cy="88" rx="14" ry="21" fill="#00f0ff"/>
+    <!-- Right Iris Core -->
+    <ellipse cx="122" cy="90" rx="8" ry="12" fill="#021a29"/>
+    <!-- Right Specular Sparkle -->
+    <circle cx="119" cy="83" r="3.5" fill="#ffffff"/>
+  </g>
+
+  <!-- 4. Subtle Acoustic Horizon Indicator Under Visor -->
+  <circle cx="78" cy="122" r="2" fill="#00e5ff" opacity="0.6"/>
+  <circle cx="90" cy="122" r="2.5" fill="#00e5ff" opacity="0.9"/>
+  <circle cx="102" cy="122" r="2" fill="#00e5ff" opacity="0.6"/>
+</svg>
