@@ -251,7 +251,7 @@ export default function Home() {
 
       utterance.lang = utterance.voice?.lang || 'en-IN'
       utterance.pitch = 1.18
-      utterance.rate = 1.25
+      utterance.rate = 1.15
       utterance.volume = 0.9
 
       utterance.onstart = () => {
