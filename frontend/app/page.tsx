@@ -5,12 +5,10 @@ import {
   Mic,
   MicOff,
   Send,
-  Volume2,
   VolumeX,
   Sparkles,
   HelpCircle,
   Cpu,
-  RefreshCw,
   Radio,
 } from 'lucide-react'
 import { DeskCompanionRobot, RobotState } from '../components/DeskCompanionRobot'
