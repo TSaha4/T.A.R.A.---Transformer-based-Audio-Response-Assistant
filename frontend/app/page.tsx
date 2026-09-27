@@ -17,6 +17,7 @@ import { DeskCompanionRobot, RobotState } from '../components/DeskCompanionRobot
 import { AudioVisualizer } from '../components/AudioVisualizer'
 import { ChatMessages, ChatMessage } from '../components/ChatMessages'
 import { predictIntent, checkBackendHealth, API_BASE_URL } from '../lib/api'
+import { getTaraVoice, nextSpeakToken, isSpeakTokenCurrent, cancelSpeech } from '../lib/ttsVoice'
 
 
 
@@ -31,17 +32,11 @@ const EXAMPLE_QUERIES = [
   'What can you do?',
 ]
 
-type SpeechRecognitionInstance = EventTarget & {
-  continuous: boolean
-  interimResults: boolean
-  lang: string
-  start(): void
-  stop(): void
-  abort(): void
-  onresult: ((event: SpeechRecognitionEvent) => void) | null
-  onerror: ((event: SpeechRecognitionErrorEvent) => void) | null
-  onend: (() => void) | null
-}
+// The `SpeechRecognitionInstance`, `SpeechRecognitionEvent` and
+// `SpeechRecognitionErrorEvent` types (and the `window.SpeechRecognition` /
+// `window.webkitSpeechRecognition` entry points) are declared globally in
+// `frontend/types/speech-recognition.d.ts`, because TypeScript's lib.dom.d.ts
+// only ships the low-level result types for the Web Speech API.
 
 export default function Home() {
   // Application & Robot State
@@ -233,47 +228,51 @@ export default function Home() {
   }, [stopAudioCapture])
 
   // 5. Text-to-Speech Engine (Cute & Friendly Companion Voice)
+  // NOTE: pitch/rate/volume are the original TARA settings and are preserved
+  // unchanged. Only voice *selection* was fixed (see lib/ttsVoice.ts).
   const speakText = useCallback((text: string) => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window) || !text) return
 
     window.speechSynthesis.cancel()
 
-    const utterance = new SpeechSynthesisUtterance(text)
+    const token = nextSpeakToken()
 
-    const voices = window.speechSynthesis.getVoices()
-    const englishVoices = voices.filter((v) => v.lang.toLowerCase().startsWith('en'))
+    // Resolve TARA's voice BEFORE building the utterance.
+    // `getVoices()` is empty on first paint, so this waits for the real list
+    // (voiceschanged / polling) instead of silently using the deep male default.
+    void getTaraVoice().then((voice) => {
+      // Bail out if the user cancelled (or started something else) meanwhile.
+      if (!isSpeakTokenCurrent(token)) return
+      if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
 
-    const preferredVoice =
-      englishVoices.find((v) => /natural|samantha|aria|jenny|zira|google.*female/i.test(v.name)) ||
-      englishVoices.find((v) => /en-in/i.test(v.lang)) ||
-      englishVoices[0] ||
-      null
+      const utterance = new SpeechSynthesisUtterance(text)
 
-    if (preferredVoice) {
-      utterance.voice = preferredVoice
-    }
+      if (voice) {
+        utterance.voice = voice
+      }
 
-    utterance.lang = utterance.voice?.lang || 'en-IN'
-    utterance.pitch = 1.18
-    utterance.rate = 1.25
-    utterance.volume = 0.9
+      utterance.lang = utterance.voice?.lang || 'en-IN'
+      utterance.pitch = 1.18
+      utterance.rate = 1.25
+      utterance.volume = 0.9
 
-    utterance.onstart = () => {
-      setRobotState('speaking')
-    }
+      utterance.onstart = () => {
+        setRobotState('speaking')
+      }
 
-    utterance.onend = () => {
-      setRobotState('success')
-      setTimeout(() => {
+      utterance.onend = () => {
+        setRobotState('success')
+        setTimeout(() => {
+          setRobotState('idle')
+        }, 700)
+      }
+
+      utterance.onerror = () => {
         setRobotState('idle')
-      }, 700)
-    }
+      }
 
-    utterance.onerror = () => {
-      setRobotState('idle')
-    }
-
-    window.speechSynthesis.speak(utterance)
+      window.speechSynthesis.speak(utterance)
+    })
   }, [])
 
   // 6. Voice Command Interpreter
@@ -283,7 +282,7 @@ export default function Home() {
 
       if (['clear chat', 'clear the chat', 'reset chat', 'clean chat'].includes(clean)) {
         setMessages([])
-        window.speechSynthesis.cancel()
+        cancelSpeech()
         setRobotState('idle')
         return true
       }
@@ -296,7 +295,7 @@ export default function Home() {
       }
 
       if (['stop speaking', 'stop talking', 'be quiet', 'shut up', 'silence'].includes(clean)) {
-        window.speechSynthesis.cancel()
+        cancelSpeech()
         setRobotState('idle')
         return true
       }
@@ -409,9 +408,7 @@ export default function Home() {
   // 8. Speech Recognition Toggle
   const toggleListening = useCallback(async () => {
     // 1. Immediately terminate/interrupt any ongoing chatbot speech or in-flight processing
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel()
-    }
+    cancelSpeech()
     // Invalidate any in-flight backend inference response
     currentRequestId.current += 1
     setIsLoading(false)
@@ -432,10 +429,8 @@ export default function Home() {
     setErrorMessage(null)
     setRobotState('listening')
 
-    const SpeechRec =
-      window.SpeechRecognition ||
-      (window as unknown as { webkitSpeechRecognition: typeof window.SpeechRecognition })
-        .webkitSpeechRecognition
+    const SpeechRec: SpeechRecognitionConstructor | undefined =
+      window.SpeechRecognition || window.webkitSpeechRecognition
 
     if (!SpeechRec) {
       setErrorMessage('Speech recognition is not supported in this browser. Please use Chrome, Edge, or type your message.')
@@ -446,7 +441,7 @@ export default function Home() {
     // Initialize real-time audio visualizer capture
     void startAudioCapture()
 
-    const recognition = new SpeechRec() as unknown as SpeechRecognitionInstance
+    const recognition: SpeechRecognitionInstance = new SpeechRec()
     recognition.continuous = false
     recognition.interimResults = true
     recognition.lang = 'en-IN'
@@ -497,7 +492,7 @@ export default function Home() {
 
       // 2. Clear, actionable error messages for real issues
       let msg = 'Speech recognition issue. Please try speaking again or type your question.'
-      if (err === 'not-allowed' || err === 'permission-denied') {
+      if (err === 'not-allowed' || err === 'service-not-allowed') {
         msg = 'Microphone access was blocked. Please click the lock/camera icon in your address bar and allow microphone permissions.'
       } else if (err === 'audio-capture') {
         msg = 'No microphone input detected. Please ensure your microphone is plugged in and not in exclusive use by another app.'
@@ -539,9 +534,7 @@ export default function Home() {
       if (recognitionRef.current) {
         recognitionRef.current.stop()
       }
-      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-        window.speechSynthesis.cancel()
-      }
+      cancelSpeech()
     }
   }, [stopAudioCapture])
 
@@ -640,7 +633,7 @@ export default function Home() {
               <button
                 className="tactile-icon-button"
                 onClick={() => {
-                  window.speechSynthesis.cancel()
+                  cancelSpeech()
                   setRobotState('idle')
                 }}
                 title="Stop speaking"
