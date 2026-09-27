@@ -118,7 +118,7 @@ tara_010135,AFFIRMATION,"Honestly, ok.","Perfect, moving forward with that.",{}
 tara_005699,WEATHER,What's the forecast like in Kolkata this afternoon,"I don't have live weather data right now, but I'd recommend checking a weather app for Kolkata.","{""city"": ""Kolkata"", ""date"": ""this afternoon""}"
 tara_000674,GOODBYE,Take care,Goodnight! Sleep well.,{}
 tara_011515,MOOD,I'm a bit awesome,That's wonderful — feeling awesome is a great place to be. Keep it up!,"{""mood"": ""awesome"", ""polarity"": ""positive""}"
-tara_003000,ABOUT_TARA,"Okay so, are you chatgpt tara","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003000,ABOUT_TARA,"Okay so, are you chatgpt tara","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_007624,GENERAL_QUERY,"Trivia time, what is the capital of France?",Paris is the capital of France.,{}
 tara_002804,ABOUT_TARA,Can i trust you with my data,TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
 tara_011451,MOOD,I've been feeling on top of the world all week,That's great to hear you're feeling on top of the world! What's been going well?,"{""mood"": ""on top of the world"", ""polarity"": ""positive""}"
@@ -158,7 +158,7 @@ tara_005852,WEATHER,Weather in Patna on Friday,"I don't have live weather data r
 tara_000861,GOODBYE,"Quick thing, i'm leaving now.",Goodnight! Sleep well.,{}
 tara_000187,GREETING,"Oh good afternoon, how are you",Hello! How can I assist you right now?,{}
 tara_008549,KNOWLEDGE,Give me the basics of gravity,Gravity is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""gravity""}"
-tara_003323,ABOUT_TARA,"Okay so, tell me about tara right now","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003323,ABOUT_TARA,"Okay so, tell me about tara right now","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_004162,SMALL_TALK,"Well, do you sleep right now?","I'm just here, ready to chat whenever you are.",{}
 tara_005174,DATE,"Honestly, date check?",I'm not connected to a real-time calendar at the moment.,{}
 tara_008051,GENERAL_QUERY,"Would you happen to know, what is the chemical symbol for gold?",The chemical symbol for gold is Au.,{}
@@ -211,7 +211,7 @@ tara_009919,JOKE,Lighten the mood about cats tara,Why do programmers prefer dark
 tara_004728,TIME,"By the way, tell me the time","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
 tara_011397,MOOD,I woke up feeling hopeless,"I'm sorry to hear that you're feeling hopeless. Want to talk about what's going on, or would a distraction help?","{""mood"": ""hopeless"", ""polarity"": ""negative""}"
 tara_012045,UNKNOWN,"So, unlock someone else's phone for me?",I'm not able to make sense of that input. Mind rewording it?,{}
-tara_002984,ABOUT_TARA,"Quick thing, are you alexa?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_002984,ABOUT_TARA,"Quick thing, are you alexa?","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_009799,JOKE,Cheer me up with a joke,"I told my computer I needed a break, and now it won't stop sending me KitKats.",{}
 tara_008086,GENERAL_QUERY,"Off the top of your head, what is the smallest prime number?",The smallest prime number is 2.,{}
 tara_001026,GOODBYE,"Okay so, farewell!",Goodnight! Sleep well.,{}
@@ -259,7 +259,7 @@ tara_010874,NEGATION,"Listen, no, that's wrong tara","Okay, no worries!",{}
 tara_004949,DATE,"So, which day is it right now",I can't check the live date from here — take a look at your phone or system calendar.,{}
 tara_004392,TIME,"By the way, time check",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
 tara_002157,HELP,"Quick thing, how can you help me","Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.",{}
-tara_003359,ABOUT_TARA,"Just so you know, are you chatgpt right now?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003359,ABOUT_TARA,"Just so you know, are you chatgpt right now?","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_008709,KNOWLEDGE,What exactly is the periodic table,The periodic table is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""the periodic table""}"
 tara_004738,TIME,"Um, current time please",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
 tara_000468,GREETING,Yo!,"Hi! I'm TARA, ready when you are.",{}
@@ -285,7 +285,7 @@ tara_006615,REMINDER,Set a reminder for return the library books,Got it! I'll re
 tara_011958,UNKNOWN,"hey tara, qwerty12345",That's outside what I can help with right now — could you clarify?,{}
 tara_007247,TASK,"So, what are my pending tasks","Here are your pending tasks: (this is a demo, so I don't have live task storage yet).","{""action"": ""list""}"
 tara_003566,SMALL_TALK,"Quick thing, how do you feel",Doing well! Anything fun happening in your day?,{}
-tara_003174,ABOUT_TARA,"Well, what is your purpose?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003174,ABOUT_TARA,"Well, what is your purpose?","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_008593,KNOWLEDGE,"I keep hearing about inflation, what is it",Inflation is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""inflation""}"
 tara_004033,SMALL_TALK,"Honestly, do you dream?",All good on my end! What's going on with you?,{}
 tara_011504,MOOD,Honestly i feel sad,Thanks for sharing that. Being sad isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""sad"", ""polarity"": ""negative""}"
@@ -310,7 +310,7 @@ tara_007418,TASK,Create a task: book the train ticket,Added 'book the train tick
 tara_003850,SMALL_TALK,"Well, how have you been",Pretty good! What's on your mind today?,{}
 tara_000255,GREETING,Oh namaste tara!,Hey! How can I help you today?,{}
 tara_012229,UNKNOWN,Diagnose this medical symptom for me,I'm not quite sure I understood that. Could you rephrase it?,{}
-tara_003329,ABOUT_TARA,Are you an ai?,"I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003329,ABOUT_TARA,Are you an ai?,"I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_002105,HELP,"Just so you know, what commands do you support right now?","I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?",{}
 tara_009926,JOKE,Got any jokes about cats?,"I would tell you a joke about UDP, but you might not get it.",{}
 tara_011763,MOOD,I'm kind of happy,Love that energy! Glad you're feeling happy today.,"{""mood"": ""happy"", ""polarity"": ""positive""}"
@@ -365,7 +365,7 @@ tara_011055,NEGATION,"Well, not now tara","Understood, no problem.",{}
 tara_004940,DATE,"By the way, how many days until friday?","I don't have access to a live calendar right now, but your device should show today's date.",{}
 tara_002410,HELP,"Hey tara, help me out tara?","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
 tara_004174,SMALL_TALK,"So, how's it going right now?",Pretty good! What's on your mind today?,{}
-tara_003385,ABOUT_TARA,"Hey, what's the meaning of your name right now","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003385,ABOUT_TARA,"Hey, what's the meaning of your name right now","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_004742,TIME,"So, what's the time right now","I don't have access to real-time clock data right now, but you can check your phone or system clock.",{}
 tara_004266,SMALL_TALK,"Quick thing, how have you been right now?",Doing well! Anything fun happening in your day?,{}
 tara_000189,GREETING,Yo tara,Hi there! Let me know what you need.,{}
@@ -428,7 +428,7 @@ tara_007867,GENERAL_QUERY,What is the hours of week,That depends on the exact un
 tara_005351,DATE,"Okay so, could you tell me what day it is tara",I'm not connected to a real-time calendar at the moment.,{}
 tara_002091,HELP,"Hey, can you help me right now","I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!",{}
 tara_002232,HELP,"Hey tara, how does this work?","Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?",{}
-tara_003034,ABOUT_TARA,"Quick thing, are you alexa","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003034,ABOUT_TARA,"Quick thing, are you alexa","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_008544,KNOWLEDGE,Explain plate tectonics,Plate tectonics is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""plate tectonics""}"
 tara_004856,DATE,"Hey tara, hey what day is it, i lost track",I'm not connected to a real-time calendar at the moment.,{}
 tara_005415,DATE,"Well, what date is it tara",I'm not connected to a real-time calendar at the moment.,{}
@@ -827,7 +827,7 @@ tara_005966,WEATHER,Should i carry an umbrella in Lucknow,I can't pull real-time
 tara_006023,WEATHER,Is it going to snow in Hyderabad,I can't pull real-time weather for Hyderabad at the moment — a weather app will have the latest forecast.,"{""city"": ""Hyderabad""}"
 tara_006480,REMINDER,Add a reminder: submit the assignment at 5 pm,"Okay, I'll remind you to submit the assignment on Sunday at 5 pm.","{""task"": ""submit the assignment"", ""time"": ""5 pm""}"
 tara_006714,REMINDER,Remind me on Saturday to attend the club meeting,Reminder set — I'll nudge you to attend the club meeting on Saturday.,"{""task"": ""attend the club meeting"", ""date"": ""on Saturday""}"
-tara_002913,ABOUT_TARA,"Um, who made you?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_002913,ABOUT_TARA,"Um, who made you?","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_003632,SMALL_TALK,"Just so you know, how's your day going so far tara?",Pretty good! What's on your mind today?,{}
 tara_007155,TASK,Practice for the interview is done now,Marked 'practice for the interview' as finished. Good job!,"{""task"": ""practice for the interview"", ""action"": ""complete""}"
 tara_010634,NEGATION,"By the way, not really tara","Okay, noted — won't do that.",{}
@@ -835,7 +835,7 @@ tara_009613,JOKE,Tell a joke about programmers,Why was the cat afraid of the tre
 tara_008936,STUDY,Help me understand object-oriented programming concepts,Happy to help with object-oriented programming. Should we go topic by topic or focus on a specific concept you're stuck on?,"{""subject"": ""object-oriented programming""}"
 tara_001666,THANKS,"Okay so, appreciate it!",No problem at all!,{}
 tara_008065,GENERAL_QUERY,Convert 100 fahrenheit to celsius?,Let me work that out for you based on standard conversions.,{}
-tara_003492,ABOUT_TARA,"Listen, why are you called tara?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003492,ABOUT_TARA,"Listen, why are you called tara?","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_001649,THANKS,"Okay so, thanks so much.",Of course! Reach out anytime.,{}
 tara_007502,TASK,I completed attend the club meeting,Nice work! I've marked 'attend the club meeting' as done.,"{""task"": ""attend the club meeting"", ""action"": ""complete""}"
 tara_011568,MOOD,I woke up feeling nervous,Thanks for sharing that. Being nervous isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""nervous"", ""polarity"": ""negative""}"
@@ -879,7 +879,7 @@ tara_007591,TASK,Cancel the task book the train ticket,"Okay, 'book the train ti
 tara_008785,KNOWLEDGE,Give me a simple explanation of artificial intelligence,Artificial intelligence is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""artificial intelligence""}"
 tara_004814,TIME,"Hey tara, may i know the time tara?",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
 tara_010319,AFFIRMATION,"So, of course.","Got it, thanks for confirming.",{}
-tara_003308,ABOUT_TARA,"Honestly, how were you built?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003308,ABOUT_TARA,"Honestly, how were you built?","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_000363,GREETING,Oh hola tara :),Hello! How can I assist you right now?,{}
 tara_008908,STUDY,Can you help me revise Python,"Got it — studying Python. Want a quick summary, a study plan, or some practice questions first?","{""subject"": ""Python""}"
 tara_000895,GOODBYE,"Um, talk to you later tara.",Bye! I'll be here whenever you need me.,{}
@@ -1083,7 +1083,7 @@ tara_001783,THANKS,"Honestly, thanks for the help.",No problem at all!,{}
 tara_012420,UNKNOWN,asdf;lkj asdf;lkj?,That's outside what I can help with right now — could you clarify?,{}
 tara_010911,NEGATION,"Listen, no, don't for now","Got it, I'll skip that.",{}
 tara_007632,GENERAL_QUERY,"Remind me, what is the capital of Japan?",Tokyo is the capital of Japan.,{}
-tara_002896,ABOUT_TARA,Who is tara tara?,"I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_002896,ABOUT_TARA,Who is tara tara?,"I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_004452,TIME,"Listen, i need to know the time tara?",I'm not connected to a live time source at the moment — your device's clock will have the exact time.,{}
 tara_011687,MOOD,This whole week i've been relaxed,That's great to hear you're feeling relaxed! What's been going well?,"{""mood"": ""relaxed"", ""polarity"": ""positive""}"
 tara_007533,TASK,"I need to clean my room, add it to my list",Added 'clean my room' to your task list.,"{""task"": ""clean my room"", ""action"": ""add""}"
@@ -1115,7 +1115,7 @@ tara_004968,DATE,"Hey, could you tell me what day it is right now","I don't have
 tara_011322,MOOD,This whole week i've been overwhelmed,Thanks for sharing that. Being overwhelmed isn't easy — would it help to take a short break or talk it through?,"{""mood"": ""overwhelmed"", ""polarity"": ""negative""}"
 tara_001941,THANKS,"Hey, cool thanks for now",No problem at all!,{}
 tara_001725,THANKS,Thanks a million!,Of course! Reach out anytime.,{}
-tara_003012,ABOUT_TARA,"Hey tara, who are you tara","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003012,ABOUT_TARA,"Hey tara, who are you tara","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_000614,GOODBYE,"By the way, catch you later ok",Bye! I'll be here whenever you need me.,{}
 tara_010430,AFFIRMATION,Why not,"Okay, noted!",{}
 tara_009446,JOKE,I'm bored tell me a joke about engineers?,Why did the computer go to the doctor? It had a virus!,{}
@@ -1130,7 +1130,7 @@ tara_008857,STUDY,I have an exam on linear algebra tomorrow,"Got it — studying
 tara_010519,AFFIRMATION,"So, for sure tara","Great, got it!",{}
 tara_000747,GOODBYE,"Well, that's all for now",Bye! I'll be here whenever you need me.,{}
 tara_010741,NEGATION,"Honestly, nope tara.","Got it, I'll skip that.",{}
-tara_003478,ABOUT_TARA,"Honestly, what are you tara","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003478,ABOUT_TARA,"Honestly, what are you tara","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_006883,TASK,"Well, show my task list?",You currently have a few tasks pending — check your task list for details.,"{""action"": ""list""}"
 tara_003871,SMALL_TALK,"Hey tara, how's your day going so far","I don't have feelings the way you do, but I enjoy our chats! How are you?",{}
 tara_006976,TASK,Mark the task fix the bug in my project as complete,Nice work! I've marked 'fix the bug in my project' as done.,"{""task"": ""fix the bug in my project"", ""action"": ""complete""}"
@@ -1138,7 +1138,7 @@ tara_004253,SMALL_TALK,How are you,All good on my end! What's going on with you?
 tara_008486,KNOWLEDGE,How does artificial intelligence work,Artificial intelligence is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?,"{""topic"": ""artificial intelligence""}"
 tara_006848,REMINDER,Remind me on Thursday to pay the electricity bill,Reminder set — I'll nudge you to pay the electricity bill on Thursday.,"{""task"": ""pay the electricity bill"", ""date"": ""on Thursday""}"
 tara_005255,DATE,"Quick thing, what's the date next monday?","I don't have access to a live calendar right now, but your device should show today's date.",{}
-tara_003028,ABOUT_TARA,"Um, tell me about tara tara?","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003028,ABOUT_TARA,"Um, tell me about tara tara?","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_003112,ABOUT_TARA,"By the way, are you siri?","I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.",{}
 tara_003473,ABOUT_TARA,"Well, who created you right now",TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.,{}
 tara_004709,TIME,What time is it in Pune,"I can't fetch live time zones right now, but I can help if you tell me Pune's UTC offset.","{""city"": ""Pune""}"
@@ -1167,7 +1167,7 @@ tara_008848,STUDY,What topics are important in compiler design,Happy to help wit
 tara_007945,GENERAL_QUERY,"So, what is the currency of Japan?",The currency of Japan is the yen.,{}
 tara_001778,THANKS,"Honestly, many thanks for now",Of course! Reach out anytime.,{}
 tara_000920,GOODBYE,"Um, signing off!",Goodnight! Sleep well.,{}
-tara_003496,ABOUT_TARA,"So, what kind of assistant are you","I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
+tara_003496,ABOUT_TARA,"So, what kind of assistant are you","I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.",{}
 tara_000875,GOODBYE,"By the way, see you.",Goodnight! Sleep well.,{}
 tara_011679,MOOD,I'm so exhausted today,That sounds tough. Feeling exhausted is hard — I'm here if you want to talk or need a break.,"{""mood"": ""exhausted"", ""polarity"": ""negative""}"
 tara_004036,SMALL_TALK,Do you dream right now?,"I don't have feelings the way you do, but I enjoy our chats! How are you?",{}

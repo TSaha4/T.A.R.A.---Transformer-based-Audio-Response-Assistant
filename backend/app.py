@@ -32,12 +32,22 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title=APP_FULL_NAME, version="2.0.0", lifespan=lifespan)
 
-origins_env = os.getenv("CORS_ORIGINS", "*")
-origins = [origin.strip() for origin in origins_env.split(",") if origin.strip()]
+# Allowed browser origins. Defaults cover local Next.js dev (localhost and
+# 127.0.0.1 on port 3000) plus the production Vercel frontend. Override per
+# environment with CORS_ORIGINS (comma-separated), e.g. on Render:
+#   CORS_ORIGINS=https://tara-ai-chatbot.vercel.app
+DEFAULT_CORS_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "https://tara-ai-chatbot.vercel.app",
+]
+
+origins_env = os.getenv("CORS_ORIGINS", "").strip()
+origins = [origin.strip() for origin in origins_env.split(",") if origin.strip()] or list(DEFAULT_CORS_ORIGINS)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins if origins else ["*"],
-    allow_credentials=True if origins != ["*"] else False,
+    allow_origins=origins,
+    allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
@@ -121,6 +131,8 @@ def get_history(session_id: str = Query(..., description="Session ID")) -> dict:
 if __name__ == "__main__":
     import uvicorn
 
-    port = int(os.getenv("PORT", "5000"))
+    # Local dev default is 8000 (matches frontend/.env.local).
+    # Render/Procfile pass $PORT explicitly, so deployment is unaffected.
+    port = int(os.getenv("PORT", "8000"))
     uvicorn.run("app:app", host="0.0.0.0", port=port, reload=False)
 

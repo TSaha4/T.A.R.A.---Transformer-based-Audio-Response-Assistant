@@ -61,11 +61,11 @@
 {"id": "tara_007076", "intent": "TASK", "utterance": "Just so you know, what's left on my list", "response": "Here are your pending tasks: (this is a demo, so I don't have live task storage yet).", "entities": {"action": "list"}}
 {"id": "tara_007325", "intent": "TASK", "utterance": "Well, what do i still need to do right now?", "response": "Here are your pending tasks: (this is a demo, so I don't have live task storage yet).", "entities": {"action": "list"}}
 {"id": "tara_009389", "intent": "STUDY", "utterance": "Explain the basics of operating systems", "response": "Happy to help with operating systems. Should we go topic by topic or focus on a specific concept you're stuck on?", "entities": {"subject": "operating systems"}}
-{"id": "tara_003487", "intent": "ABOUT_TARA", "utterance": "Um, are you alexa right now", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003487", "intent": "ABOUT_TARA", "utterance": "Um, are you alexa right now", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_008587", "intent": "KNOWLEDGE", "utterance": "Can you explain the water cycle", "response": "The water cycle is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?", "entities": {"topic": "the water cycle"}}
 {"id": "tara_001039", "intent": "GOODBYE", "utterance": "Okay so, see you tara", "response": "Take care! Come back anytime.", "entities": {}}
 {"id": "tara_002491", "intent": "HELP", "utterance": "Quick thing, help tara?", "response": "I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?", "entities": {}}
-{"id": "tara_003163", "intent": "ABOUT_TARA", "utterance": "Hey, what makes you different?", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003163", "intent": "ABOUT_TARA", "utterance": "Hey, what makes you different?", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_000457", "intent": "GREETING", "utterance": "Oh good evening, tara", "response": "Hi there! Let me know what you need.", "entities": {}}
 {"id": "tara_005605", "intent": "WEATHER", "utterance": "How's the weather looking in Singapore today", "response": "I can't pull real-time weather for Singapore at the moment — a weather app will have the latest forecast.", "entities": {"city": "Singapore", "date": "today"}}
 {"id": "tara_004407", "intent": "TIME", "utterance": "By the way, give me the time", "response": "I can't check a live clock from here, but your device should show the current time.", "entities": {}}
@@ -110,7 +110,7 @@
 {"id": "tara_010301", "intent": "AFFIRMATION", "utterance": "Listen, i agree tara.", "response": "Perfect, moving forward with that.", "entities": {}}
 {"id": "tara_010261", "intent": "AFFIRMATION", "utterance": "Hey tara, for sure tara", "response": "Perfect, moving forward with that.", "entities": {}}
 {"id": "tara_011202", "intent": "NEGATION", "utterance": "Quick thing, never", "response": "Got it, I'll skip that.", "entities": {}}
-{"id": "tara_003153", "intent": "ABOUT_TARA", "utterance": "Just so you know, what technology do you use tara", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003153", "intent": "ABOUT_TARA", "utterance": "Just so you know, what technology do you use tara", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_007333", "intent": "TASK", "utterance": "Remove finish the lab report from my list", "response": "Done — 'finish the lab report' is no longer on your list.", "entities": {"task": "finish the lab report", "action": "delete"}}
 {"id": "tara_011776", "intent": "MOOD", "utterance": "I'm so sad today", "response": "I'm sorry to hear that you're feeling sad. Want to talk about what's going on, or would a distraction help?", "entities": {"mood": "sad", "polarity": "negative"}}
 {"id": "tara_007917", "intent": "GENERAL_QUERY", "utterance": "Quick fact check, what is the tallest mountain in the world?", "response": "Mount Everest is the tallest mountain above sea level.", "entities": {}}
@@ -161,7 +161,7 @@
 {"id": "tara_000523", "intent": "GREETING", "utterance": "Well greetings.", "response": "Hey, welcome back! What are we working on today?", "entities": {}}
 {"id": "tara_009097", "intent": "STUDY", "utterance": "What's the best way to learn deep learning", "response": "Got it — studying deep learning. Want a quick summary, a study plan, or some practice questions first?", "entities": {"subject": "deep learning"}}
 {"id": "tara_012512", "intent": "UNKNOWN", "utterance": "um, squiggly wiggly jiggly?", "response": "Sorry, I'm not sure what you mean. Could you try again?", "entities": {}}
-{"id": "tara_002968", "intent": "ABOUT_TARA", "utterance": "Well, do you have a name right now?", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_002968", "intent": "ABOUT_TARA", "utterance": "Well, do you have a name right now?", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_002120", "intent": "HELP", "utterance": "Hey tara, list your commands tara?", "response": "I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?", "entities": {}}
 {"id": "tara_001534", "intent": "THANKS", "utterance": "Listen, thanks so much!", "response": "No problem at all!", "entities": {}}
 {"id": "tara_011832", "intent": "UNKNOWN", "utterance": "So, tell me next week's winning lottery numbers", "response": "Hmm, I didn't quite catch that — can you say it differently?", "entities": {}}
@@ -325,10 +325,10 @@
 {"id": "tara_005891", "intent": "WEATHER", "utterance": "Check the weather for Chicago", "response": "I can't pull real-time weather for Chicago at the moment — a weather app will have the latest forecast.", "entities": {"city": "Chicago"}}
 {"id": "tara_002621", "intent": "HELP", "utterance": "Well, need some help here?", "response": "I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!", "entities": {}}
 {"id": "tara_007482", "intent": "TASK", "utterance": "Add a task to prepare slides for the presentation", "response": "Got it, 'prepare slides for the presentation' is now on your list.", "entities": {"task": "prepare slides for the presentation", "action": "add"}}
-{"id": "tara_003306", "intent": "ABOUT_TARA", "utterance": "By the way, are you human", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003306", "intent": "ABOUT_TARA", "utterance": "By the way, are you human", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_000048", "intent": "GREETING", "utterance": "Howdy.", "response": "Hey! Good to see you. What's on your mind?", "entities": {}}
 {"id": "tara_011615", "intent": "MOOD", "utterance": "I'm kind of irritated", "response": "I'm sorry to hear that you're feeling irritated. Want to talk about what's going on, or would a distraction help?", "entities": {"mood": "irritated", "polarity": "negative"}}
-{"id": "tara_003208", "intent": "ABOUT_TARA", "utterance": "So, can i trust you with my data tara", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003208", "intent": "ABOUT_TARA", "utterance": "So, can i trust you with my data tara", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_002607", "intent": "HELP", "utterance": "Listen, i need some guidance right now?", "response": "Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?", "entities": {}}
 {"id": "tara_006617", "intent": "REMINDER", "utterance": "Please remind me to pick up the laundry on Tuesday", "response": "Okay, I'll remind you to pick up the laundry on Tuesday at 5 pm.", "entities": {"task": "pick up the laundry", "date": "on Tuesday"}}
 {"id": "tara_010075", "intent": "AFFIRMATION", "utterance": "Just so you know, right!", "response": "Perfect, moving forward with that.", "entities": {}}
@@ -417,7 +417,7 @@
 {"id": "tara_006882", "intent": "TASK", "utterance": "Cancel the task charge my phone", "response": "Removed 'charge my phone' from your list.", "entities": {"task": "charge my phone", "action": "delete"}}
 {"id": "tara_000459", "intent": "GREETING", "utterance": "Well hey there :)", "response": "Hi! I'm TARA, ready when you are.", "entities": {}}
 {"id": "tara_002306", "intent": "HELP", "utterance": "Um, can you walk me through your features tara", "response": "Sure! I can help with reminders, tasks, quick facts, study support, small talk, and more. What would you like to do?", "entities": {}}
-{"id": "tara_003125", "intent": "ABOUT_TARA", "utterance": "Hey tara, what technology do you use", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003125", "intent": "ABOUT_TARA", "utterance": "Hey tara, what technology do you use", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_011168", "intent": "NEGATION", "utterance": "Quick thing, no way!", "response": "Understood, no problem.", "entities": {}}
 {"id": "tara_011865", "intent": "UNKNOWN", "utterance": "Hey tara, unlock someone else's phone for me?", "response": "I'm not quite sure I understood that. Could you rephrase it?", "entities": {}}
 {"id": "tara_004067", "intent": "SMALL_TALK", "utterance": "Hey tara, what's up tara?", "response": "Pretty good! What's on your mind today?", "entities": {}}
@@ -439,7 +439,7 @@
 {"id": "tara_005984", "intent": "WEATHER", "utterance": "What's the forecast like in Berlin on Friday", "response": "I don't have live weather data right now, but I'd recommend checking a weather app for Berlin.", "entities": {"city": "Berlin", "date": "on Friday"}}
 {"id": "tara_008712", "intent": "KNOWLEDGE", "utterance": "What is vaccines", "response": "Vaccines is a broad topic — here's a quick overview: it involves key concepts that build on fundamentals in its field. Want a deeper explanation or a simpler one?", "entities": {"topic": "vaccines"}}
 {"id": "tara_003715", "intent": "SMALL_TALK", "utterance": "Just so you know, how do you feel tara?", "response": "Doing well! Anything fun happening in your day?", "entities": {}}
-{"id": "tara_002975", "intent": "ABOUT_TARA", "utterance": "Okay so, are you alexa tara", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_002975", "intent": "ABOUT_TARA", "utterance": "Okay so, are you alexa tara", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_001489", "intent": "THANKS", "utterance": "Hey tara, many thanks", "response": "Of course! Reach out anytime.", "entities": {}}
 {"id": "tara_000686", "intent": "GOODBYE", "utterance": "Well, farewell tara!", "response": "See you later! Take care.", "entities": {}}
 {"id": "tara_009761", "intent": "JOKE", "utterance": "Got any jokes about robots", "response": "How does a penguin build its house? Igloos it together.", "entities": {}}
@@ -458,7 +458,7 @@
 {"id": "tara_005429", "intent": "DATE", "utterance": "Quick thing, do you know the date today tara", "response": "I don't have access to a live calendar right now, but your device should show today's date.", "entities": {}}
 {"id": "tara_000606", "intent": "GOODBYE", "utterance": "Okay so, i'm leaving now for now", "response": "Goodbye! Talk soon.", "entities": {}}
 {"id": "tara_001847", "intent": "THANKS", "utterance": "You're a lifesaver!", "response": "Glad I could help!", "entities": {}}
-{"id": "tara_003438", "intent": "ABOUT_TARA", "utterance": "Hey tara, are you google assistant", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003438", "intent": "ABOUT_TARA", "utterance": "Hey tara, are you google assistant", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_001739", "intent": "THANKS", "utterance": "So, thank you for helping tara.", "response": "No problem at all!", "entities": {}}
 {"id": "tara_011349", "intent": "MOOD", "utterance": "I'm really burnt out right now", "response": "Thanks for sharing that. Being burnt out isn't easy — would it help to take a short break or talk it through?", "entities": {"mood": "burnt out", "polarity": "negative"}}
 {"id": "tara_009862", "intent": "JOKE", "utterance": "Tell me a dad joke about coffee tara", "response": "Why do programmers prefer dark mode? Because light attracts bugs!", "entities": {}}
@@ -500,7 +500,7 @@
 {"id": "tara_003141", "intent": "ABOUT_TARA", "utterance": "Honestly, who is tara?", "response": "I'm TARA, an AI assistant. I use deep learning to understand what you say and respond helpfully — think of me as a friendly voice-enabled helper.", "entities": {}}
 {"id": "tara_011360", "intent": "MOOD", "utterance": "I'm a bit sad", "response": "Thanks for sharing that. Being sad isn't easy — would it help to take a short break or talk it through?", "entities": {"mood": "sad", "polarity": "negative"}}
 {"id": "tara_007148", "intent": "TASK", "utterance": "So, what tasks are pending tara?", "response": "Let me pull up your to-do list for you.", "entities": {"action": "list"}}
-{"id": "tara_003111", "intent": "ABOUT_TARA", "utterance": "Hey tara, tell me about tara right now", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003111", "intent": "ABOUT_TARA", "utterance": "Hey tara, tell me about tara right now", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_009839", "intent": "JOKE", "utterance": "One more joke please about exams?", "response": "How does a penguin build its house? Igloos it together.", "entities": {}}
 {"id": "tara_000264", "intent": "GREETING", "utterance": "Heya :)", "response": "Hello there! What can I do for you?", "entities": {}}
 {"id": "tara_001849", "intent": "THANKS", "utterance": "Okay so, thank you kindly!", "response": "No problem at all!", "entities": {}}
@@ -541,7 +541,7 @@
 {"id": "tara_008900", "intent": "STUDY", "utterance": "What should i focus on in linear algebra", "response": "Got it — studying linear algebra. Want a quick summary, a study plan, or some practice questions first?", "entities": {"subject": "linear algebra"}}
 {"id": "tara_002181", "intent": "HELP", "utterance": "Quick thing, what are you capable of right now?", "response": "Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.", "entities": {}}
 {"id": "tara_006806", "intent": "REMINDER", "utterance": "Could you set a reminder to test the API endpoint at quarter to nine", "response": "Reminder set — I'll nudge you to test the API endpoint on Friday.", "entities": {"task": "test the API endpoint", "time": "quarter to nine"}}
-{"id": "tara_003079", "intent": "ABOUT_TARA", "utterance": "Okay so, describe yourself tara?", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003079", "intent": "ABOUT_TARA", "utterance": "Okay so, describe yourself tara?", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_002288", "intent": "HELP", "utterance": "Hey, i need some guidance right now", "response": "Happy to help. You can ask me about the time, date, weather, set reminders, get study help, or just chat.", "entities": {}}
 {"id": "tara_009652", "intent": "JOKE", "utterance": "Give me a joke about engineers", "response": "I would tell you a joke about UDP, but you might not get it.", "entities": {}}
 {"id": "tara_002290", "intent": "HELP", "utterance": "Well, what kind of things can i ask you", "response": "I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!", "entities": {}}
@@ -836,7 +836,7 @@
 {"id": "tara_011827", "intent": "UNKNOWN", "utterance": "hey tara, asdf;lkj asdf;lkj", "response": "That's outside what I can help with right now — could you clarify?", "entities": {}}
 {"id": "tara_008017", "intent": "GENERAL_QUERY", "utterance": "Tell me, what is the freezing point of water in Fahrenheit?", "response": "Water freezes at 32 degrees Fahrenheit.", "entities": {}}
 {"id": "tara_003408", "intent": "ABOUT_TARA", "utterance": "Honestly, what's the meaning of your name right now", "response": "I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.", "entities": {}}
-{"id": "tara_003293", "intent": "ABOUT_TARA", "utterance": "So, are you an ai right now", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003293", "intent": "ABOUT_TARA", "utterance": "So, are you an ai right now", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_002798", "intent": "ABOUT_TARA", "utterance": "Listen, are you a robot tara", "response": "I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.", "entities": {}}
 {"id": "tara_006561", "intent": "REMINDER", "utterance": "Remind me on Friday to submit the internship application", "response": "Okay, I'll remind you to submit the internship application on Friday at 9 am.", "entities": {"task": "submit the internship application", "date": "on Friday"}}
 {"id": "tara_012134", "intent": "UNKNOWN", "utterance": "Can you book me a flight to mars", "response": "Sorry, I'm not sure what you mean. Could you try again?", "entities": {}}
@@ -1033,14 +1033,14 @@
 {"id": "tara_010119", "intent": "AFFIRMATION", "utterance": "So, yep.", "response": "Alright, sounds good!", "entities": {}}
 {"id": "tara_002479", "intent": "HELP", "utterance": "Quick thing, tara i need help with something right now", "response": "I'm here to help with things like setting reminders, answering questions, tracking tasks, and casual conversation. What do you need?", "entities": {}}
 {"id": "tara_008859", "intent": "STUDY", "utterance": "Make a study plan for system design", "response": "Sure! Let's break system design down — want me to start with the fundamentals or go straight to the tricky parts?", "entities": {"subject": "system design"}}
-{"id": "tara_003458", "intent": "ABOUT_TARA", "utterance": "Well, what is your purpose right now", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003458", "intent": "ABOUT_TARA", "utterance": "Well, what is your purpose right now", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_011013", "intent": "NEGATION", "utterance": "Um, forget it tara", "response": "Alright, cancelled.", "entities": {}}
 {"id": "tara_003815", "intent": "SMALL_TALK", "utterance": "Um, how are you right now?", "response": "I'm just here, ready to chat whenever you are.", "entities": {}}
 {"id": "tara_009144", "intent": "STUDY", "utterance": "I'm struggling with DBMS", "response": "Let's tackle DBMS together. I can quiz you, summarize key topics, or explain specific concepts — what works best?", "entities": {"subject": "DBMS"}}
 {"id": "tara_008980", "intent": "STUDY", "utterance": "Help me understand SQL concepts", "response": "Got it — studying SQL. Want a quick summary, a study plan, or some practice questions first?", "entities": {"subject": "SQL"}}
 {"id": "tara_001965", "intent": "THANKS", "utterance": "By the way, thanks a ton for now", "response": "No problem at all!", "entities": {}}
 {"id": "tara_004064", "intent": "SMALL_TALK", "utterance": "Just so you know, how have you been tara?", "response": "I'm doing great, thanks for asking! How about you?", "entities": {}}
-{"id": "tara_003264", "intent": "ABOUT_TARA", "utterance": "By the way, why are you called tara", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003264", "intent": "ABOUT_TARA", "utterance": "By the way, why are you called tara", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_010056", "intent": "AFFIRMATION", "utterance": "By the way, right", "response": "Okay, noted!", "entities": {}}
 {"id": "tara_003781", "intent": "SMALL_TALK", "utterance": "Just so you know, are you okay tara?", "response": "I'm just here, ready to chat whenever you are.", "entities": {}}
 {"id": "tara_001438", "intent": "THANKS", "utterance": "Just so you know, i appreciate it tara", "response": "Anytime! Let me know if you need anything else.", "entities": {}}
@@ -1059,12 +1059,12 @@
 {"id": "tara_003182", "intent": "ABOUT_TARA", "utterance": "Okay so, who created you?", "response": "TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot to make everyday tasks easier.", "entities": {}}
 {"id": "tara_000458", "intent": "GREETING", "utterance": "Well namaste tara", "response": "Hello! How can I assist you right now?", "entities": {}}
 {"id": "tara_001083", "intent": "GOODBYE", "utterance": "Listen, ttyl.", "response": "Bye! I'll be here whenever you need me.", "entities": {}}
-{"id": "tara_003173", "intent": "ABOUT_TARA", "utterance": "Listen, what are you tara", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
-{"id": "tara_003265", "intent": "ABOUT_TARA", "utterance": "So, are you an ai?", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003173", "intent": "ABOUT_TARA", "utterance": "Listen, what are you tara", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003265", "intent": "ABOUT_TARA", "utterance": "So, are you an ai?", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_007960", "intent": "GENERAL_QUERY", "utterance": "Trivia time, how many continents are there?", "response": "There are seven continents on Earth.", "entities": {}}
 {"id": "tara_003664", "intent": "SMALL_TALK", "utterance": "So, do you dream right now?", "response": "I'm doing great, thanks for asking! How about you?", "entities": {}}
 {"id": "tara_000476", "intent": "GREETING", "utterance": "Oh hi.", "response": "Hello! How can I assist you right now?", "entities": {}}
-{"id": "tara_003526", "intent": "ABOUT_TARA", "utterance": "Well, are you always listening right now?", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003526", "intent": "ABOUT_TARA", "utterance": "Well, are you always listening right now?", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_003943", "intent": "SMALL_TALK", "utterance": "How's your day going so far?", "response": "I'm just here, ready to chat whenever you are.", "entities": {}}
 {"id": "tara_003847", "intent": "SMALL_TALK", "utterance": "So, make conversation?", "response": "All good on my end! What's going on with you?", "entities": {}}
 {"id": "tara_011487", "intent": "MOOD", "utterance": "I'm so irritated today", "response": "I'm sorry to hear that you're feeling irritated. Want to talk about what's going on, or would a distraction help?", "entities": {"mood": "irritated", "polarity": "negative"}}
@@ -1136,7 +1136,7 @@
 {"id": "tara_012205", "intent": "UNKNOWN", "utterance": "um, asdfghjkl!", "response": "I'm not able to make sense of that input. Mind rewording it?", "entities": {}}
 {"id": "tara_001145", "intent": "GOODBYE", "utterance": "By the way, i'm leaving now!", "response": "Take care! Come back anytime.", "entities": {}}
 {"id": "tara_003255", "intent": "ABOUT_TARA", "utterance": "Hey, why are you called tara right now", "response": "I'm TARA — Transformer-based Audio & Response Assistant. I'm an AI voice-enabled chatbot built to help with everyday tasks, reminders, study support, and conversation.", "entities": {}}
-{"id": "tara_003178", "intent": "ABOUT_TARA", "utterance": "Listen, are you an ai right now", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003178", "intent": "ABOUT_TARA", "utterance": "Listen, are you an ai right now", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_010969", "intent": "NEGATION", "utterance": "By the way, negative for now", "response": "Understood, no problem.", "entities": {}}
 {"id": "tara_009314", "intent": "STUDY", "utterance": "Create flashcards for GATE CS", "response": "Got it — studying GATE CS. Want a quick summary, a study plan, or some practice questions first?", "entities": {"subject": "GATE CS"}}
 {"id": "tara_004542", "intent": "TIME", "utterance": "Well, i need to know the time?", "response": "I can't check a live clock from here, but your device should show the current time.", "entities": {}}
@@ -1237,7 +1237,7 @@
 {"id": "tara_004873", "intent": "DATE", "utterance": "What's today's day and date tara", "response": "I'm not connected to a real-time calendar at the moment.", "entities": {}}
 {"id": "tara_007997", "intent": "GENERAL_QUERY", "utterance": "Quick question, what's 12 times 12?", "response": "Let me work that out for you based on standard conversions.", "entities": {}}
 {"id": "tara_002660", "intent": "HELP", "utterance": "Listen, can you walk me through your features right now?", "response": "I can chat with you, set reminders, manage tasks, answer general questions, help you study, tell jokes, and more. Just tell me what you need!", "entities": {}}
-{"id": "tara_003276", "intent": "ABOUT_TARA", "utterance": "Okay so, tell me about yourself right now", "response": "I'm an AI, not a human. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
+{"id": "tara_003276", "intent": "ABOUT_TARA", "utterance": "Okay so, tell me about yourself right now", "response": "I'm an AI assistant. My name is TARA, and I'm designed to chat, manage reminders and tasks, and answer your questions.", "entities": {}}
 {"id": "tara_000931", "intent": "GOODBYE", "utterance": "By the way, logging off ok", "response": "Goodbye! Talk soon.", "entities": {}}
 {"id": "tara_010774", "intent": "NEGATION", "utterance": "So, not really.", "response": "Understood, no problem.", "entities": {}}
 {"id": "tara_000497", "intent": "GREETING", "utterance": "Hola tara, tara", "response": "Hey, welcome back! What are we working on today?", "entities": {}}

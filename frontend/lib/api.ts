@@ -25,9 +25,13 @@ export interface HealthResponse {
   model_ready: boolean;
 }
 
-// Fallback to local 127.0.0.1:5000 if env is unset
+// Base URL of the TARA FastAPI backend.
+// Resolution order: NEXT_PUBLIC_API_URL env var (.env.local for local dev,
+// Vercel project settings for production) -> local dev fallback below.
+// NOTE: NEXT_PUBLIC_* values are inlined at build time, so the dev server
+// must be restarted after changing .env.local.
 export const API_BASE_URL = (
-  process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:5000"
+  process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000"
 ).replace(/\/$/, "");
 
 /**

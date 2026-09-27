@@ -35,7 +35,7 @@
     "TARA stands for Transformer-based Audio & Response Assistant. I was built as a voice-enabled deep learning chatbot for a Speech and Language Processing lab project.",
     "I'm TARA \u2014 Transformer-based Audio & Response Assistant. I'm a voice-enabled chatbot that uses a Transformer-based intent classifier to understand what you say and respond helpfully.",
     "I'm TARA, a deep learning chatbot. I use a Transformer model with multi-head self-attention to classify your intent from speech or text, and then respond accordingly.",
-    "I'm an AI assistant, not a human. My name is TARA, and I'm designed to chat, answer questions, and help with study topics using deep learning."
+    "I'm an AI assistant. My name is TARA, and I'm designed to chat, answer questions, and help with study topics using deep learning."
   ],
   "SMALL_TALK": [
     "Doing well! Anything fun happening in your day?",
